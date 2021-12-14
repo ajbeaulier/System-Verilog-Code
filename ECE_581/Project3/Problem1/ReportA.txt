@@ -1,0 +1,371 @@
+Initializing gui preferences from file  /u/beaulier/.synopsys_dv_prefs.tcl
+dc_shell> gui_start
+4.1
+design_vision> source compile_Problem1.tcl
+Error: could not open script file "compile_Problem1.tcl" (CMD-015)
+design_vision> source compile Problem1.tcl
+Error: extra positional option 'Problem1.tcl' (CMD-012)
+design_vision> source compile_Problem1.tcl
+Error: could not open script file "compile_Problem1.tcl" (CMD-015)
+design_vision> read_file -format ddc {/u/beaulier/smb_files/ECE581/Project3/Problem1/Problem1.tcl}
+Loading db file '/u/beaulier/smb_files/ECE581/Project3/Problem1/osu05_stdcells.db'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/gtech.db'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/standard.sldb'
+  Loading link library 'osu05_stdcells'
+  Loading link library 'gtech'
+Error: Unable to open file '/u/beaulier/smb_files/ECE581/Project3/Problem1/Problem1.tcl' for reading. (DDC-2)
+Loaded 0 designs.
+design_vision> source Problem1.tcl
+Error: Current design is not defined. (UID-4)
+Loading sverilog file '/u/beaulier/smb_files/ECE581/Project3/Problem1/Problem1.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Warning: Can't read link_library file 'link'. (UID-3)
+Warning: Can't read link_library file 'Library'. (UID-3)
+Compiling source file /u/beaulier/smb_files/ECE581/Project3/Problem1/Problem1.sv
+Warning:  /u/beaulier/smb_files/ECE581/Project3/Problem1/Problem1.sv:122: Using default enum base size of 32. (VER-533)
+
+Statistics for case statements in always block at line 41 in file
+        '/u/beaulier/smb_files/ECE581/Project3/Problem1/Problem1.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            43            |    user/user     |
+===============================================
+
+Inferred memory devices in process
+        in routine Problem1_A line 33 in file
+                '/u/beaulier/smb_files/ECE581/Project3/Problem1/Problem1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  current_state_reg  | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Statistics for case statements in always block at line 91 in file
+        '/u/beaulier/smb_files/ECE581/Project3/Problem1/Problem1.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            93            |    user/user     |
+===============================================
+
+Inferred memory devices in process
+        in routine Problem1_B line 83 in file
+                '/u/beaulier/smb_files/ECE581/Project3/Problem1/Problem1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  current_state_reg  | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Warning:  /u/beaulier/smb_files/ECE581/Project3/Problem1/Problem1.sv:155: Case statement marked unique does not cover all possible conditions. (VER-504)
+
+Statistics for case statements in always block at line 153 in file
+        '/u/beaulier/smb_files/ECE581/Project3/Problem1/Problem1.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           155            |    user/user     |
+===============================================
+Warning:  /u/beaulier/smb_files/ECE581/Project3/Problem1/Problem1.sv:170: Case statement marked unique does not cover all possible conditions. (VER-504)
+
+Statistics for case statements in always block at line 168 in file
+        '/u/beaulier/smb_files/ECE581/Project3/Problem1/Problem1.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           170            |    user/user     |
+===============================================
+
+Inferred memory devices in process
+        in routine Problem1_C line 145 in file
+                '/u/beaulier/smb_files/ECE581/Project3/Problem1/Problem1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  current_state_reg  | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/u/beaulier/smb_files/ECE581/Project3/Problem1/Problem1_A.db:Problem1_A'
+Loaded 3 designs.
+Current design is 'Problem1_A'.
+Error: Can't find design 'Problem1'. (UID-109)
+Current design is 'Problem1_A'.
+Warning: Can't read link_library file 'link'. (UID-3)
+Warning: Can't read link_library file 'Library'. (UID-3)
+Error: Could not read the following target libraries:
+target library 
+ (UIO-3)
+Warning: Can't read link_library file 'link'. (UID-3)
+Warning: Can't read link_library file 'Library'. (UID-3)
+Error: Could not read the following target libraries:
+target library 
+ (UIO-3)
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : area
+Design : Problem1_A
+Version: Q-2019.12-SP3
+Date   : Fri Aug  6 13:58:38 2021
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    gtech (File: /pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/gtech.db)
+
+Number of ports:                           11
+Number of nets:                            70
+Number of cells:                           61
+Number of combinational cells:             48
+Number of sequential cells:                11
+Number of macros/black boxes:               0
+Number of buf/inv:                         28
+Number of references:                       7
+
+Combinational area:                  0.000000
+Buf/Inv area:                        0.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                     0.000000
+Total area:                 undefined
+
+Information: This design contains unmapped logic. (RPT-7)
+ 
+****************************************
+Report : cell
+Design : Problem1_A
+Version: Q-2019.12-SP3
+Date   : Fri Aug  6 13:58:38 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    c - control logic
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+B_0                       GTECH_BUF       gtech           0.000000  c, u
+B_1                       GTECH_BUF       gtech           0.000000  c, u
+B_2                       GTECH_BUF       gtech           0.000000  c, u
+B_3                       GTECH_BUF       gtech           0.000000  c, u
+B_4                       GTECH_BUF       gtech           0.000000  c, u
+B_5                       GTECH_BUF       gtech           0.000000  c, u
+B_6                       GTECH_BUF       gtech           0.000000  c, u
+B_7                       GTECH_BUF       gtech           0.000000  c, u
+B_8                       GTECH_BUF       gtech           0.000000  c, u
+B_9                       GTECH_BUF       gtech           0.000000  c, u
+B_10                      GTECH_BUF       gtech           0.000000  c, u
+C22                       GTECH_AND2      gtech           0.000000  u
+C23                       GTECH_AND2      gtech           0.000000  u
+C24                       GTECH_AND2      gtech           0.000000  u
+C25                       GTECH_AND2      gtech           0.000000  c, u
+C32                       GTECH_AND2      gtech           0.000000  u
+C33                       GTECH_AND2      gtech           0.000000  c, u
+C35                       GTECH_OR2       gtech           0.000000  u
+C36                       GTECH_OR2       gtech           0.000000  c, u
+C39                       GTECH_OR2       gtech           0.000000  u
+C40                       GTECH_OR2       gtech           0.000000  c, u
+C44                       GTECH_OR2       gtech           0.000000  u
+C45                       GTECH_OR2       gtech           0.000000  c, u
+C48                       GTECH_OR2       gtech           0.000000  u
+C49                       GTECH_OR2       gtech           0.000000  c, u
+C53                       GTECH_OR2       gtech           0.000000  u
+C54                       GTECH_OR2       gtech           0.000000  c, u
+C58                       GTECH_OR2       gtech           0.000000  u
+C59                       GTECH_OR2       gtech           0.000000  c, u
+C61                       GTECH_AND2      gtech           0.000000  u
+C62                       GTECH_AND2      gtech           0.000000  c, u
+C141                      *SELECT_OP_2.3_2.1_3            0.000000  s, u
+C142                      *SELECT_OP_8.3_8.1_3            0.000000  s, u
+C143                      *SELECT_OP_2.3_2.1_3            0.000000  s, u
+I_0                       GTECH_NOT       gtech           0.000000  u
+I_1                       GTECH_NOT       gtech           0.000000  u
+I_2                       GTECH_NOT       gtech           0.000000  u
+I_3                       GTECH_NOT       gtech           0.000000  u
+I_4                       GTECH_NOT       gtech           0.000000  u
+I_5                       GTECH_NOT       gtech           0.000000  u
+I_6                       GTECH_NOT       gtech           0.000000  c, u
+I_7                       GTECH_NOT       gtech           0.000000  u
+I_8                       GTECH_NOT       gtech           0.000000  u
+I_9                       GTECH_NOT       gtech           0.000000  u
+I_10                      GTECH_NOT       gtech           0.000000  u
+I_11                      GTECH_NOT       gtech           0.000000  u
+I_12                      GTECH_NOT       gtech           0.000000  u
+I_13                      GTECH_NOT       gtech           0.000000  u
+I_14                      GTECH_NOT       gtech           0.000000  u
+I_15                      GTECH_NOT       gtech           0.000000  u
+I_16                      GTECH_NOT       gtech           0.000000  u
+current_state_reg[0]      **SEQGEN**                      0.000000  n, u
+current_state_reg[1]      **SEQGEN**                      0.000000  n, u
+current_state_reg[2]      **SEQGEN**                      0.000000  n, u
+current_state_reg[3]      **SEQGEN**                      0.000000  n, u
+current_state_reg[4]      **SEQGEN**                      0.000000  n, u
+current_state_reg[5]      **SEQGEN**                      0.000000  n, u
+current_state_reg[6]      **SEQGEN**                      0.000000  n, u
+current_state_reg[7]      **SEQGEN**                      0.000000  n, u
+--------------------------------------------------------------------------------
+Total 59 cells                                            0.000000
+Warning: Main library 'gtech' does not specify the following unit required for power: 'Leakage Power'. (PWR-424)
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : Problem1_A
+Version: Q-2019.12-SP3
+Date   : Fri Aug  6 13:58:38 2021
+****************************************
+
+
+Library(s) Used:
+
+    gtech (File: /pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/gtech.db)
+
+
+Operating Conditions: nom_pvt   Library: gtech
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 5    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 0.100000ff
+    Time Units = 1ns
+    Dynamic Power Units = 100nW    (derived from V,C,T units)
+    Leakage Power Units = Unitless
+
+
+  Cell Internal Power  =   0.0000 nW        
+  Net Switching Power  =   0.0000 nW        
+                         ---------
+Total Dynamic Power    =   0.0000 nW        
+
+Cell Leakage Power     =   0.0000 
+
+Error: Either dynamic power or leakage power, in the library, is unitless. Unable to display complete power group summary. (PWR-799)
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000               NA   (     N/A)
+memory             0.0000            0.0000            0.0000               NA   (     N/A)
+black_box          0.0000            0.0000            0.0000               NA   (     N/A)
+clock_network      0.0000            0.0000            0.0000               NA   (     N/A)
+register           0.0000            0.0000            0.0000               NA   (     N/A)
+sequential         0.0000            0.0000            0.0000               NA   (     N/A)
+combinational      0.0000            0.0000            0.0000               NA   (     N/A)
+--------------------------------------------------------------------------------------------------
+Total              0.0000 nW         0.0000 nW         0.0000               NA        
+Writing verilog file '/u/beaulier/Problem1.netlist'.
+Warning: Module Problem1_A contains unmapped components.  The output netlist might not be read back into the system. (VO-12)
+Warning: Can't read link_library file 'link'. (UID-3)
+Warning: Can't read link_library file 'Library'. (UID-3)
+
+  Linking design 'Problem1_A'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+
+1
+Current design is 'Problem1_A'.
+design_vision> write -hierarchy -format ddc
+Writing ddc file 'Problem1_A.ddc'.
+1
+design_vision> write -hierarchy -format ddc
+Writing ddc file 'Problem1_A.ddc'.
+1
+design_vision> uplevel #0 { report_cell }
+ 
+****************************************
+Report : cell
+Design : Problem1_A
+Version: Q-2019.12-SP3
+Date   : Fri Aug  6 14:01:39 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    c - control logic
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+B_0                       GTECH_BUF       gtech           0.000000  c, u
+B_1                       GTECH_BUF       gtech           0.000000  c, u
+B_2                       GTECH_BUF       gtech           0.000000  c, u
+B_3                       GTECH_BUF       gtech           0.000000  c, u
+B_4                       GTECH_BUF       gtech           0.000000  c, u
+B_5                       GTECH_BUF       gtech           0.000000  c, u
+B_6                       GTECH_BUF       gtech           0.000000  c, u
+B_7                       GTECH_BUF       gtech           0.000000  c, u
+B_8                       GTECH_BUF       gtech           0.000000  c, u
+B_9                       GTECH_BUF       gtech           0.000000  c, u
+B_10                      GTECH_BUF       gtech           0.000000  c, u
+C22                       GTECH_AND2      gtech           0.000000  u
+C23                       GTECH_AND2      gtech           0.000000  u
+C24                       GTECH_AND2      gtech           0.000000  u
+C25                       GTECH_AND2      gtech           0.000000  c, u
+C32                       GTECH_AND2      gtech           0.000000  u
+C33                       GTECH_AND2      gtech           0.000000  c, u
+C35                       GTECH_OR2       gtech           0.000000  u
+C36                       GTECH_OR2       gtech           0.000000  c, u
+C39                       GTECH_OR2       gtech           0.000000  u
+C40                       GTECH_OR2       gtech           0.000000  c, u
+C44                       GTECH_OR2       gtech           0.000000  u
+C45                       GTECH_OR2       gtech           0.000000  c, u
+C48                       GTECH_OR2       gtech           0.000000  u
+C49                       GTECH_OR2       gtech           0.000000  c, u
+C53                       GTECH_OR2       gtech           0.000000  u
+C54                       GTECH_OR2       gtech           0.000000  c, u
+C58                       GTECH_OR2       gtech           0.000000  u
+C59                       GTECH_OR2       gtech           0.000000  c, u
+C61                       GTECH_AND2      gtech           0.000000  u
+C62                       GTECH_AND2      gtech           0.000000  c, u
+C141                      *SELECT_OP_2.3_2.1_3            0.000000  s, u
+C142                      *SELECT_OP_8.3_8.1_3            0.000000  s, u
+C143                      *SELECT_OP_2.3_2.1_3            0.000000  s, u
+I_0                       GTECH_NOT       gtech           0.000000  u
+I_1                       GTECH_NOT       gtech           0.000000  u
+I_2                       GTECH_NOT       gtech           0.000000  u
+I_3                       GTECH_NOT       gtech           0.000000  u
+I_4                       GTECH_NOT       gtech           0.000000  u
+I_5                       GTECH_NOT       gtech           0.000000  u
+I_6                       GTECH_NOT       gtech           0.000000  c, u
+I_7                       GTECH_NOT       gtech           0.000000  u
+I_8                       GTECH_NOT       gtech           0.000000  u
+I_9                       GTECH_NOT       gtech           0.000000  u
+I_10                      GTECH_NOT       gtech           0.000000  u
+I_11                      GTECH_NOT       gtech           0.000000  u
+I_12                      GTECH_NOT       gtech           0.000000  u
+I_13                      GTECH_NOT       gtech           0.000000  u
+I_14                      GTECH_NOT       gtech           0.000000  u
+I_15                      GTECH_NOT       gtech           0.000000  u
+I_16                      GTECH_NOT       gtech           0.000000  u
+current_state_reg[0]      **SEQGEN**                      0.000000  n, u
+current_state_reg[1]      **SEQGEN**                      0.000000  n, u
+current_state_reg[2]      **SEQGEN**                      0.000000  n, u
+current_state_reg[3]      **SEQGEN**                      0.000000  n, u
+current_state_reg[4]      **SEQGEN**                      0.000000  n, u
+current_state_reg[5]      **SEQGEN**                      0.000000  n, u
+current_state_reg[6]      **SEQGEN**                      0.000000  n, u
+current_state_reg[7]      **SEQGEN**                      0.000000  n, u
+--------------------------------------------------------------------------------
+Total 59 cells                                            0.000000
+design_vision> 

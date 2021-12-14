@@ -1,0 +1,23 @@
+# 
+# regfile[ 0]: 0101010101010101
+# regfile[ 1]: 1010101010101010
+-----------------------------------
+# operation:       ADD_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:       SUB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 110101010
+# operation:      SUBA_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 001010011
+# operation:      ORAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:     ANDAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 000000000
+# operation:     NOTAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 010101010
+# operation:      EXOR_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:     EXNOR_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 000000000
+# 
+
+# regfile[24]: 0000000_011111111	// ADD_OP
+# regfile[25]: 0000000_110101010	// SUB_OP
+# regfile[26]: 0000000_001010011	// SUBA_OP
+# regfile[27]: 0000000_011111111	// ORAB_OP
+# regfile[28]: 0000000_000000000	// ANDAB_OP
+# regfile[29]: 0000000_010101010	// NOTAB_OP
+# regfile[30]: 0000000_011111111	// EXOR_OP
+# regfile[31]: 0000000_000000000	// EXNOR_OP
+# -----------------------------------

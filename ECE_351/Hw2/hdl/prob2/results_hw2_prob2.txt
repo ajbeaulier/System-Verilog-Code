@@ -1,0 +1,141 @@
+# Compile of hw2_prob2.sv was successful.
+# Compile of tb_hw2_prob2.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_hw2_prob2
+# End time: 13:36:54 on May 11,2021, Elapsed time: 0:15:45
+# Errors: 0, Warnings: 3
+# vsim -gui work.tb_hw2_prob2 
+# Start time: 13:36:54 on May 11,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb_hw2_prob2(fast)
+run -all
+# Start of Execution -  Alex beaulier (beaulier@pdx.edu), Sources: U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob2
+# 
+# Monitor in1:x, in2:x, in3:x, in4:x, in5:x, enableN:x, tri_outN:x
+# Monitor in1:0, in2:x, in3:x, in4:x, in5:x, enableN:x, tri_outN:x
+# Monitor in1:0, in2:0, in3:x, in4:x, in5:x, enableN:x, tri_outN:x
+# Monitor in1:0, in2:0, in3:0, in4:x, in5:x, enableN:x, tri_outN:x
+# Monitor in1:0, in2:0, in3:0, in4:0, in5:x, enableN:x, tri_outN:x
+# Monitor in1:0, in2:0, in3:0, in4:0, in5:0, enableN:x, tri_outN:x
+# Monitor in1:0, in2:0, in3:0, in4:0, in5:0, enableN:0, tri_outN:1
+# Monitor in1:0, in2:0, in3:0, in4:0, in5:0, enableN:1, tri_outN:z
+# Monitor in1:0, in2:0, in3:0, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:0, in3:0, in4:0, in5:1, enableN:0, tri_outN:1
+# Monitor in1:0, in2:0, in3:0, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:0, in3:0, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:0, in3:0, in4:1, in5:0, enableN:1, tri_outN:z
+# Monitor in1:0, in2:0, in3:0, in4:1, in5:0, enableN:0, tri_outN:1
+# Monitor in1:0, in2:0, in3:0, in4:1, in5:0, enableN:1, tri_outN:z
+# Monitor in1:0, in2:0, in3:0, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:0, in3:0, in4:1, in5:1, enableN:0, tri_outN:1
+# Monitor in1:0, in2:0, in3:0, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:0, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:0, in3:1, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:0, in3:1, in4:0, in5:0, enableN:1, tri_outN:z
+# Monitor in1:0, in2:0, in3:1, in4:0, in5:0, enableN:0, tri_outN:1
+# Monitor in1:0, in2:0, in3:1, in4:0, in5:0, enableN:1, tri_outN:z
+# Monitor in1:0, in2:0, in3:1, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:0, in3:1, in4:0, in5:1, enableN:0, tri_outN:1
+# Monitor in1:0, in2:0, in3:1, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:0, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:0, in3:1, in4:1, in5:0, enableN:1, tri_outN:z
+# Monitor in1:0, in2:0, in3:1, in4:1, in5:0, enableN:0, tri_outN:1
+# Monitor in1:0, in2:0, in3:1, in4:1, in5:0, enableN:1, tri_outN:z
+# Monitor in1:0, in2:0, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:0, in3:1, in4:1, in5:1, enableN:0, tri_outN:0
+# Monitor in1:0, in2:0, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:0, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:0, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:0, in4:0, in5:0, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:0, in4:0, in5:0, enableN:0, tri_outN:1
+# Monitor in1:0, in2:1, in3:0, in4:0, in5:0, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:0, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:0, in4:0, in5:1, enableN:0, tri_outN:1
+# Monitor in1:0, in2:1, in3:0, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:0, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:0, in4:1, in5:0, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:0, in4:1, in5:0, enableN:0, tri_outN:1
+# Monitor in1:0, in2:1, in3:0, in4:1, in5:0, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:0, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:0, in4:1, in5:1, enableN:0, tri_outN:1
+# Monitor in1:0, in2:1, in3:0, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:1, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:1, in4:0, in5:0, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:1, in4:0, in5:0, enableN:0, tri_outN:1
+# Monitor in1:0, in2:1, in3:1, in4:0, in5:0, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:1, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:1, in4:0, in5:1, enableN:0, tri_outN:1
+# Monitor in1:0, in2:1, in3:1, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:1, in4:1, in5:0, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:1, in4:1, in5:0, enableN:0, tri_outN:1
+# Monitor in1:0, in2:1, in3:1, in4:1, in5:0, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:0, in2:1, in3:1, in4:1, in5:1, enableN:0, tri_outN:0
+# Monitor in1:0, in2:1, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:0, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:0, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:0, in4:0, in5:0, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:0, in4:0, in5:0, enableN:0, tri_outN:1
+# Monitor in1:1, in2:0, in3:0, in4:0, in5:0, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:0, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:0, in4:0, in5:1, enableN:0, tri_outN:1
+# Monitor in1:1, in2:0, in3:0, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:0, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:0, in4:1, in5:0, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:0, in4:1, in5:0, enableN:0, tri_outN:1
+# Monitor in1:1, in2:0, in3:0, in4:1, in5:0, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:0, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:0, in4:1, in5:1, enableN:0, tri_outN:1
+# Monitor in1:1, in2:0, in3:0, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:1, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:1, in4:0, in5:0, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:1, in4:0, in5:0, enableN:0, tri_outN:1
+# Monitor in1:1, in2:0, in3:1, in4:0, in5:0, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:1, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:1, in4:0, in5:1, enableN:0, tri_outN:1
+# Monitor in1:1, in2:0, in3:1, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:1, in4:1, in5:0, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:1, in4:1, in5:0, enableN:0, tri_outN:1
+# Monitor in1:1, in2:0, in3:1, in4:1, in5:0, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:0, in3:1, in4:1, in5:1, enableN:0, tri_outN:0
+# Monitor in1:1, in2:0, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:0, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:0, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:0, in4:0, in5:0, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:0, in4:0, in5:0, enableN:0, tri_outN:0
+# Monitor in1:1, in2:1, in3:0, in4:0, in5:0, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:0, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:0, in4:0, in5:1, enableN:0, tri_outN:0
+# Monitor in1:1, in2:1, in3:0, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:0, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:0, in4:1, in5:0, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:0, in4:1, in5:0, enableN:0, tri_outN:0
+# Monitor in1:1, in2:1, in3:0, in4:1, in5:0, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:0, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:0, in4:1, in5:1, enableN:0, tri_outN:0
+# Monitor in1:1, in2:1, in3:0, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:1, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:1, in4:0, in5:0, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:1, in4:0, in5:0, enableN:0, tri_outN:0
+# Monitor in1:1, in2:1, in3:1, in4:0, in5:0, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:1, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:1, in4:0, in5:1, enableN:0, tri_outN:0
+# Monitor in1:1, in2:1, in3:1, in4:0, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:1, in4:1, in5:0, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:1, in4:1, in5:0, enableN:0, tri_outN:0
+# Monitor in1:1, in2:1, in3:1, in4:1, in5:0, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:1, in4:1, in5:1, enableN:1, tri_outN:z
+# Monitor in1:1, in2:1, in3:1, in4:1, in5:1, enableN:0, tri_outN:1
+# Monitor in1:1, in2:1, in3:1, in4:1, in5:1, enableN:1, tri_outN:z

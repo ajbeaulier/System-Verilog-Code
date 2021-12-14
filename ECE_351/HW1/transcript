@@ -1,0 +1,787 @@
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv was successful.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_CLA4BIT
+# vsim -gui work.tb_CLA4BIT 
+# Start time: 16:21:31 on Apr 27,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb_CLA4BIT(fast)
+run -all
+# ***Congratulations, No errors found after         512 tests***
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv was successful.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_CLA4BIT
+# End time: 16:23:13 on Apr 27,2021, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 3
+# vsim -gui work.tb_CLA4BIT 
+# Start time: 16:23:13 on Apr 27,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.tb_CLA4BIT(fast)
+run -all
+# ***Congratulations, No errors found after         512 tests***
+# Compile of CLA.sv failed with 16 errors.
+# Compile of stimulus.sv was successful.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 16 errors.
+# Compile of CLA.sv failed with 16 errors.
+# Compile of stimulus.sv failed with 17 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 2 failed with 33 errors.
+
+
+
+# Compile of CLA.sv failed with 16 errors.
+# Compile of stimulus.sv failed with 16 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 2 failed with 32 errors.
+# Compile of CLA.sv failed with 16 errors.
+# Compile of stimulus.sv failed with 16 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 2 failed with 32 errors.
+# Compile of CLA.sv failed with 16 errors.
+# Compile of stimulus.sv failed with 16 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 2 failed with 32 errors.
+# Compile of CLA.sv failed with 16 errors.
+# Compile of stimulus.sv failed with 16 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 2 failed with 32 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv was successful.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv was successful.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv was successful.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_CLA4BIT
+# End time: 16:26:59 on Apr 27,2021, Elapsed time: 0:03:46
+# Errors: 0, Warnings: 10
+# vsim -gui work.tb_CLA4BIT 
+# Start time: 16:26:59 on Apr 27,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb_CLA4BIT(fast)
+run -all
+# ***Congratulations, No errors found after         512 tests***
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 11 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 11 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 10 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 10 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 10 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 10 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 10 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 10 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 10 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 10 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 16 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 16 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 16 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 16 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 16 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 16 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 16 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 16 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 16 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 16 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 2 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 2 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 2 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 2 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 2 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 2 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 2 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 2 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 2 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 2 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 4 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 4 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 2 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 2 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 2 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 2 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv was successful.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 0 failed with no errors.
+run -all
+vsim -gui work.stimulus
+# End time: 16:45:15 on Apr 27,2021, Elapsed time: 0:18:16
+# Errors: 0, Warnings: 28
+# vsim -gui work.stimulus 
+# Start time: 16:45:15 on Apr 27,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+run -all
+# b1=1101zzzz, b2=d0
+#                   10 MISMATCH: Inputs: ain =  0, bin =  0, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 0
+#                   20 MISMATCH: Inputs: ain =  0, bin =  1, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 0
+#                   30 MISMATCH: Inputs: ain =  0, bin =  2, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 0
+#                   40 MISMATCH: Inputs: ain =  0, bin =  3, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 0
+#                   50 MISMATCH: Inputs: ain =  0, bin =  4, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 0
+#                   60 MISMATCH: Inputs: ain =  0, bin =  5, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 0
+#                   70 MISMATCH: Inputs: ain =  0, bin =  6, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 0
+#                   80 MISMATCH: Inputs: ain =  0, bin =  7, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 0
+#                   90 MISMATCH: Inputs: ain =  0, bin =  8, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 0
+#                  100 MISMATCH: Inputs: ain =  0, bin =  9, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                  110 MISMATCH: Inputs: ain =  0, bin = 10, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                  120 MISMATCH: Inputs: ain =  0, bin = 11, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                  130 MISMATCH: Inputs: ain =  0, bin = 12, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                  140 MISMATCH: Inputs: ain =  0, bin = 13, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                  150 MISMATCH: Inputs: ain =  0, bin = 14, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                  160 MISMATCH: Inputs: ain =  0, bin = 15, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                  170 MISMATCH: Inputs: ain =  1, bin =  0, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 0
+#                  180 MISMATCH: Inputs: ain =  1, bin =  1, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 0
+#                  190 MISMATCH: Inputs: ain =  1, bin =  2, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 0
+#                  200 MISMATCH: Inputs: ain =  1, bin =  3, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 0
+#                  210 MISMATCH: Inputs: ain =  1, bin =  4, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 0
+#                  220 MISMATCH: Inputs: ain =  1, bin =  5, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 0
+#                  230 MISMATCH: Inputs: ain =  1, bin =  6, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 0
+#                  240 MISMATCH: Inputs: ain =  1, bin =  7, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 0
+#                  250 MISMATCH: Inputs: ain =  1, bin =  8, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                  260 MISMATCH: Inputs: ain =  1, bin =  9, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                  270 MISMATCH: Inputs: ain =  1, bin = 10, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                  280 MISMATCH: Inputs: ain =  1, bin = 11, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                  290 MISMATCH: Inputs: ain =  1, bin = 12, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                  300 MISMATCH: Inputs: ain =  1, bin = 13, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                  310 MISMATCH: Inputs: ain =  1, bin = 14, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                  320 MISMATCH: Inputs: ain =  1, bin = 15, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                  330 MISMATCH: Inputs: ain =  2, bin =  0, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 0
+#                  340 MISMATCH: Inputs: ain =  2, bin =  1, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 0
+#                  350 MISMATCH: Inputs: ain =  2, bin =  2, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 0
+#                  360 MISMATCH: Inputs: ain =  2, bin =  3, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 0
+#                  370 MISMATCH: Inputs: ain =  2, bin =  4, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 0
+#                  380 MISMATCH: Inputs: ain =  2, bin =  5, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 0
+#                  390 MISMATCH: Inputs: ain =  2, bin =  6, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 0
+#                  400 MISMATCH: Inputs: ain =  2, bin =  7, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                  410 MISMATCH: Inputs: ain =  2, bin =  8, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                  420 MISMATCH: Inputs: ain =  2, bin =  9, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                  430 MISMATCH: Inputs: ain =  2, bin = 10, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                  440 MISMATCH: Inputs: ain =  2, bin = 11, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                  450 MISMATCH: Inputs: ain =  2, bin = 12, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                  460 MISMATCH: Inputs: ain =  2, bin = 13, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                  470 MISMATCH: Inputs: ain =  2, bin = 14, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                  480 MISMATCH: Inputs: ain =  2, bin = 15, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                  490 MISMATCH: Inputs: ain =  3, bin =  0, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 0
+#                  500 MISMATCH: Inputs: ain =  3, bin =  1, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 0
+#                  510 MISMATCH: Inputs: ain =  3, bin =  2, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 0
+#                  520 MISMATCH: Inputs: ain =  3, bin =  3, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 0
+#                  530 MISMATCH: Inputs: ain =  3, bin =  4, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 0
+#                  540 MISMATCH: Inputs: ain =  3, bin =  5, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 0
+#                  550 MISMATCH: Inputs: ain =  3, bin =  6, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                  560 MISMATCH: Inputs: ain =  3, bin =  7, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                  570 MISMATCH: Inputs: ain =  3, bin =  8, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                  580 MISMATCH: Inputs: ain =  3, bin =  9, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                  590 MISMATCH: Inputs: ain =  3, bin = 10, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                  600 MISMATCH: Inputs: ain =  3, bin = 11, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                  610 MISMATCH: Inputs: ain =  3, bin = 12, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                  620 MISMATCH: Inputs: ain =  3, bin = 13, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                  630 MISMATCH: Inputs: ain =  3, bin = 14, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                  640 MISMATCH: Inputs: ain =  3, bin = 15, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                  650 MISMATCH: Inputs: ain =  4, bin =  0, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 0
+#                  660 MISMATCH: Inputs: ain =  4, bin =  1, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 0
+#                  670 MISMATCH: Inputs: ain =  4, bin =  2, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 0
+#                  680 MISMATCH: Inputs: ain =  4, bin =  3, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 0
+#                  690 MISMATCH: Inputs: ain =  4, bin =  4, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 0
+#                  700 MISMATCH: Inputs: ain =  4, bin =  5, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                  710 MISMATCH: Inputs: ain =  4, bin =  6, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                  720 MISMATCH: Inputs: ain =  4, bin =  7, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                  730 MISMATCH: Inputs: ain =  4, bin =  8, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                  740 MISMATCH: Inputs: ain =  4, bin =  9, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                  750 MISMATCH: Inputs: ain =  4, bin = 10, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                  760 MISMATCH: Inputs: ain =  4, bin = 11, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                  770 MISMATCH: Inputs: ain =  4, bin = 12, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                  780 MISMATCH: Inputs: ain =  4, bin = 13, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                  790 MISMATCH: Inputs: ain =  4, bin = 14, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                  800 MISMATCH: Inputs: ain =  4, bin = 15, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                  810 MISMATCH: Inputs: ain =  5, bin =  0, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 0
+#                  820 MISMATCH: Inputs: ain =  5, bin =  1, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 0
+#                  830 MISMATCH: Inputs: ain =  5, bin =  2, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 0
+#                  840 MISMATCH: Inputs: ain =  5, bin =  3, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 0
+#                  850 MISMATCH: Inputs: ain =  5, bin =  4, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                  860 MISMATCH: Inputs: ain =  5, bin =  5, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                  870 MISMATCH: Inputs: ain =  5, bin =  6, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                  880 MISMATCH: Inputs: ain =  5, bin =  7, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                  890 MISMATCH: Inputs: ain =  5, bin =  8, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                  900 MISMATCH: Inputs: ain =  5, bin =  9, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                  910 MISMATCH: Inputs: ain =  5, bin = 10, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                  920 MISMATCH: Inputs: ain =  5, bin = 11, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                  930 MISMATCH: Inputs: ain =  5, bin = 12, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                  940 MISMATCH: Inputs: ain =  5, bin = 13, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                  950 MISMATCH: Inputs: ain =  5, bin = 14, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                  960 MISMATCH: Inputs: ain =  5, bin = 15, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                  970 MISMATCH: Inputs: ain =  6, bin =  0, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 0
+#                  980 MISMATCH: Inputs: ain =  6, bin =  1, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 0
+#                  990 MISMATCH: Inputs: ain =  6, bin =  2, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 0
+#                 1000 MISMATCH: Inputs: ain =  6, bin =  3, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                 1010 MISMATCH: Inputs: ain =  6, bin =  4, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                 1020 MISMATCH: Inputs: ain =  6, bin =  5, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                 1030 MISMATCH: Inputs: ain =  6, bin =  6, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 1040 MISMATCH: Inputs: ain =  6, bin =  7, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 1050 MISMATCH: Inputs: ain =  6, bin =  8, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 1060 MISMATCH: Inputs: ain =  6, bin =  9, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 1070 MISMATCH: Inputs: ain =  6, bin = 10, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 1080 MISMATCH: Inputs: ain =  6, bin = 11, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 1090 MISMATCH: Inputs: ain =  6, bin = 12, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 1100 MISMATCH: Inputs: ain =  6, bin = 13, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 1110 MISMATCH: Inputs: ain =  6, bin = 14, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 1120 MISMATCH: Inputs: ain =  6, bin = 15, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 1130 MISMATCH: Inputs: ain =  7, bin =  0, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 0
+#                 1140 MISMATCH: Inputs: ain =  7, bin =  1, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 0
+#                 1150 MISMATCH: Inputs: ain =  7, bin =  2, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                 1160 MISMATCH: Inputs: ain =  7, bin =  3, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                 1170 MISMATCH: Inputs: ain =  7, bin =  4, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                 1180 MISMATCH: Inputs: ain =  7, bin =  5, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 1190 MISMATCH: Inputs: ain =  7, bin =  6, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 1200 MISMATCH: Inputs: ain =  7, bin =  7, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 1210 MISMATCH: Inputs: ain =  7, bin =  8, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 1220 MISMATCH: Inputs: ain =  7, bin =  9, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 1230 MISMATCH: Inputs: ain =  7, bin = 10, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 1240 MISMATCH: Inputs: ain =  7, bin = 11, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 1250 MISMATCH: Inputs: ain =  7, bin = 12, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 1260 MISMATCH: Inputs: ain =  7, bin = 13, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 1270 MISMATCH: Inputs: ain =  7, bin = 14, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 1280 MISMATCH: Inputs: ain =  7, bin = 15, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 1290 MISMATCH: Inputs: ain =  8, bin =  0, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 0
+#                 1300 MISMATCH: Inputs: ain =  8, bin =  1, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                 1310 MISMATCH: Inputs: ain =  8, bin =  2, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                 1320 MISMATCH: Inputs: ain =  8, bin =  3, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                 1330 MISMATCH: Inputs: ain =  8, bin =  4, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 1340 MISMATCH: Inputs: ain =  8, bin =  5, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 1350 MISMATCH: Inputs: ain =  8, bin =  6, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 1360 MISMATCH: Inputs: ain =  8, bin =  7, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 1370 MISMATCH: Inputs: ain =  8, bin =  8, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 1380 MISMATCH: Inputs: ain =  8, bin =  9, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 1390 MISMATCH: Inputs: ain =  8, bin = 10, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 1400 MISMATCH: Inputs: ain =  8, bin = 11, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 1410 MISMATCH: Inputs: ain =  8, bin = 12, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 1420 MISMATCH: Inputs: ain =  8, bin = 13, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 1430 MISMATCH: Inputs: ain =  8, bin = 14, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 1440 MISMATCH: Inputs: ain =  8, bin = 15, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 1
+#                 1450 MISMATCH: Inputs: ain =  9, bin =  0, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                 1460 MISMATCH: Inputs: ain =  9, bin =  1, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                 1470 MISMATCH: Inputs: ain =  9, bin =  2, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                 1480 MISMATCH: Inputs: ain =  9, bin =  3, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 1490 MISMATCH: Inputs: ain =  9, bin =  4, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 1500 MISMATCH: Inputs: ain =  9, bin =  5, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 1510 MISMATCH: Inputs: ain =  9, bin =  6, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 1520 MISMATCH: Inputs: ain =  9, bin =  7, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 1530 MISMATCH: Inputs: ain =  9, bin =  8, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 1540 MISMATCH: Inputs: ain =  9, bin =  9, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 1550 MISMATCH: Inputs: ain =  9, bin = 10, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 1560 MISMATCH: Inputs: ain =  9, bin = 11, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 1570 MISMATCH: Inputs: ain =  9, bin = 12, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 1580 MISMATCH: Inputs: ain =  9, bin = 13, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 1590 MISMATCH: Inputs: ain =  9, bin = 14, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 1
+#                 1600 MISMATCH: Inputs: ain =  9, bin = 15, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 1
+#                 1610 MISMATCH: Inputs: ain = 10, bin =  0, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                 1620 MISMATCH: Inputs: ain = 10, bin =  1, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                 1630 MISMATCH: Inputs: ain = 10, bin =  2, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 1640 MISMATCH: Inputs: ain = 10, bin =  3, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 1650 MISMATCH: Inputs: ain = 10, bin =  4, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 1660 MISMATCH: Inputs: ain = 10, bin =  5, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 1670 MISMATCH: Inputs: ain = 10, bin =  6, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 1680 MISMATCH: Inputs: ain = 10, bin =  7, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 1690 MISMATCH: Inputs: ain = 10, bin =  8, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 1700 MISMATCH: Inputs: ain = 10, bin =  9, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 1710 MISMATCH: Inputs: ain = 10, bin = 10, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 1720 MISMATCH: Inputs: ain = 10, bin = 11, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 1730 MISMATCH: Inputs: ain = 10, bin = 12, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 1740 MISMATCH: Inputs: ain = 10, bin = 13, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 1
+#                 1750 MISMATCH: Inputs: ain = 10, bin = 14, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 1
+#                 1760 MISMATCH: Inputs: ain = 10, bin = 15, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 1
+#                 1770 MISMATCH: Inputs: ain = 11, bin =  0, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                 1780 MISMATCH: Inputs: ain = 11, bin =  1, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 1790 MISMATCH: Inputs: ain = 11, bin =  2, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 1800 MISMATCH: Inputs: ain = 11, bin =  3, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 1810 MISMATCH: Inputs: ain = 11, bin =  4, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 1820 MISMATCH: Inputs: ain = 11, bin =  5, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 1830 MISMATCH: Inputs: ain = 11, bin =  6, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 1840 MISMATCH: Inputs: ain = 11, bin =  7, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 1850 MISMATCH: Inputs: ain = 11, bin =  8, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 1860 MISMATCH: Inputs: ain = 11, bin =  9, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 1870 MISMATCH: Inputs: ain = 11, bin = 10, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 1880 MISMATCH: Inputs: ain = 11, bin = 11, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 1890 MISMATCH: Inputs: ain = 11, bin = 12, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 1
+#                 1900 MISMATCH: Inputs: ain = 11, bin = 13, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 1
+#                 1910 MISMATCH: Inputs: ain = 11, bin = 14, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 1
+#                 1920 MISMATCH: Inputs: ain = 11, bin = 15, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 1
+#                 1930 MISMATCH: Inputs: ain = 12, bin =  0, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 1940 MISMATCH: Inputs: ain = 12, bin =  1, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 1950 MISMATCH: Inputs: ain = 12, bin =  2, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 1960 MISMATCH: Inputs: ain = 12, bin =  3, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 1970 MISMATCH: Inputs: ain = 12, bin =  4, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 1980 MISMATCH: Inputs: ain = 12, bin =  5, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 1990 MISMATCH: Inputs: ain = 12, bin =  6, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 2000 MISMATCH: Inputs: ain = 12, bin =  7, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 2010 MISMATCH: Inputs: ain = 12, bin =  8, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 2020 MISMATCH: Inputs: ain = 12, bin =  9, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 2030 MISMATCH: Inputs: ain = 12, bin = 10, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 2040 MISMATCH: Inputs: ain = 12, bin = 11, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 1
+#                 2050 MISMATCH: Inputs: ain = 12, bin = 12, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 1
+#                 2060 MISMATCH: Inputs: ain = 12, bin = 13, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 1
+#                 2070 MISMATCH: Inputs: ain = 12, bin = 14, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 1
+#                 2080 MISMATCH: Inputs: ain = 12, bin = 15, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 1
+#                 2090 MISMATCH: Inputs: ain = 13, bin =  0, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 2100 MISMATCH: Inputs: ain = 13, bin =  1, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 2110 MISMATCH: Inputs: ain = 13, bin =  2, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 2120 MISMATCH: Inputs: ain = 13, bin =  3, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 2130 MISMATCH: Inputs: ain = 13, bin =  4, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 2140 MISMATCH: Inputs: ain = 13, bin =  5, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 2150 MISMATCH: Inputs: ain = 13, bin =  6, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 2160 MISMATCH: Inputs: ain = 13, bin =  7, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 2170 MISMATCH: Inputs: ain = 13, bin =  8, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 2180 MISMATCH: Inputs: ain = 13, bin =  9, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 2190 MISMATCH: Inputs: ain = 13, bin = 10, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 1
+#                 2200 MISMATCH: Inputs: ain = 13, bin = 11, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 1
+#                 2210 MISMATCH: Inputs: ain = 13, bin = 12, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 1
+#                 2220 MISMATCH: Inputs: ain = 13, bin = 13, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 1
+#                 2230 MISMATCH: Inputs: ain = 13, bin = 14, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 1
+#                 2240 MISMATCH: Inputs: ain = 13, bin = 15, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 1
+#                 2250 MISMATCH: Inputs: ain = 14, bin =  0, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 2260 MISMATCH: Inputs: ain = 14, bin =  1, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 2270 MISMATCH: Inputs: ain = 14, bin =  2, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 2280 MISMATCH: Inputs: ain = 14, bin =  3, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 2290 MISMATCH: Inputs: ain = 14, bin =  4, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 2300 MISMATCH: Inputs: ain = 14, bin =  5, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 2310 MISMATCH: Inputs: ain = 14, bin =  6, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 2320 MISMATCH: Inputs: ain = 14, bin =  7, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 2330 MISMATCH: Inputs: ain = 14, bin =  8, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 2340 MISMATCH: Inputs: ain = 14, bin =  9, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 1
+#                 2350 MISMATCH: Inputs: ain = 14, bin = 10, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 1
+#                 2360 MISMATCH: Inputs: ain = 14, bin = 11, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 1
+#                 2370 MISMATCH: Inputs: ain = 14, bin = 12, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 1
+#                 2380 MISMATCH: Inputs: ain = 14, bin = 13, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 1
+#                 2390 MISMATCH: Inputs: ain = 14, bin = 14, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 1
+#                 2400 MISMATCH: Inputs: ain = 14, bin = 15, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 1
+#                 2410 MISMATCH: Inputs: ain = 15, bin =  0, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 2420 MISMATCH: Inputs: ain = 15, bin =  1, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 2430 MISMATCH: Inputs: ain = 15, bin =  2, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 2440 MISMATCH: Inputs: ain = 15, bin =  3, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 2450 MISMATCH: Inputs: ain = 15, bin =  4, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 2460 MISMATCH: Inputs: ain = 15, bin =  5, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 2470 MISMATCH: Inputs: ain = 15, bin =  6, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 2480 MISMATCH: Inputs: ain = 15, bin =  7, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 2490 MISMATCH: Inputs: ain = 15, bin =  8, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 1
+#                 2500 MISMATCH: Inputs: ain = 15, bin =  9, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 1
+#                 2510 MISMATCH: Inputs: ain = 15, bin = 10, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 1
+#                 2520 MISMATCH: Inputs: ain = 15, bin = 11, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 1
+#                 2530 MISMATCH: Inputs: ain = 15, bin = 12, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 1
+#                 2540 MISMATCH: Inputs: ain = 15, bin = 13, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 1
+#                 2550 MISMATCH: Inputs: ain = 15, bin = 14, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 1
+#                 2560 MISMATCH: Inputs: ain = 15, bin = 15, cin = 0 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 1
+#                 2570 MISMATCH: Inputs: ain =  0, bin =  0, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 0
+#                 2580 MISMATCH: Inputs: ain =  0, bin =  1, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 0
+#                 2590 MISMATCH: Inputs: ain =  0, bin =  2, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 0
+#                 2600 MISMATCH: Inputs: ain =  0, bin =  3, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 0
+#                 2610 MISMATCH: Inputs: ain =  0, bin =  4, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 0
+#                 2620 MISMATCH: Inputs: ain =  0, bin =  5, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 0
+#                 2630 MISMATCH: Inputs: ain =  0, bin =  6, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 0
+#                 2640 MISMATCH: Inputs: ain =  0, bin =  7, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 0
+#                 2650 MISMATCH: Inputs: ain =  0, bin =  8, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                 2660 MISMATCH: Inputs: ain =  0, bin =  9, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                 2670 MISMATCH: Inputs: ain =  0, bin = 10, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                 2680 MISMATCH: Inputs: ain =  0, bin = 11, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 2690 MISMATCH: Inputs: ain =  0, bin = 12, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 2700 MISMATCH: Inputs: ain =  0, bin = 13, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 2710 MISMATCH: Inputs: ain =  0, bin = 14, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 2720 MISMATCH: Inputs: ain =  0, bin = 15, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 2730 MISMATCH: Inputs: ain =  1, bin =  0, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 0
+#                 2740 MISMATCH: Inputs: ain =  1, bin =  1, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 0
+#                 2750 MISMATCH: Inputs: ain =  1, bin =  2, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 0
+#                 2760 MISMATCH: Inputs: ain =  1, bin =  3, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 0
+#                 2770 MISMATCH: Inputs: ain =  1, bin =  4, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 0
+#                 2780 MISMATCH: Inputs: ain =  1, bin =  5, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 0
+#                 2790 MISMATCH: Inputs: ain =  1, bin =  6, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 0
+#                 2800 MISMATCH: Inputs: ain =  1, bin =  7, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                 2810 MISMATCH: Inputs: ain =  1, bin =  8, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                 2820 MISMATCH: Inputs: ain =  1, bin =  9, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                 2830 MISMATCH: Inputs: ain =  1, bin = 10, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 2840 MISMATCH: Inputs: ain =  1, bin = 11, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 2850 MISMATCH: Inputs: ain =  1, bin = 12, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 2860 MISMATCH: Inputs: ain =  1, bin = 13, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 2870 MISMATCH: Inputs: ain =  1, bin = 14, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 2880 MISMATCH: Inputs: ain =  1, bin = 15, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 2890 MISMATCH: Inputs: ain =  2, bin =  0, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 0
+#                 2900 MISMATCH: Inputs: ain =  2, bin =  1, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 0
+#                 2910 MISMATCH: Inputs: ain =  2, bin =  2, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 0
+#                 2920 MISMATCH: Inputs: ain =  2, bin =  3, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 0
+#                 2930 MISMATCH: Inputs: ain =  2, bin =  4, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 0
+#                 2940 MISMATCH: Inputs: ain =  2, bin =  5, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 0
+#                 2950 MISMATCH: Inputs: ain =  2, bin =  6, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                 2960 MISMATCH: Inputs: ain =  2, bin =  7, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                 2970 MISMATCH: Inputs: ain =  2, bin =  8, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                 2980 MISMATCH: Inputs: ain =  2, bin =  9, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 2990 MISMATCH: Inputs: ain =  2, bin = 10, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 3000 MISMATCH: Inputs: ain =  2, bin = 11, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 3010 MISMATCH: Inputs: ain =  2, bin = 12, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 3020 MISMATCH: Inputs: ain =  2, bin = 13, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 3030 MISMATCH: Inputs: ain =  2, bin = 14, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 3040 MISMATCH: Inputs: ain =  2, bin = 15, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 3050 MISMATCH: Inputs: ain =  3, bin =  0, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 0
+#                 3060 MISMATCH: Inputs: ain =  3, bin =  1, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 0
+#                 3070 MISMATCH: Inputs: ain =  3, bin =  2, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 0
+#                 3080 MISMATCH: Inputs: ain =  3, bin =  3, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 0
+#                 3090 MISMATCH: Inputs: ain =  3, bin =  4, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 0
+#                 3100 MISMATCH: Inputs: ain =  3, bin =  5, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                 3110 MISMATCH: Inputs: ain =  3, bin =  6, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                 3120 MISMATCH: Inputs: ain =  3, bin =  7, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                 3130 MISMATCH: Inputs: ain =  3, bin =  8, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 3140 MISMATCH: Inputs: ain =  3, bin =  9, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 3150 MISMATCH: Inputs: ain =  3, bin = 10, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 3160 MISMATCH: Inputs: ain =  3, bin = 11, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 3170 MISMATCH: Inputs: ain =  3, bin = 12, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 3180 MISMATCH: Inputs: ain =  3, bin = 13, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 3190 MISMATCH: Inputs: ain =  3, bin = 14, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 3200 MISMATCH: Inputs: ain =  3, bin = 15, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 3210 MISMATCH: Inputs: ain =  4, bin =  0, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 0
+#                 3220 MISMATCH: Inputs: ain =  4, bin =  1, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 0
+#                 3230 MISMATCH: Inputs: ain =  4, bin =  2, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 0
+#                 3240 MISMATCH: Inputs: ain =  4, bin =  3, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 0
+#                 3250 MISMATCH: Inputs: ain =  4, bin =  4, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                 3260 MISMATCH: Inputs: ain =  4, bin =  5, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                 3270 MISMATCH: Inputs: ain =  4, bin =  6, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                 3280 MISMATCH: Inputs: ain =  4, bin =  7, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 3290 MISMATCH: Inputs: ain =  4, bin =  8, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 3300 MISMATCH: Inputs: ain =  4, bin =  9, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 3310 MISMATCH: Inputs: ain =  4, bin = 10, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 3320 MISMATCH: Inputs: ain =  4, bin = 11, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 3330 MISMATCH: Inputs: ain =  4, bin = 12, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 3340 MISMATCH: Inputs: ain =  4, bin = 13, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 3350 MISMATCH: Inputs: ain =  4, bin = 14, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 3360 MISMATCH: Inputs: ain =  4, bin = 15, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 3370 MISMATCH: Inputs: ain =  5, bin =  0, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 0
+#                 3380 MISMATCH: Inputs: ain =  5, bin =  1, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 0
+#                 3390 MISMATCH: Inputs: ain =  5, bin =  2, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 0
+#                 3400 MISMATCH: Inputs: ain =  5, bin =  3, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                 3410 MISMATCH: Inputs: ain =  5, bin =  4, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                 3420 MISMATCH: Inputs: ain =  5, bin =  5, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                 3430 MISMATCH: Inputs: ain =  5, bin =  6, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 3440 MISMATCH: Inputs: ain =  5, bin =  7, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 3450 MISMATCH: Inputs: ain =  5, bin =  8, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 3460 MISMATCH: Inputs: ain =  5, bin =  9, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 3470 MISMATCH: Inputs: ain =  5, bin = 10, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 3480 MISMATCH: Inputs: ain =  5, bin = 11, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 3490 MISMATCH: Inputs: ain =  5, bin = 12, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 3500 MISMATCH: Inputs: ain =  5, bin = 13, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 3510 MISMATCH: Inputs: ain =  5, bin = 14, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 3520 MISMATCH: Inputs: ain =  5, bin = 15, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 3530 MISMATCH: Inputs: ain =  6, bin =  0, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 0
+#                 3540 MISMATCH: Inputs: ain =  6, bin =  1, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 0
+#                 3550 MISMATCH: Inputs: ain =  6, bin =  2, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                 3560 MISMATCH: Inputs: ain =  6, bin =  3, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                 3570 MISMATCH: Inputs: ain =  6, bin =  4, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                 3580 MISMATCH: Inputs: ain =  6, bin =  5, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 3590 MISMATCH: Inputs: ain =  6, bin =  6, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 3600 MISMATCH: Inputs: ain =  6, bin =  7, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 3610 MISMATCH: Inputs: ain =  6, bin =  8, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 3620 MISMATCH: Inputs: ain =  6, bin =  9, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 3630 MISMATCH: Inputs: ain =  6, bin = 10, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 3640 MISMATCH: Inputs: ain =  6, bin = 11, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 3650 MISMATCH: Inputs: ain =  6, bin = 12, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 3660 MISMATCH: Inputs: ain =  6, bin = 13, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 3670 MISMATCH: Inputs: ain =  6, bin = 14, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 3680 MISMATCH: Inputs: ain =  6, bin = 15, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 3690 MISMATCH: Inputs: ain =  7, bin =  0, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 0
+#                 3700 MISMATCH: Inputs: ain =  7, bin =  1, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                 3710 MISMATCH: Inputs: ain =  7, bin =  2, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                 3720 MISMATCH: Inputs: ain =  7, bin =  3, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                 3730 MISMATCH: Inputs: ain =  7, bin =  4, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 3740 MISMATCH: Inputs: ain =  7, bin =  5, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 3750 MISMATCH: Inputs: ain =  7, bin =  6, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 3760 MISMATCH: Inputs: ain =  7, bin =  7, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 3770 MISMATCH: Inputs: ain =  7, bin =  8, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 3780 MISMATCH: Inputs: ain =  7, bin =  9, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 3790 MISMATCH: Inputs: ain =  7, bin = 10, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 3800 MISMATCH: Inputs: ain =  7, bin = 11, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 3810 MISMATCH: Inputs: ain =  7, bin = 12, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 3820 MISMATCH: Inputs: ain =  7, bin = 13, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 3830 MISMATCH: Inputs: ain =  7, bin = 14, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 3840 MISMATCH: Inputs: ain =  7, bin = 15, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 1
+#                 3850 MISMATCH: Inputs: ain =  8, bin =  0, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 0
+#                 3860 MISMATCH: Inputs: ain =  8, bin =  1, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                 3870 MISMATCH: Inputs: ain =  8, bin =  2, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                 3880 MISMATCH: Inputs: ain =  8, bin =  3, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 3890 MISMATCH: Inputs: ain =  8, bin =  4, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 3900 MISMATCH: Inputs: ain =  8, bin =  5, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 3910 MISMATCH: Inputs: ain =  8, bin =  6, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 3920 MISMATCH: Inputs: ain =  8, bin =  7, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 3930 MISMATCH: Inputs: ain =  8, bin =  8, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 3940 MISMATCH: Inputs: ain =  8, bin =  9, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 3950 MISMATCH: Inputs: ain =  8, bin = 10, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 3960 MISMATCH: Inputs: ain =  8, bin = 11, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 3970 MISMATCH: Inputs: ain =  8, bin = 12, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 3980 MISMATCH: Inputs: ain =  8, bin = 13, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 3990 MISMATCH: Inputs: ain =  8, bin = 14, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 1
+#                 4000 MISMATCH: Inputs: ain =  8, bin = 15, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 1
+#                 4010 MISMATCH: Inputs: ain =  9, bin =  0, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 0
+#                 4020 MISMATCH: Inputs: ain =  9, bin =  1, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                 4030 MISMATCH: Inputs: ain =  9, bin =  2, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 4040 MISMATCH: Inputs: ain =  9, bin =  3, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 4050 MISMATCH: Inputs: ain =  9, bin =  4, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 4060 MISMATCH: Inputs: ain =  9, bin =  5, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 4070 MISMATCH: Inputs: ain =  9, bin =  6, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 4080 MISMATCH: Inputs: ain =  9, bin =  7, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 4090 MISMATCH: Inputs: ain =  9, bin =  8, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 4100 MISMATCH: Inputs: ain =  9, bin =  9, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 4110 MISMATCH: Inputs: ain =  9, bin = 10, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 4120 MISMATCH: Inputs: ain =  9, bin = 11, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 4130 MISMATCH: Inputs: ain =  9, bin = 12, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 4140 MISMATCH: Inputs: ain =  9, bin = 13, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 1
+#                 4150 MISMATCH: Inputs: ain =  9, bin = 14, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 1
+#                 4160 MISMATCH: Inputs: ain =  9, bin = 15, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 1
+#                 4170 MISMATCH: Inputs: ain = 10, bin =  0, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 0
+#                 4180 MISMATCH: Inputs: ain = 10, bin =  1, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 4190 MISMATCH: Inputs: ain = 10, bin =  2, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 4200 MISMATCH: Inputs: ain = 10, bin =  3, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 4210 MISMATCH: Inputs: ain = 10, bin =  4, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 4220 MISMATCH: Inputs: ain = 10, bin =  5, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 4230 MISMATCH: Inputs: ain = 10, bin =  6, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 4240 MISMATCH: Inputs: ain = 10, bin =  7, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 4250 MISMATCH: Inputs: ain = 10, bin =  8, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 4260 MISMATCH: Inputs: ain = 10, bin =  9, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 4270 MISMATCH: Inputs: ain = 10, bin = 10, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 4280 MISMATCH: Inputs: ain = 10, bin = 11, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 4290 MISMATCH: Inputs: ain = 10, bin = 12, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 1
+#                 4300 MISMATCH: Inputs: ain = 10, bin = 13, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 1
+#                 4310 MISMATCH: Inputs: ain = 10, bin = 14, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 1
+#                 4320 MISMATCH: Inputs: ain = 10, bin = 15, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 1
+#                 4330 MISMATCH: Inputs: ain = 11, bin =  0, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 0
+#                 4340 MISMATCH: Inputs: ain = 11, bin =  1, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 4350 MISMATCH: Inputs: ain = 11, bin =  2, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 4360 MISMATCH: Inputs: ain = 11, bin =  3, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 4370 MISMATCH: Inputs: ain = 11, bin =  4, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 4380 MISMATCH: Inputs: ain = 11, bin =  5, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 4390 MISMATCH: Inputs: ain = 11, bin =  6, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 4400 MISMATCH: Inputs: ain = 11, bin =  7, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 4410 MISMATCH: Inputs: ain = 11, bin =  8, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 4420 MISMATCH: Inputs: ain = 11, bin =  9, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 4430 MISMATCH: Inputs: ain = 11, bin = 10, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 4440 MISMATCH: Inputs: ain = 11, bin = 11, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 1
+#                 4450 MISMATCH: Inputs: ain = 11, bin = 12, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 1
+#                 4460 MISMATCH: Inputs: ain = 11, bin = 13, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 1
+#                 4470 MISMATCH: Inputs: ain = 11, bin = 14, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 1
+#                 4480 MISMATCH: Inputs: ain = 11, bin = 15, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 1
+#                 4490 MISMATCH: Inputs: ain = 12, bin =  0, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 0
+#                 4500 MISMATCH: Inputs: ain = 12, bin =  1, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 4510 MISMATCH: Inputs: ain = 12, bin =  2, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 4520 MISMATCH: Inputs: ain = 12, bin =  3, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 4530 MISMATCH: Inputs: ain = 12, bin =  4, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 4540 MISMATCH: Inputs: ain = 12, bin =  5, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 4550 MISMATCH: Inputs: ain = 12, bin =  6, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 4560 MISMATCH: Inputs: ain = 12, bin =  7, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 4570 MISMATCH: Inputs: ain = 12, bin =  8, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 4580 MISMATCH: Inputs: ain = 12, bin =  9, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 4590 MISMATCH: Inputs: ain = 12, bin = 10, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 1
+#                 4600 MISMATCH: Inputs: ain = 12, bin = 11, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 1
+#                 4610 MISMATCH: Inputs: ain = 12, bin = 12, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 1
+#                 4620 MISMATCH: Inputs: ain = 12, bin = 13, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 1
+#                 4630 MISMATCH: Inputs: ain = 12, bin = 14, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 1
+#                 4640 MISMATCH: Inputs: ain = 12, bin = 15, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 1
+#                 4650 MISMATCH: Inputs: ain = 13, bin =  0, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 0
+#                 4660 MISMATCH: Inputs: ain = 13, bin =  1, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 4670 MISMATCH: Inputs: ain = 13, bin =  2, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 4680 MISMATCH: Inputs: ain = 13, bin =  3, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 4690 MISMATCH: Inputs: ain = 13, bin =  4, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 4700 MISMATCH: Inputs: ain = 13, bin =  5, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 4710 MISMATCH: Inputs: ain = 13, bin =  6, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 4720 MISMATCH: Inputs: ain = 13, bin =  7, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 4730 MISMATCH: Inputs: ain = 13, bin =  8, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 4740 MISMATCH: Inputs: ain = 13, bin =  9, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 1
+#                 4750 MISMATCH: Inputs: ain = 13, bin = 10, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 1
+#                 4760 MISMATCH: Inputs: ain = 13, bin = 11, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 1
+#                 4770 MISMATCH: Inputs: ain = 13, bin = 12, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 1
+#                 4780 MISMATCH: Inputs: ain = 13, bin = 13, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 1
+#                 4790 MISMATCH: Inputs: ain = 13, bin = 14, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 1
+#                 4800 MISMATCH: Inputs: ain = 13, bin = 15, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 1
+#                 4810 MISMATCH: Inputs: ain = 14, bin =  0, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 0
+#                 4820 MISMATCH: Inputs: ain = 14, bin =  1, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 4830 MISMATCH: Inputs: ain = 14, bin =  2, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 4840 MISMATCH: Inputs: ain = 14, bin =  3, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 4850 MISMATCH: Inputs: ain = 14, bin =  4, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 4860 MISMATCH: Inputs: ain = 14, bin =  5, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 4870 MISMATCH: Inputs: ain = 14, bin =  6, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 4880 MISMATCH: Inputs: ain = 14, bin =  7, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 4890 MISMATCH: Inputs: ain = 14, bin =  8, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 1
+#                 4900 MISMATCH: Inputs: ain = 14, bin =  9, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 1
+#                 4910 MISMATCH: Inputs: ain = 14, bin = 10, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 1
+#                 4920 MISMATCH: Inputs: ain = 14, bin = 11, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 1
+#                 4930 MISMATCH: Inputs: ain = 14, bin = 12, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 1
+#                 4940 MISMATCH: Inputs: ain = 14, bin = 13, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 1
+#                 4950 MISMATCH: Inputs: ain = 14, bin = 14, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 1
+#                 4960 MISMATCH: Inputs: ain = 14, bin = 15, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 1
+#                 4970 MISMATCH: Inputs: ain = 15, bin =  0, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  0, cout = 1
+#                 4980 MISMATCH: Inputs: ain = 15, bin =  1, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  1, cout = 1
+#                 4990 MISMATCH: Inputs: ain = 15, bin =  2, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  2, cout = 1
+#                 5000 MISMATCH: Inputs: ain = 15, bin =  3, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  3, cout = 1
+#                 5010 MISMATCH: Inputs: ain = 15, bin =  4, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  4, cout = 1
+#                 5020 MISMATCH: Inputs: ain = 15, bin =  5, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  5, cout = 1
+#                 5030 MISMATCH: Inputs: ain = 15, bin =  6, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  6, cout = 1
+#                 5040 MISMATCH: Inputs: ain = 15, bin =  7, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  7, cout = 1
+#                 5050 MISMATCH: Inputs: ain = 15, bin =  8, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  8, cout = 1
+#                 5060 MISMATCH: Inputs: ain = 15, bin =  9, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum =  9, cout = 1
+#                 5070 MISMATCH: Inputs: ain = 15, bin = 10, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 10, cout = 1
+#                 5080 MISMATCH: Inputs: ain = 15, bin = 11, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 11, cout = 1
+#                 5090 MISMATCH: Inputs: ain = 15, bin = 12, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 12, cout = 1
+#                 5100 MISMATCH: Inputs: ain = 15, bin = 13, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 13, cout = 1
+#                 5110 MISMATCH: Inputs: ain = 15, bin = 14, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 14, cout = 1
+#                 5120 MISMATCH: Inputs: ain = 15, bin = 15, cin = 1 	Actual Outputs: sum =  z, cout = z	Expected Outputs: sum = 15, cout = 1
+# ***Sorry,         512 errors were found in your code ***
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 5 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 5 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 5 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 5 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 5 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 5 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 5 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 5 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 6 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 6 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 5 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 5 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 2 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 2 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv failed with 2 errors.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# End time: 17:07:37 on Apr 27,2021, Elapsed time: 0:22:22
+# Errors: 0, Warnings: 10

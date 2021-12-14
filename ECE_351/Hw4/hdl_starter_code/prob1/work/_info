@@ -1,0 +1,140 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 12 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/QuestaSim64_2020.3/examples
+T_opt
+!s110 1622676554
+V]j1gMI6MWFGb62nz7k]d42
+Z1 04 16 4 work tb_uart_loopback fast 0
+=1-989096a4bc97-60b81449-32d-15e4
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.3;71
+R0
+T_opt1
+!s110 1622680668
+Ve@R1n;44z;6]kdOlZ]NIO2
+R1
+=1-989096a4bc97-60b8245b-2d5-708
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1622737397
+V=UGKZP4eeYoD4GoV]]0ok3
+R1
+=1-989096a4bc97-60b901f4-32a-2f80
+R2
+R3
+n@_opt2
+R4
+vbaud_gen
+Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z6 !s110 1622737388
+!i10b 1
+!s100 L[P=9Wo3j6T=ghGEkQUAP2
+Z7 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I?KPi1MH0M_T54[oh]J@260
+S1
+Z8 dU:/ECE351/Hw4/hdl_starter_code/prob1
+w1622605444
+8U:/ECE351/Hw4/hdl_starter_code/prob1/baud_gen.sv
+FU:/ECE351/Hw4/hdl_starter_code/prob1/baud_gen.sv
+!i122 170
+L0 14 23
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2020.3;71
+r1
+!s85 0
+31
+Z11 !s108 1622737388.000000
+!s107 U:/ECE351/Hw4/hdl_starter_code/prob1/baud_gen.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|U:/ECE351/Hw4/hdl_starter_code/prob1/baud_gen.sv|
+!i113 0
+Z12 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vtb_uart_loopback
+R5
+R6
+!i10b 1
+!s100 34Fdb1z4mn9CgzARY<PT?0
+R7
+I^N7G>BnU[:B2=oLU=m4=A2
+S1
+R8
+w1622607875
+8U:/ECE351/Hw4/hdl_starter_code/prob1/tb_uart_loopback.sv
+FU:/ECE351/Hw4/hdl_starter_code/prob1/tb_uart_loopback.sv
+!i122 171
+L0 16 192
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 U:/ECE351/Hw4/hdl_starter_code/prob1/tb_uart_loopback.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|U:/ECE351/Hw4/hdl_starter_code/prob1/tb_uart_loopback.sv|
+!i113 0
+R12
+R3
+vuart_rx
+R5
+Z13 !s110 1622737389
+!i10b 1
+!s100 EUY:AEQb9aCEQ@WQWj9:Y1
+R7
+IfZb?=O3ilg?9n7hnR@;Sb3
+S1
+R8
+w1622691348
+8U:/ECE351/Hw4/hdl_starter_code/prob1/uart_rx.sv
+FU:/ECE351/Hw4/hdl_starter_code/prob1/uart_rx.sv
+!i122 172
+L0 15 228
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 U:/ECE351/Hw4/hdl_starter_code/prob1/uart_rx.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|U:/ECE351/Hw4/hdl_starter_code/prob1/uart_rx.sv|
+!i113 0
+R12
+R3
+vuart_tx
+R5
+R13
+!i10b 1
+!s100 k541Q7a@ok@m]GlQ`8Qe=1
+R7
+ImAiM:<OH0_kbe?QXhgYOS2
+S1
+R8
+w1622737380
+8U:\ECE351\Hw4\hdl_starter_code\prob1\uart_tx.sv
+FU:\ECE351\Hw4\hdl_starter_code\prob1\uart_tx.sv
+!i122 173
+L0 13 269
+R9
+R10
+r1
+!s85 0
+31
+!s108 1622737389.000000
+!s107 U:\ECE351\Hw4\hdl_starter_code\prob1\uart_tx.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|U:\ECE351\Hw4\hdl_starter_code\prob1\uart_tx.sv|
+!i113 0
+R12
+R3

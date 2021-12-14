@@ -1,0 +1,1076 @@
+# Compile of alu_regfile_defs.sv was successful.
+# Compile of hw2_prob3_alu.sv was successful.
+# Compile of hw2_prob3_dut.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tb_hw2_prob3.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.tb_hw2_prob3
+# vsim -gui work.tb_hw2_prob3 
+# Start time: 15:20:28 on May 12,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.ALU_REGFILE_defs(fast)
+# Loading work.tb_hw2_prob3(fast)
+run -all
+# Testing register file by walking a 1 through all of the locations
+# initializing register file to 0000
+# A_In HERE:   x
+# 
+# A_In HERE:   0
+# 
+# register file initialization complete
+# Writing 0000000000000001 to regfile[ 0]
+# A_In HERE:   1
+# 
+# Writing 0000000000000010 to regfile[ 1]
+# Writing 0000000000000100 to regfile[ 2]
+# Writing 0000000000001000 to regfile[ 3]
+# Writing 0000000000010000 to regfile[ 4]
+# Writing 0000000000100000 to regfile[ 5]
+# Writing 0000000001000000 to regfile[ 6]
+# Writing 0000000010000000 to regfile[ 7]
+# Writing 0000000100000000 to regfile[ 8]
+# Writing 0000001000000000 to regfile[ 9]
+# Writing 0000010000000000 to regfile[10]
+# Writing 0000100000000000 to regfile[11]
+# Writing 0001000000000000 to regfile[12]
+# Writing 0010000000000000 to regfile[13]
+# Writing 0100000000000000 to regfile[14]
+# Writing 1000000000000000 to regfile[15]
+# Writing 0000000000000001 to regfile[16]
+# Writing 0000000000000010 to regfile[17]
+# Writing 0000000000000100 to regfile[18]
+# Writing 0000000000001000 to regfile[19]
+# Writing 0000000000010000 to regfile[20]
+# Writing 0000000000100000 to regfile[21]
+# Writing 0000000001000000 to regfile[22]
+# Writing 0000000010000000 to regfile[23]
+# Writing 0000000100000000 to regfile[24]
+# Writing 0000001000000000 to regfile[25]
+# Writing 0000010000000000 to regfile[26]
+# Writing 0000100000000000 to regfile[27]
+# Writing 0001000000000000 to regfile[28]
+# Writing 0010000000000000 to regfile[29]
+# Writing 0100000000000000 to regfile[30]
+# Writing 1000000000000000 to regfile[31]
+# 
+# Check functionality by manually examining the register file contents
+# Contents of the Register file are:
+# regfile[ 0]: 0000000000000001
+# A_In HERE:   2
+# 
+# regfile[ 1]: 0000000000000010
+# A_In HERE:   4
+# 
+# regfile[ 2]: 0000000000000100
+# A_In HERE:   8
+# 
+# regfile[ 3]: 0000000000001000
+# A_In HERE:  16
+# 
+# regfile[ 4]: 0000000000010000
+# A_In HERE:  32
+# 
+# regfile[ 5]: 0000000000100000
+# A_In HERE:  64
+# 
+# regfile[ 6]: 0000000001000000
+# A_In HERE: 128
+# 
+# regfile[ 7]: 0000000010000000
+# A_In HERE:   0
+# 
+# regfile[ 8]: 0000000100000000
+# regfile[ 9]: 0000000000000000
+# regfile[10]: 0000000000000000
+# regfile[11]: 0000000000000000
+# regfile[12]: 0000000000000000
+# regfile[13]: 0000000000000000
+# regfile[14]: 0000000000000000
+# regfile[15]: 0000000000000000
+# A_In HERE:   1
+# 
+# regfile[16]: 0000000000000001
+# A_In HERE:   2
+# 
+# regfile[17]: 0000000000000010
+# A_In HERE:   4
+# 
+# regfile[18]: 0000000000000100
+# A_In HERE:   8
+# 
+# regfile[19]: 0000000000001000
+# A_In HERE:  16
+# 
+# regfile[20]: 0000000000010000
+# A_In HERE:  32
+# 
+# regfile[21]: 0000000000100000
+# A_In HERE:  64
+# 
+# regfile[22]: 0000000001000000
+# A_In HERE: 128
+# 
+# regfile[23]: 0000000010000000
+# A_In HERE:   0
+# 
+# regfile[24]: 0000000100000000
+# regfile[25]: 0000000000000000
+# regfile[26]: 0000000000000000
+# regfile[27]: 0000000000000000
+# regfile[28]: 0000000000000000
+# regfile[29]: 0000000000000000
+# regfile[30]: 0000000000000000
+# regfile[31]: 0000000000000000
+# -----------------------------------
+# 
+# 
+# ALU Test - This is rudimentary
+# initializing register file to 1234
+# A_In HERE:   0
+# 
+# A_In HERE:  52
+# 
+# register file initialization complete
+# A_In HERE:  52
+# 
+# A_In HERE:  85
+# 
+# operation:       ADD_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# A_In HERE:  85
+# 
+# operation:       SUB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 110101010
+# A_In HERE:  85
+# 
+# operation:      SUBA_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 110101001
+# A_In HERE:  85
+# 
+# operation:      ORAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# A_In HERE:  85
+# 
+# operation:     ANDAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 000000000
+# A_In HERE:  85
+# 
+# operation:     NOTAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 010101010
+# A_In HERE:  85
+# 
+# operation:      EXOR_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# A_In HERE:  85
+# 
+# operation:     EXNOR_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 000000000
+# 
+# Check functionality by manually examining the register file
+# Contents of the Register file are:
+# regfile[ 0]: 0000000101010101
+# A_In HERE: 170
+# 
+# regfile[ 1]: 0000000010101010
+# A_In HERE:  52
+# 
+# regfile[ 2]: 0000000000110100
+# regfile[ 3]: 0000000000110100
+# regfile[ 4]: 0000000000110100
+# regfile[ 5]: 0000000000110100
+# regfile[ 6]: 0000000000110100
+# regfile[ 7]: 0000000000110100
+# regfile[ 8]: 0000000000110100
+# regfile[ 9]: 0000000000110100
+# regfile[10]: 0000000000110100
+# regfile[11]: 0000000000110100
+# regfile[12]: 0000000000110100
+# regfile[13]: 0000000000110100
+# regfile[14]: 0000000000110100
+# regfile[15]: 0000000000110100
+# regfile[16]: 0000000000110100
+# regfile[17]: 0000000000110100
+# regfile[18]: 0000000000110100
+# regfile[19]: 0000000000110100
+# regfile[20]: 0000000000110100
+# regfile[21]: 0000000000110100
+# regfile[22]: 0000000000110100
+# regfile[23]: 0000000000110100
+# A_In HERE: 255
+# 
+# regfile[24]: 0000000011111111
+# A_In HERE: 170
+# 
+# regfile[25]: 0000000110101010
+# A_In HERE: 169
+# 
+# regfile[26]: 0000000110101001
+# A_In HERE: 255
+# 
+# regfile[27]: 0000000011111111
+# A_In HERE:   0
+# 
+# regfile[28]: 0000000000000000
+# A_In HERE: 170
+# 
+# regfile[29]: 0000000010101010
+# A_In HERE: 255
+# 
+# regfile[30]: 0000000011111111
+# A_In HERE:   0
+# 
+# regfile[31]: 0000000000000000
+# -----------------------------------
+# 
+# ALU/REGFILE Test complete
+# 
+# ** Note: $stop    : U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/tb_hw2_prob3.sv(178)
+#    Time: 2325 ns  Iteration: 1  Instance: /tb_hw2_prob3
+# Break at U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/tb_hw2_prob3.sv line 178
+# Compile of alu_regfile_defs.sv was successful.
+# Compile of hw2_prob3_alu.sv was successful.
+# Compile of hw2_prob3_dut.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tb_hw2_prob3.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.tb_hw2_prob3
+# End time: 15:21:16 on May 12,2021, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 3
+# vsim -gui work.tb_hw2_prob3 
+# Start time: 15:21:16 on May 12,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.ALU_REGFILE_defs(fast)
+# Loading work.tb_hw2_prob3(fast)
+run -all
+# Testing register file by walking a 1 through all of the locations
+# initializing register file to 0000
+# register file initialization complete
+# Writing 0000000000000001 to regfile[ 0]
+# Writing 0000000000000010 to regfile[ 1]
+# Writing 0000000000000100 to regfile[ 2]
+# Writing 0000000000001000 to regfile[ 3]
+# Writing 0000000000010000 to regfile[ 4]
+# Writing 0000000000100000 to regfile[ 5]
+# Writing 0000000001000000 to regfile[ 6]
+# Writing 0000000010000000 to regfile[ 7]
+# Writing 0000000100000000 to regfile[ 8]
+# Writing 0000001000000000 to regfile[ 9]
+# Writing 0000010000000000 to regfile[10]
+# Writing 0000100000000000 to regfile[11]
+# Writing 0001000000000000 to regfile[12]
+# Writing 0010000000000000 to regfile[13]
+# Writing 0100000000000000 to regfile[14]
+# Writing 1000000000000000 to regfile[15]
+# Writing 0000000000000001 to regfile[16]
+# Writing 0000000000000010 to regfile[17]
+# Writing 0000000000000100 to regfile[18]
+# Writing 0000000000001000 to regfile[19]
+# Writing 0000000000010000 to regfile[20]
+# Writing 0000000000100000 to regfile[21]
+# Writing 0000000001000000 to regfile[22]
+# Writing 0000000010000000 to regfile[23]
+# Writing 0000000100000000 to regfile[24]
+# Writing 0000001000000000 to regfile[25]
+# Writing 0000010000000000 to regfile[26]
+# Writing 0000100000000000 to regfile[27]
+# Writing 0001000000000000 to regfile[28]
+# Writing 0010000000000000 to regfile[29]
+# Writing 0100000000000000 to regfile[30]
+# Writing 1000000000000000 to regfile[31]
+# 
+# Check functionality by manually examining the register file contents
+# Contents of the Register file are:
+# regfile[ 0]: 0000000000000001
+# regfile[ 1]: 0000000000000010
+# regfile[ 2]: 0000000000000100
+# regfile[ 3]: 0000000000001000
+# regfile[ 4]: 0000000000010000
+# regfile[ 5]: 0000000000100000
+# regfile[ 6]: 0000000001000000
+# regfile[ 7]: 0000000010000000
+# regfile[ 8]: 0000000100000000
+# regfile[ 9]: 0000000000000000
+# regfile[10]: 0000000000000000
+# regfile[11]: 0000000000000000
+# regfile[12]: 0000000000000000
+# regfile[13]: 0000000000000000
+# regfile[14]: 0000000000000000
+# regfile[15]: 0000000000000000
+# regfile[16]: 0000000000000001
+# regfile[17]: 0000000000000010
+# regfile[18]: 0000000000000100
+# regfile[19]: 0000000000001000
+# regfile[20]: 0000000000010000
+# regfile[21]: 0000000000100000
+# regfile[22]: 0000000001000000
+# regfile[23]: 0000000010000000
+# regfile[24]: 0000000100000000
+# regfile[25]: 0000000000000000
+# regfile[26]: 0000000000000000
+# regfile[27]: 0000000000000000
+# regfile[28]: 0000000000000000
+# regfile[29]: 0000000000000000
+# regfile[30]: 0000000000000000
+# regfile[31]: 0000000000000000
+# -----------------------------------
+# 
+# 
+# ALU Test - This is rudimentary
+# initializing register file to 1234
+# register file initialization complete
+# operation:       ADD_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:       SUB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 110101010
+# operation:      SUBA_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 110101001
+# operation:      ORAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:     ANDAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 000000000
+# operation:     NOTAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 010101010
+# operation:      EXOR_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:     EXNOR_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 000000000
+# 
+# Check functionality by manually examining the register file
+# Contents of the Register file are:
+# regfile[ 0]: 0000000101010101
+# regfile[ 1]: 0000000010101010
+# regfile[ 2]: 0000000000110100
+# regfile[ 3]: 0000000000110100
+# regfile[ 4]: 0000000000110100
+# regfile[ 5]: 0000000000110100
+# regfile[ 6]: 0000000000110100
+# regfile[ 7]: 0000000000110100
+# regfile[ 8]: 0000000000110100
+# regfile[ 9]: 0000000000110100
+# regfile[10]: 0000000000110100
+# regfile[11]: 0000000000110100
+# regfile[12]: 0000000000110100
+# regfile[13]: 0000000000110100
+# regfile[14]: 0000000000110100
+# regfile[15]: 0000000000110100
+# regfile[16]: 0000000000110100
+# regfile[17]: 0000000000110100
+# regfile[18]: 0000000000110100
+# regfile[19]: 0000000000110100
+# regfile[20]: 0000000000110100
+# regfile[21]: 0000000000110100
+# regfile[22]: 0000000000110100
+# regfile[23]: 0000000000110100
+# regfile[24]: 0000000011111111
+# regfile[25]: 0000000110101010
+# regfile[26]: 0000000110101001
+# regfile[27]: 0000000011111111
+# regfile[28]: 0000000000000000
+# regfile[29]: 0000000010101010
+# regfile[30]: 0000000011111111
+# regfile[31]: 0000000000000000
+# -----------------------------------
+# 
+# ALU/REGFILE Test complete
+# 
+# ** Note: $stop    : U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/tb_hw2_prob3.sv(178)
+#    Time: 2325 ns  Iteration: 1  Instance: /tb_hw2_prob3
+# Break at U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/tb_hw2_prob3.sv line 178
+# Compile of alu_regfile_defs.sv was successful.
+# Compile of hw2_prob3_alu.sv was successful.
+# Compile of hw2_prob3_dut.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tb_hw2_prob3.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.tb_hw2_prob3
+# End time: 15:22:39 on May 12,2021, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_hw2_prob3 
+# Start time: 15:22:39 on May 12,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.ALU_REGFILE_defs(fast)
+# Loading work.tb_hw2_prob3(fast)
+run -all
+# Testing register file by walking a 1 through all of the locations
+# initializing register file to 0000
+# register file initialization complete
+# Writing 0000000000000001 to regfile[ 0]
+# Writing 0000000000000010 to regfile[ 1]
+# Writing 0000000000000100 to regfile[ 2]
+# Writing 0000000000001000 to regfile[ 3]
+# Writing 0000000000010000 to regfile[ 4]
+# Writing 0000000000100000 to regfile[ 5]
+# Writing 0000000001000000 to regfile[ 6]
+# Writing 0000000010000000 to regfile[ 7]
+# Writing 0000000100000000 to regfile[ 8]
+# Writing 0000001000000000 to regfile[ 9]
+# Writing 0000010000000000 to regfile[10]
+# Writing 0000100000000000 to regfile[11]
+# Writing 0001000000000000 to regfile[12]
+# Writing 0010000000000000 to regfile[13]
+# Writing 0100000000000000 to regfile[14]
+# Writing 1000000000000000 to regfile[15]
+# Writing 0000000000000001 to regfile[16]
+# Writing 0000000000000010 to regfile[17]
+# Writing 0000000000000100 to regfile[18]
+# Writing 0000000000001000 to regfile[19]
+# Writing 0000000000010000 to regfile[20]
+# Writing 0000000000100000 to regfile[21]
+# Writing 0000000001000000 to regfile[22]
+# Writing 0000000010000000 to regfile[23]
+# Writing 0000000100000000 to regfile[24]
+# Writing 0000001000000000 to regfile[25]
+# Writing 0000010000000000 to regfile[26]
+# Writing 0000100000000000 to regfile[27]
+# Writing 0001000000000000 to regfile[28]
+# Writing 0010000000000000 to regfile[29]
+# Writing 0100000000000000 to regfile[30]
+# Writing 1000000000000000 to regfile[31]
+# 
+# Check functionality by manually examining the register file contents
+# Contents of the Register file are:
+# regfile[ 0]: 0000000000000001
+# regfile[ 1]: 0000000000000010
+# regfile[ 2]: 0000000000000100
+# regfile[ 3]: 0000000000001000
+# regfile[ 4]: 0000000000010000
+# regfile[ 5]: 0000000000100000
+# regfile[ 6]: 0000000001000000
+# regfile[ 7]: 0000000010000000
+# regfile[ 8]: 0000000100000000
+# regfile[ 9]: 0000000000000000
+# regfile[10]: 0000000000000000
+# regfile[11]: 0000000000000000
+# regfile[12]: 0000000000000000
+# regfile[13]: 0000000000000000
+# regfile[14]: 0000000000000000
+# regfile[15]: 0000000000000000
+# regfile[16]: 0000000000000001
+# regfile[17]: 0000000000000010
+# regfile[18]: 0000000000000100
+# regfile[19]: 0000000000001000
+# regfile[20]: 0000000000010000
+# regfile[21]: 0000000000100000
+# regfile[22]: 0000000001000000
+# regfile[23]: 0000000010000000
+# regfile[24]: 0000000100000000
+# regfile[25]: 0000000000000000
+# regfile[26]: 0000000000000000
+# regfile[27]: 0000000000000000
+# regfile[28]: 0000000000000000
+# regfile[29]: 0000000000000000
+# regfile[30]: 0000000000000000
+# regfile[31]: 0000000000000000
+# -----------------------------------
+# 
+# 
+# ALU Test - This is rudimentary
+# initializing register file to 1234
+# register file initialization complete
+# operation:       ADD_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:       SUB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 110101010
+# operation:      SUBA_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 001010011
+# operation:      ORAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:     ANDAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 000000000
+# operation:     NOTAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 010101010
+# operation:      EXOR_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:     EXNOR_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 000000000
+# 
+# Check functionality by manually examining the register file
+# Contents of the Register file are:
+# regfile[ 0]: 0000000101010101
+# regfile[ 1]: 0000000010101010
+# regfile[ 2]: 0000000000110100
+# regfile[ 3]: 0000000000110100
+# regfile[ 4]: 0000000000110100
+# regfile[ 5]: 0000000000110100
+# regfile[ 6]: 0000000000110100
+# regfile[ 7]: 0000000000110100
+# regfile[ 8]: 0000000000110100
+# regfile[ 9]: 0000000000110100
+# regfile[10]: 0000000000110100
+# regfile[11]: 0000000000110100
+# regfile[12]: 0000000000110100
+# regfile[13]: 0000000000110100
+# regfile[14]: 0000000000110100
+# regfile[15]: 0000000000110100
+# regfile[16]: 0000000000110100
+# regfile[17]: 0000000000110100
+# regfile[18]: 0000000000110100
+# regfile[19]: 0000000000110100
+# regfile[20]: 0000000000110100
+# regfile[21]: 0000000000110100
+# regfile[22]: 0000000000110100
+# regfile[23]: 0000000000110100
+# regfile[24]: 0000000011111111
+# regfile[25]: 0000000110101010
+# regfile[26]: 0000000001010011
+# regfile[27]: 0000000011111111
+# regfile[28]: 0000000000000000
+# regfile[29]: 0000000010101010
+# regfile[30]: 0000000011111111
+# regfile[31]: 0000000000000000
+# -----------------------------------
+# 
+# ALU/REGFILE Test complete
+# 
+# ** Note: $stop    : U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/tb_hw2_prob3.sv(178)
+#    Time: 2325 ns  Iteration: 1  Instance: /tb_hw2_prob3
+# Break at U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/tb_hw2_prob3.sv line 178
+# Compile of alu_regfile_defs.sv was successful.
+# Compile of hw2_prob3_alu.sv was successful.
+# Compile of hw2_prob3_dut.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tb_hw2_prob3.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.tb_hw2_prob3
+# End time: 15:50:08 on May 12,2021, Elapsed time: 0:27:29
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_hw2_prob3 
+# Start time: 15:50:08 on May 12,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.ALU_REGFILE_defs(fast)
+# Loading work.tb_hw2_prob3(fast)
+run -all
+# Testing register file by walking a 1 through all of the locations
+# initializing register file to 0000
+# register file initialization complete
+# Writing 0000000000000001 to regfile[ 0]
+# Writing 0000000000000010 to regfile[ 1]
+# Writing 0000000000000100 to regfile[ 2]
+# Writing 0000000000001000 to regfile[ 3]
+# Writing 0000000000010000 to regfile[ 4]
+# Writing 0000000000100000 to regfile[ 5]
+# Writing 0000000001000000 to regfile[ 6]
+# Writing 0000000010000000 to regfile[ 7]
+# Writing 0000000100000000 to regfile[ 8]
+# Writing 0000001000000000 to regfile[ 9]
+# Writing 0000010000000000 to regfile[10]
+# Writing 0000100000000000 to regfile[11]
+# Writing 0001000000000000 to regfile[12]
+# Writing 0010000000000000 to regfile[13]
+# Writing 0100000000000000 to regfile[14]
+# Writing 1000000000000000 to regfile[15]
+# Writing 0000000000000001 to regfile[16]
+# Writing 0000000000000010 to regfile[17]
+# Writing 0000000000000100 to regfile[18]
+# Writing 0000000000001000 to regfile[19]
+# Writing 0000000000010000 to regfile[20]
+# Writing 0000000000100000 to regfile[21]
+# Writing 0000000001000000 to regfile[22]
+# Writing 0000000010000000 to regfile[23]
+# Writing 0000000100000000 to regfile[24]
+# Writing 0000001000000000 to regfile[25]
+# Writing 0000010000000000 to regfile[26]
+# Writing 0000100000000000 to regfile[27]
+# Writing 0001000000000000 to regfile[28]
+# Writing 0010000000000000 to regfile[29]
+# Writing 0100000000000000 to regfile[30]
+# Writing 1000000000000000 to regfile[31]
+# 
+# Check functionality by manually examining the register file contents
+# Contents of the Register file are:
+# regfile[ 0]: 0000000000000001
+# regfile[ 1]: 0000000000000010
+# regfile[ 2]: 0000000000000100
+# regfile[ 3]: 0000000000001000
+# regfile[ 4]: 0000000000010000
+# regfile[ 5]: 0000000000100000
+# regfile[ 6]: 0000000001000000
+# regfile[ 7]: 0000000010000000
+# regfile[ 8]: 0000000100000000
+# regfile[ 9]: 0000000000000000
+# regfile[10]: 0000000000000000
+# regfile[11]: 0000000000000000
+# regfile[12]: 0000000000000000
+# regfile[13]: 0000000000000000
+# regfile[14]: 0000000000000000
+# regfile[15]: 0000000000000000
+# regfile[16]: 0000000000000001
+# regfile[17]: 0000000000000010
+# regfile[18]: 0000000000000100
+# regfile[19]: 0000000000001000
+# regfile[20]: 0000000000010000
+# regfile[21]: 0000000000100000
+# regfile[22]: 0000000001000000
+# regfile[23]: 0000000010000000
+# regfile[24]: 0000000100000000
+# regfile[25]: 0000000000000000
+# regfile[26]: 0000000000000000
+# regfile[27]: 0000000000000000
+# regfile[28]: 0000000000000000
+# regfile[29]: 0000000000000000
+# regfile[30]: 0000000000000000
+# regfile[31]: 0000000000000000
+# -----------------------------------
+# 
+# 
+# ALU Test - This is rudimentary
+# initializing register file to 1234
+# register file initialization complete
+# operation:       ADD_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:       SUB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 110101010
+# operation:      SUBA_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 001010011
+# operation:      ORAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:     ANDAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 000000000
+# operation:     NOTAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 010101010
+# operation:      EXOR_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:     EXNOR_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 000000000
+# 
+# Check functionality by manually examining the register file
+# Contents of the Register file are:
+# regfile[ 0]: 0000000101010101
+# regfile[ 1]: 0000000010101010
+# regfile[ 2]: 0000000000110100
+# regfile[ 3]: 0000000000110100
+# regfile[ 4]: 0000000000110100
+# regfile[ 5]: 0000000000110100
+# regfile[ 6]: 0000000000110100
+# regfile[ 7]: 0000000000110100
+# regfile[ 8]: 0000000000110100
+# regfile[ 9]: 0000000000110100
+# regfile[10]: 0000000000110100
+# regfile[11]: 0000000000110100
+# regfile[12]: 0000000000110100
+# regfile[13]: 0000000000110100
+# regfile[14]: 0000000000110100
+# regfile[15]: 0000000000110100
+# regfile[16]: 0000000000110100
+# regfile[17]: 0000000000110100
+# regfile[18]: 0000000000110100
+# regfile[19]: 0000000000110100
+# regfile[20]: 0000000000110100
+# regfile[21]: 0000000000110100
+# regfile[22]: 0000000000110100
+# regfile[23]: 0000000000110100
+# regfile[24]: 0000000011111111
+# regfile[25]: 0000000110101010
+# regfile[26]: 0000000001010011
+# regfile[27]: 0000000011111111
+# regfile[28]: 0000000000000000
+# regfile[29]: 0000000010101010
+# regfile[30]: 0000000011111111
+# regfile[31]: 0000000000000000
+# -----------------------------------
+# 
+# ALU/REGFILE Test complete
+# 
+# ** Note: $stop    : U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/tb_hw2_prob3.sv(178)
+#    Time: 2325 ns  Iteration: 1  Instance: /tb_hw2_prob3
+# Break at U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/tb_hw2_prob3.sv line 178
+# Compile of alu_regfile_defs.sv was successful.
+# Compile of hw2_prob3_alu.sv was successful.
+# Compile of hw2_prob3_dut.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tb_hw2_prob3.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.tb_hw2_prob3
+# End time: 16:27:42 on May 12,2021, Elapsed time: 0:37:34
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_hw2_prob3 
+# Start time: 16:27:42 on May 12,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/hw2_prob3_dut.sv(40): (vopt-2241) Connection width does not match width of port 'Data_In'. The port definition is at: U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/register_file.sv(19).
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.ALU_REGFILE_defs(fast)
+# Loading work.tb_hw2_prob3(fast)
+run -all
+# Testing register file by walking a 1 through all of the locations
+# initializing register file to 0000
+# register file initialization complete
+# Writing 0000000000000001 to regfile[ 0]
+# Writing 0000000000000010 to regfile[ 1]
+# Writing 0000000000000100 to regfile[ 2]
+# Writing 0000000000001000 to regfile[ 3]
+# Writing 0000000000010000 to regfile[ 4]
+# Writing 0000000000100000 to regfile[ 5]
+# Writing 0000000001000000 to regfile[ 6]
+# Writing 0000000010000000 to regfile[ 7]
+# Writing 0000000100000000 to regfile[ 8]
+# Writing 0000001000000000 to regfile[ 9]
+# Writing 0000010000000000 to regfile[10]
+# Writing 0000100000000000 to regfile[11]
+# Writing 0001000000000000 to regfile[12]
+# Writing 0010000000000000 to regfile[13]
+# Writing 0100000000000000 to regfile[14]
+# Writing 1000000000000000 to regfile[15]
+# Writing 0000000000000001 to regfile[16]
+# Writing 0000000000000010 to regfile[17]
+# Writing 0000000000000100 to regfile[18]
+# Writing 0000000000001000 to regfile[19]
+# Writing 0000000000010000 to regfile[20]
+# Writing 0000000000100000 to regfile[21]
+# Writing 0000000001000000 to regfile[22]
+# Writing 0000000010000000 to regfile[23]
+# Writing 0000000100000000 to regfile[24]
+# Writing 0000001000000000 to regfile[25]
+# Writing 0000010000000000 to regfile[26]
+# Writing 0000100000000000 to regfile[27]
+# Writing 0001000000000000 to regfile[28]
+# Writing 0010000000000000 to regfile[29]
+# Writing 0100000000000000 to regfile[30]
+# Writing 1000000000000000 to regfile[31]
+# 
+# Check functionality by manually examining the register file contents
+# Contents of the Register file are:
+# regfile[ 0]: zzzzzzz000000001
+# regfile[ 1]: zzzzzzz000000010
+# regfile[ 2]: zzzzzzz000000100
+# regfile[ 3]: zzzzzzz000001000
+# regfile[ 4]: zzzzzzz000010000
+# regfile[ 5]: zzzzzzz000100000
+# regfile[ 6]: zzzzzzz001000000
+# regfile[ 7]: zzzzzzz010000000
+# regfile[ 8]: zzzzzzz100000000
+# regfile[ 9]: zzzzzzz000000000
+# regfile[10]: zzzzzzz000000000
+# regfile[11]: zzzzzzz000000000
+# regfile[12]: zzzzzzz000000000
+# regfile[13]: zzzzzzz000000000
+# regfile[14]: zzzzzzz000000000
+# regfile[15]: zzzzzzz000000000
+# regfile[16]: zzzzzzz000000001
+# regfile[17]: zzzzzzz000000010
+# regfile[18]: zzzzzzz000000100
+# regfile[19]: zzzzzzz000001000
+# regfile[20]: zzzzzzz000010000
+# regfile[21]: zzzzzzz000100000
+# regfile[22]: zzzzzzz001000000
+# regfile[23]: zzzzzzz010000000
+# regfile[24]: zzzzzzz100000000
+# regfile[25]: zzzzzzz000000000
+# regfile[26]: zzzzzzz000000000
+# regfile[27]: zzzzzzz000000000
+# regfile[28]: zzzzzzz000000000
+# regfile[29]: zzzzzzz000000000
+# regfile[30]: zzzzzzz000000000
+# regfile[31]: zzzzzzz000000000
+# -----------------------------------
+# 
+# 
+# ALU Test - This is rudimentary
+# initializing register file to 1234
+# register file initialization complete
+# operation:       ADD_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:       SUB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 110101010
+# operation:      SUBA_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 001010011
+# operation:      ORAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:     ANDAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 000000000
+# operation:     NOTAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 010101010
+# operation:      EXOR_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:     EXNOR_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 000000000
+# 
+# Check functionality by manually examining the register file
+# Contents of the Register file are:
+# regfile[ 0]: zzzzzzz101010101
+# regfile[ 1]: zzzzzzz010101010
+# regfile[ 2]: zzzzzzz000110100
+# regfile[ 3]: zzzzzzz000110100
+# regfile[ 4]: zzzzzzz000110100
+# regfile[ 5]: zzzzzzz000110100
+# regfile[ 6]: zzzzzzz000110100
+# regfile[ 7]: zzzzzzz000110100
+# regfile[ 8]: zzzzzzz000110100
+# regfile[ 9]: zzzzzzz000110100
+# regfile[10]: zzzzzzz000110100
+# regfile[11]: zzzzzzz000110100
+# regfile[12]: zzzzzzz000110100
+# regfile[13]: zzzzzzz000110100
+# regfile[14]: zzzzzzz000110100
+# regfile[15]: zzzzzzz000110100
+# regfile[16]: zzzzzzz000110100
+# regfile[17]: zzzzzzz000110100
+# regfile[18]: zzzzzzz000110100
+# regfile[19]: zzzzzzz000110100
+# regfile[20]: zzzzzzz000110100
+# regfile[21]: zzzzzzz000110100
+# regfile[22]: zzzzzzz000110100
+# regfile[23]: zzzzzzz000110100
+# regfile[24]: zzzzzzz011111111
+# regfile[25]: zzzzzzz110101010
+# regfile[26]: zzzzzzz001010011
+# regfile[27]: zzzzzzz011111111
+# regfile[28]: zzzzzzz000000000
+# regfile[29]: zzzzzzz010101010
+# regfile[30]: zzzzzzz011111111
+# regfile[31]: zzzzzzz000000000
+# -----------------------------------
+# 
+# ALU/REGFILE Test complete
+# 
+# ** Note: $stop    : U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/tb_hw2_prob3.sv(178)
+#    Time: 2325 ns  Iteration: 1  Instance: /tb_hw2_prob3
+# Break at U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/tb_hw2_prob3.sv line 178
+# Compile of alu_regfile_defs.sv was successful.
+# Compile of hw2_prob3_alu.sv was successful.
+# Compile of hw2_prob3_dut.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tb_hw2_prob3.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.tb_hw2_prob3
+# End time: 16:42:59 on May 12,2021, Elapsed time: 0:15:17
+# Errors: 0, Warnings: 3
+# vsim -gui work.tb_hw2_prob3 
+# Start time: 16:42:59 on May 12,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.ALU_REGFILE_defs(fast)
+# Loading work.tb_hw2_prob3(fast)
+run -all
+# Testing register file by walking a 1 through all of the locations
+# initializing register file to 0000
+# register file initialization complete
+# Writing 0000000000000001 to regfile[ 0]
+# Writing 0000000000000010 to regfile[ 1]
+# Writing 0000000000000100 to regfile[ 2]
+# Writing 0000000000001000 to regfile[ 3]
+# Writing 0000000000010000 to regfile[ 4]
+# Writing 0000000000100000 to regfile[ 5]
+# Writing 0000000001000000 to regfile[ 6]
+# Writing 0000000010000000 to regfile[ 7]
+# Writing 0000000100000000 to regfile[ 8]
+# Writing 0000001000000000 to regfile[ 9]
+# Writing 0000010000000000 to regfile[10]
+# Writing 0000100000000000 to regfile[11]
+# Writing 0001000000000000 to regfile[12]
+# Writing 0010000000000000 to regfile[13]
+# Writing 0100000000000000 to regfile[14]
+# Writing 1000000000000000 to regfile[15]
+# Writing 0000000000000001 to regfile[16]
+# Writing 0000000000000010 to regfile[17]
+# Writing 0000000000000100 to regfile[18]
+# Writing 0000000000001000 to regfile[19]
+# Writing 0000000000010000 to regfile[20]
+# Writing 0000000000100000 to regfile[21]
+# Writing 0000000001000000 to regfile[22]
+# Writing 0000000010000000 to regfile[23]
+# Writing 0000000100000000 to regfile[24]
+# Writing 0000001000000000 to regfile[25]
+# Writing 0000010000000000 to regfile[26]
+# Writing 0000100000000000 to regfile[27]
+# Writing 0001000000000000 to regfile[28]
+# Writing 0010000000000000 to regfile[29]
+# Writing 0100000000000000 to regfile[30]
+# Writing 1000000000000000 to regfile[31]
+# 
+# Check functionality by manually examining the register file contents
+# Contents of the Register file are:
+# regfile[ 0]: 0000000000000001
+# regfile[ 1]: 0000000000000010
+# regfile[ 2]: 0000000000000100
+# regfile[ 3]: 0000000000001000
+# regfile[ 4]: 0000000000010000
+# regfile[ 5]: 0000000000100000
+# regfile[ 6]: 0000000001000000
+# regfile[ 7]: 0000000010000000
+# regfile[ 8]: 0000000100000000
+# regfile[ 9]: 0000001000000000
+# regfile[10]: 0000010000000000
+# regfile[11]: 0000100000000000
+# regfile[12]: 0001000000000000
+# regfile[13]: 0010000000000000
+# regfile[14]: 0100000000000000
+# regfile[15]: 1000000000000000
+# regfile[16]: 0000000000000001
+# regfile[17]: 0000000000000010
+# regfile[18]: 0000000000000100
+# regfile[19]: 0000000000001000
+# regfile[20]: 0000000000010000
+# regfile[21]: 0000000000100000
+# regfile[22]: 0000000001000000
+# regfile[23]: 0000000010000000
+# regfile[24]: 0000000100000000
+# regfile[25]: 0000001000000000
+# regfile[26]: 0000010000000000
+# regfile[27]: 0000100000000000
+# regfile[28]: 0001000000000000
+# regfile[29]: 0010000000000000
+# regfile[30]: 0100000000000000
+# regfile[31]: 1000000000000000
+# -----------------------------------
+# 
+# 
+# ALU Test - This is rudimentary
+# initializing register file to 1234
+# register file initialization complete
+# operation:       ADD_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:       SUB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 110101010
+# operation:      SUBA_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 001010011
+# operation:      ORAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:     ANDAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 000000000
+# operation:     NOTAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 010101010
+# operation:      EXOR_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:     EXNOR_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 000000000
+# 
+# Check functionality by manually examining the register file
+# Contents of the Register file are:
+# regfile[ 0]: 0101010101010101
+# regfile[ 1]: 1010101010101010
+# regfile[ 2]: 0001001000110100
+# regfile[ 3]: 0001001000110100
+# regfile[ 4]: 0001001000110100
+# regfile[ 5]: 0001001000110100
+# regfile[ 6]: 0001001000110100
+# regfile[ 7]: 0001001000110100
+# regfile[ 8]: 0001001000110100
+# regfile[ 9]: 0001001000110100
+# regfile[10]: 0001001000110100
+# regfile[11]: 0001001000110100
+# regfile[12]: 0001001000110100
+# regfile[13]: 0001001000110100
+# regfile[14]: 0001001000110100
+# regfile[15]: 0001001000110100
+# regfile[16]: 0001001000110100
+# regfile[17]: 0001001000110100
+# regfile[18]: 0001001000110100
+# regfile[19]: 0001001000110100
+# regfile[20]: 0001001000110100
+# regfile[21]: 0001001000110100
+# regfile[22]: 0001001000110100
+# regfile[23]: 0001001000110100
+# regfile[24]: 0000000011111111
+# regfile[25]: 0000000110101010
+# regfile[26]: 0000000001010011
+# regfile[27]: 0000000011111111
+# regfile[28]: 0000000000000000
+# regfile[29]: 0000000010101010
+# regfile[30]: 0000000011111111
+# regfile[31]: 0000000000000000
+# -----------------------------------
+# 
+# ALU/REGFILE Test complete
+# 
+# ** Note: $stop    : U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/tb_hw2_prob3.sv(178)
+#    Time: 2325 ns  Iteration: 1  Instance: /tb_hw2_prob3
+# Break at U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/tb_hw2_prob3.sv line 178
+# Compile of alu_regfile_defs.sv was successful.
+# Compile of hw2_prob3_alu.sv was successful.
+# Compile of hw2_prob3_dut.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tb_hw2_prob3.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.tb_hw2_prob3
+# End time: 16:47:41 on May 12,2021, Elapsed time: 0:04:42
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_hw2_prob3 
+# Start time: 16:47:41 on May 12,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.ALU_REGFILE_defs(fast)
+# Loading work.tb_hw2_prob3(fast)
+run -all
+# Testing register file by walking a 1 through all of the locations
+# initializing register file to 0000
+# register file initialization complete
+# Writing 0000000000000001 to regfile[ 0]
+# Writing 0000000000000010 to regfile[ 1]
+# Writing 0000000000000100 to regfile[ 2]
+# Writing 0000000000001000 to regfile[ 3]
+# Writing 0000000000010000 to regfile[ 4]
+# Writing 0000000000100000 to regfile[ 5]
+# Writing 0000000001000000 to regfile[ 6]
+# Writing 0000000010000000 to regfile[ 7]
+# Writing 0000000100000000 to regfile[ 8]
+# Writing 0000001000000000 to regfile[ 9]
+# Writing 0000010000000000 to regfile[10]
+# Writing 0000100000000000 to regfile[11]
+# Writing 0001000000000000 to regfile[12]
+# Writing 0010000000000000 to regfile[13]
+# Writing 0100000000000000 to regfile[14]
+# Writing 1000000000000000 to regfile[15]
+# Writing 0000000000000001 to regfile[16]
+# Writing 0000000000000010 to regfile[17]
+# Writing 0000000000000100 to regfile[18]
+# Writing 0000000000001000 to regfile[19]
+# Writing 0000000000010000 to regfile[20]
+# Writing 0000000000100000 to regfile[21]
+# Writing 0000000001000000 to regfile[22]
+# Writing 0000000010000000 to regfile[23]
+# Writing 0000000100000000 to regfile[24]
+# Writing 0000001000000000 to regfile[25]
+# Writing 0000010000000000 to regfile[26]
+# Writing 0000100000000000 to regfile[27]
+# Writing 0001000000000000 to regfile[28]
+# Writing 0010000000000000 to regfile[29]
+# Writing 0100000000000000 to regfile[30]
+# Writing 1000000000000000 to regfile[31]
+# 
+# Check functionality by manually examining the register file contents
+# Contents of the Register file are:
+# regfile[ 0]: 0000000000000001
+# regfile[ 1]: 0000000000000010
+# regfile[ 2]: 0000000000000100
+# regfile[ 3]: 0000000000001000
+# regfile[ 4]: 0000000000010000
+# regfile[ 5]: 0000000000100000
+# regfile[ 6]: 0000000001000000
+# regfile[ 7]: 0000000010000000
+# regfile[ 8]: 0000000100000000
+# regfile[ 9]: 0000001000000000
+# regfile[10]: 0000010000000000
+# regfile[11]: 0000100000000000
+# regfile[12]: 0001000000000000
+# regfile[13]: 0010000000000000
+# regfile[14]: 0100000000000000
+# regfile[15]: 1000000000000000
+# regfile[16]: 0000000000000001
+# regfile[17]: 0000000000000010
+# regfile[18]: 0000000000000100
+# regfile[19]: 0000000000001000
+# regfile[20]: 0000000000010000
+# regfile[21]: 0000000000100000
+# regfile[22]: 0000000001000000
+# regfile[23]: 0000000010000000
+# regfile[24]: 0000000100000000
+# regfile[25]: 0000001000000000
+# regfile[26]: 0000010000000000
+# regfile[27]: 0000100000000000
+# regfile[28]: 0001000000000000
+# regfile[29]: 0010000000000000
+# regfile[30]: 0100000000000000
+# regfile[31]: 1000000000000000
+# -----------------------------------
+# 
+# 
+# ALU Test - This is rudimentary
+# initializing register file to 1234
+# register file initialization complete
+# operation:       ADD_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:       SUB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 110101010
+# operation:      SUBA_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 001010011
+# operation:      ORAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:     ANDAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 000000000
+# operation:     NOTAB_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 010101010
+# operation:      EXOR_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 011111111
+# operation:     EXNOR_OP	 A_In: 01010101, B_In: 10101010, ALU_Out: 000000000
+# 
+# Check functionality by manually examining the register file
+# Contents of the Register file are:
+# regfile[ 0]: 0101010101010101
+# regfile[ 1]: 1010101010101010
+# regfile[ 2]: 0001001000110100
+# regfile[ 3]: 0001001000110100
+# regfile[ 4]: 0001001000110100
+# regfile[ 5]: 0001001000110100
+# regfile[ 6]: 0001001000110100
+# regfile[ 7]: 0001001000110100
+# regfile[ 8]: 0001001000110100
+# regfile[ 9]: 0001001000110100
+# regfile[10]: 0001001000110100
+# regfile[11]: 0001001000110100
+# regfile[12]: 0001001000110100
+# regfile[13]: 0001001000110100
+# regfile[14]: 0001001000110100
+# regfile[15]: 0001001000110100
+# regfile[16]: 0001001000110100
+# regfile[17]: 0001001000110100
+# regfile[18]: 0001001000110100
+# regfile[19]: 0001001000110100
+# regfile[20]: 0001001000110100
+# regfile[21]: 0001001000110100
+# regfile[22]: 0001001000110100
+# regfile[23]: 0001001000110100
+# regfile[24]: 0000000011111111
+# regfile[25]: 0000000110101010
+# regfile[26]: 0000000001010011
+# regfile[27]: 0000000011111111
+# regfile[28]: 0000000000000000
+# regfile[29]: 0000000010101010
+# regfile[30]: 0000000011111111
+# regfile[31]: 0000000000000000
+# -----------------------------------
+# 
+# ALU/REGFILE Test complete
+# 
+# ** Note: $stop    : U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/tb_hw2_prob3.sv(178)
+#    Time: 2325 ns  Iteration: 1  Instance: /tb_hw2_prob3
+# Break at U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/tb_hw2_prob3.sv line 178

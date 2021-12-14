@@ -1,0 +1,43 @@
+# //  Questa Sim-64
+# //  Version 2019.2_1 linux_x86_64 May 13 2019
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project Project2
+vsim work.gray_adder_tb
+# vsim work.gray_adder_tb 
+# Start time: 13:57:20 on Jul 24,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.gray_adder_tb(fast)
+run -all
+#                     0x=xxxxx,a=xxxx,b=xxxx
+#                     1x=00000,a=0000,b=0000
+#                     2x=00001,a=0001,b=0000
+#                     3x=00010,a=0010,b=0000
+#                     4x=00011,a=0011,b=0000
+#                     5x=00000,a=0000,b=0000
+#                     6x=00001,a=0000,b=0001
+#                     7x=00010,a=0000,b=0010
+#                     8x=00011,a=0000,b=0011
+#                     9x=00000,a=0000,b=0000
+#                    10x=01100,a=0001,b=0100
+#                    11x=11011,a=0010,b=1000
+#                    12x=01111,a=0011,b=1100
+#                    13x=00100,a=0100,b=0000
+#                    14x=11000,a=1000,b=0001
+#                    15x=01110,a=1100,b=0010
+#                    16x=11001,a=1000,b=0011
+# ** Note: $finish    : /u/beaulier/beaulier_ECE_581_project2/gray_adder_tb.sv(33)
+#    Time: 26 ns  Iteration: 0  Instance: /gray_adder_tb
+# 1
+# Break at /u/beaulier/beaulier_ECE_581_project2/gray_adder_tb.sv line 33

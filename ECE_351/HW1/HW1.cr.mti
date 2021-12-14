@@ -1,0 +1,30 @@
+S:/smb_files/ECE351/HW1/stimulus.sv {0 {vlog -work work -vopt -sv -stats=none S:/smb_files/ECE351/HW1/stimulus.sv
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module stimulus
+** Error: S:/smb_files/ECE351/HW1/stimulus.sv(31): (vlog-2730) Undefined variable: 'b11100011'.
+** Error: (vlog-13069) S:/smb_files/ECE351/HW1/stimulus.sv(31): near ";": syntax error, unexpected ';'.
+
+} {4.0 6.0} {}} S:/smb_files/ECE351/HW1/CLA.sv {1 {vlog -work work -vopt -sv -stats=none S:/smb_files/ECE351/HW1/CLA.sv
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module CLA_FA_ONEBIT
+-- Compiling module CLA4Bit
+-- Compiling module CLA8Bit
+
+Top level modules:
+	CLA8Bit
+
+} {} {}} S:/smb_files/ECE351/HW1/tb_CLA4Bit.sv {1 {vlog -work work -vopt -sv -stats=none S:/smb_files/ECE351/HW1/tb_CLA4Bit.sv
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module tb_CLA4BIT
+
+Top level modules:
+	tb_CLA4BIT
+
+} {} {}} S:/smb_files/ECE351/HW1/tb_CLA8Bit.sv {1 {vlog -work work -vopt -sv -stats=none S:/smb_files/ECE351/HW1/tb_CLA8Bit.sv
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module tb_CLA8BIT
+
+Top level modules:
+	tb_CLA8BIT
+
+} {} {}}

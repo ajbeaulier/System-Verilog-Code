@@ -1,0 +1,32 @@
+U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/hw2_prob3_alu.sv {1 {vlog -work work -vopt -sv -stats=none U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/hw2_prob3_alu.sv
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module hw2_prob3_alu
+-- Importing package ALU_REGFILE_defs
+
+Top level modules:
+	hw2_prob3_alu
+
+} {} {}} U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/tb_hw2_prob3.sv {1 {vlog -work work -vopt -sv -stats=none U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/tb_hw2_prob3.sv
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module tb_hw2_prob3
+-- Importing package ALU_REGFILE_defs
+
+Top level modules:
+	tb_hw2_prob3
+
+} {} {}} U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/alu_regfile_defs.sv {1 {vlog -work work -vopt -sv -stats=none U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/alu_regfile_defs.sv
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling package ALU_REGFILE_defs
+
+Top level modules:
+	--none--
+
+} {} {}} U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/register_file.sv {1 {vlog -work work -vopt -sv -stats=none U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3/register_file.sv
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module register_file
+-- Importing package ALU_REGFILE_defs
+
+Top level modules:
+	register_file
+
+} {} {}}

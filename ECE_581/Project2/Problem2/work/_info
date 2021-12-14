@@ -1,0 +1,108 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 12 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/ECE581/Project2/Problem1
+T_opt
+!s110 1627235938
+V^R>`:iRJML6F9TBjA0PjL1
+Z1 04 11 4 work TB_Problem2 fast 0
+=1-989096a4bc97-60fda662-1b2-1444
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.3;71
+R0
+T_opt1
+!s110 1627240736
+Vl3fZ0HR^lgccIL_fQj9PB3
+R1
+=1-989096a4bc97-60fdb91f-352-8a8
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+R0
+vProblem2
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 !s110 1627240941
+!i10b 1
+!s100 O3<FZl7NfUcKcEdR@:SIN1
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IXZ]ZF>b_Z?WE>iYCoSdKI2
+S1
+Z7 dU:/ECE581/Project2/Problem2
+w1627240702
+8U:/ECE581/Project2/Problem2/Problem2.sv
+FU:/ECE581/Project2/Problem2/Problem2.sv
+!i122 74
+L0 1 123
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.3;71
+r1
+!s85 0
+31
+Z10 !s108 1627240941.000000
+!s107 U:/ECE581/Project2/Problem2/Problem2.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|U:/ECE581/Project2/Problem2/Problem2.sv|
+!i113 0
+Z11 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@problem2
+4stimulus
+R4
+R5
+!i10b 1
+!s100 C;=fLk]2SI`fd9zYCLjTn1
+R6
+IVXcQBnTU;G4[5Rj@hJmL10
+S1
+R7
+Z12 w1627240675
+Z13 8U:/ECE581/Project2/Problem2/TB_Problem2.sv
+Z14 FU:/ECE581/Project2/Problem2/TB_Problem2.sv
+!i122 75
+L0 26 0
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 U:/ECE581/Project2/Problem2/TB_Problem2.sv|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|U:/ECE581/Project2/Problem2/TB_Problem2.sv|
+!i113 0
+R11
+R2
+vTB_Problem2
+R4
+R5
+!i10b 1
+!s100 hG`^`Fng7iLP:Yec7=OeW2
+R6
+I?kOb^fXd]@b2cLkEMdOTJ3
+S1
+R7
+R12
+R13
+R14
+!i122 75
+L0 1 22
+R8
+R9
+r1
+!s85 0
+31
+R10
+Z16 !s107 U:/ECE581/Project2/Problem2/TB_Problem2.sv|
+R15
+!i113 0
+R11
+R2
+n@t@b_@problem2

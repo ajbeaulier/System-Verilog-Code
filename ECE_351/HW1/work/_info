@@ -1,0 +1,196 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dS:/smb_files/ECE351/Exercise1
+T_opt
+!s110 1619500087
+VM[Q]TW1]JbjZ0cio9^B2M3
+Z1 04 8 4 work stimulus fast 0
+=1-989096a4bc97-60879c36-1dc-24d4
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.3;71
+R0
+T_opt1
+!s110 1619567116
+VJA:?j^113ajgfWmHHX4F?1
+R1
+=1-989096a4bc97-6088a20b-314-5c8
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1619542666
+V:M1`0IG9bCEnE:cG5T9l20
+04 10 4 work tb_CLA8BIT fast 0
+=1-989096a4bc97-6088428a-1a-1990
+R2
+R3
+n@_opt2
+R4
+R0
+vCLA4Bit
+Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z6 !s110 1619567903
+!i10b 1
+!s100 X]oMm4ZzQlU:3zdiNC_=82
+Z7 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IcCD`HG:[UM0ZmNLD2Jm==3
+S1
+Z8 dS:/smb_files/ECE351/HW1
+Z9 w1619565975
+Z10 8S:/smb_files/ECE351/HW1/CLA.sv
+Z11 FS:/smb_files/ECE351/HW1/CLA.sv
+!i122 233
+L0 26 31
+Z12 VDg1SIo80bB@j0V0VzS_@n1
+Z13 OL;L;2020.3;71
+r1
+!s85 0
+31
+Z14 !s108 1619567903.000000
+Z15 !s107 S:/smb_files/ECE351/HW1/CLA.sv|
+Z16 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|S:/smb_files/ECE351/HW1/CLA.sv|
+!i113 0
+Z17 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@c@l@a4@bit
+vCLA8Bit
+R5
+R6
+!i10b 1
+!s100 mZCKjTce47N:0gQZZbXe<1
+R7
+I;WXV`=DXFNO8zWiPBF=Dz2
+S1
+R8
+R9
+R10
+R11
+!i122 233
+L0 63 13
+R12
+R13
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R17
+R3
+n@c@l@a8@bit
+vCLA_FA_ONEBIT
+R5
+R6
+!i10b 1
+!s100 6Rb]1`?9GDO4obU<W<Dnd0
+R7
+I3B;?XS=@W2Naakhnj];BQ3
+S1
+R8
+R9
+R10
+R11
+!i122 233
+L0 15 7
+R12
+R13
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R17
+R3
+n@c@l@a_@f@a_@o@n@e@b@i@t
+vstimulus
+R5
+!s110 1619567094
+!i10b 1
+!s100 b3N_zgV7HJ@0W1L;LcKkZ2
+R7
+IL85]Nc[7XMK_C7gc_VMQ62
+S1
+R8
+w1619567090
+8S:/smb_files/ECE351/HW1/stimulus.sv
+FS:/smb_files/ECE351/HW1/stimulus.sv
+!i122 206
+L0 9 61
+R12
+R13
+r1
+!s85 0
+31
+!s108 1619567094.000000
+!s107 S:/smb_files/ECE351/HW1/stimulus.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|S:/smb_files/ECE351/HW1/stimulus.sv|
+!i113 0
+R17
+R3
+vtb_CLA4BIT
+R5
+R6
+!i10b 1
+!s100 8[5ODeW3IYUJ>2Q`Bma[22
+R7
+Ii9BDQ9lZn76agc3W0;=;@1
+S1
+R8
+Z18 w1619409554
+8S:/smb_files/ECE351/HW1/tb_CLA4Bit.sv
+FS:/smb_files/ECE351/HW1/tb_CLA4Bit.sv
+!i122 234
+Z19 L0 9 13
+R12
+R13
+r1
+!s85 0
+31
+R14
+!s107 S:/smb_files/ECE351/HW1/tb_CLA4Bit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|S:/smb_files/ECE351/HW1/tb_CLA4Bit.sv|
+!i113 0
+R17
+R3
+ntb_@c@l@a4@b@i@t
+vtb_CLA8BIT
+R5
+!s110 1619567904
+!i10b 1
+!s100 d81GUY?f>Em>X4loW``c42
+R7
+ITf>:_0hPZRDfdmW]`bEBn2
+S1
+R8
+R18
+8S:/smb_files/ECE351/HW1/tb_CLA8Bit.sv
+FS:/smb_files/ECE351/HW1/tb_CLA8Bit.sv
+!i122 235
+R19
+R12
+R13
+r1
+!s85 0
+31
+R14
+!s107 S:/smb_files/ECE351/HW1/tb_CLA8Bit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|S:/smb_files/ECE351/HW1/tb_CLA8Bit.sv|
+!i113 0
+R17
+R3
+ntb_@c@l@a8@b@i@t

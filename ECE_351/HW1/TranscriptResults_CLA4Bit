@@ -1,0 +1,80 @@
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv was successful.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_CLA4BIT
+# End time: 09:54:32 on Apr 27,2021, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_CLA4BIT 
+# Start time: 09:54:32 on Apr 27,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): S:/smb_files/ECE351/HW1/CLA.sv(39): (vopt-7045) 'sum' is driven by more than one continuous assignment. See S:/smb_files/ECE351/HW1/CLA.sv(42).
+# Optimization failed
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 12.
+# ** Warning: (vopt-31) Unable to unlink file "S:/smb_files/ECE351/HW1/work/@_opt2/_lib.qdb".
+# ** Warning: (vopt-31) Unable to unlink file "S:/smb_files/ECE351/HW1/work/@_opt2/_lib3_0.qdb".
+# The process cannot access the file because it is being used by another process. (GetLastError() = 32)
+# ** Warning: (vopt-31) Unable to unlink file "S:/smb_files/ECE351/HW1/work/@_opt2/_lib3_0.qpg".
+# The process cannot access the file because it is being used by another process. (GetLastError() = 32)
+# ** Warning: (vopt-31) Unable to unlink file "S:/smb_files/ECE351/HW1/work/@_opt2/_lib3_0.qtl".
+# The process cannot access the file because it is being used by another process. (GetLastError() = 32)
+# ** Warning: (vopt-133) Unable to remove directory "S:/smb_files/ECE351/HW1/work/@_opt2".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=5.
+# Error loading design
+# End time: 09:54:33 on Apr 27,2021, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 6
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv was successful.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv was successful.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_CLA4BIT
+# vsim -gui work.tb_CLA4BIT 
+# Start time: 09:55:19 on Apr 27,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-31) Unable to unlink file "S:/smb_files/ECE351/HW1/work/@_opt2/_lib3_0.qpg".
+# ** Warning: (vopt-31) Unable to unlink file "S:/smb_files/ECE351/HW1/work/@_opt2/_lib3_0.qtl".
+# The process cannot access the file because it is being used by another process. (GetLastError() = 32)
+# ** Warning: (vopt-133) Unable to remove directory "S:/smb_files/ECE351/HW1/work/@_opt2".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=3.
+# Loading sv_std.std
+# Loading work.tb_CLA4BIT(fast)
+-run all
+# invalid command name "-run"
+run -all
+# ***Congratulations, No errors found after         512 tests***
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv was successful.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.CLA8Bit
+# End time: 09:57:23 on Apr 27,2021, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 7
+# vsim -gui work.CLA8Bit 
+# Start time: 09:57:23 on Apr 27,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.CLA8Bit(fast)
+run -all
+# Compile of CLA.sv was successful.
+# Compile of stimulus.sv was successful.
+# Compile of tb_CLA4Bit.sv was successful.
+# Compile of tb_CLA8Bit.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_CLA8BIT
+# End time: 09:57:45 on Apr 27,2021, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_CLA8BIT 
+# Start time: 09:57:45 on Apr 27,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb_CLA8BIT(fast)
+run -all
+# ***Congratulations, No errors found after      131072 tests***

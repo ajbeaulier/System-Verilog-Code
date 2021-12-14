@@ -1,0 +1,29 @@
+U:/ECE351/hw3/prob3/clk_divider.sv {1 {vlog -work work -vopt -sv -stats=none U:/ECE351/hw3/prob3/clk_divider.sv
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module clk_divider
+
+Top level modules:
+	clk_divider
+
+} {} {}} U:/ECE351/hw3/prob3/pmodSSD_emu.sv {1 {vlog -work work -vopt -sv -stats=none U:/ECE351/hw3/prob3/pmodSSD_emu.sv
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module pmodSSD_emu
+
+Top level modules:
+	pmodSSD_emu
+
+} {} {}} U:/ECE351/hw3/prob3/tb_hw3_prob3.sv {1 {vlog -work work -vopt -sv -stats=none U:/ECE351/hw3/prob3/tb_hw3_prob3.sv
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module tb_hw3_prob3
+
+Top level modules:
+	tb_hw3_prob3
+
+} {} {}} U:/ECE351/hw3/prob3/pmodSSD_Interface.sv {1 {vlog -work work -vopt -sv -stats=none U:/ECE351/hw3/prob3/pmodSSD_Interface.sv
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module pmodSSD_Interfaces
+
+Top level modules:
+	pmodSSD_Interfaces
+
+} {} {}}

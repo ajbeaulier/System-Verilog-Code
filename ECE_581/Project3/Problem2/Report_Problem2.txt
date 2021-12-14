@@ -1,0 +1,358 @@
+Initializing gui preferences from file  /u/beaulier/.synopsys_dv_prefs.tcl
+dc_shell> gui_start
+4.1
+design_vision> source compile_Problem2.sv
+Error: could not open script file "compile_Problem2.sv" (CMD-015)
+design_vision> source compile_Problem2.sv
+Error: could not open script file "compile_Problem2.sv" (CMD-015)
+design_vision> source compile_Problem2.sv
+Error: could not open script file "compile_Problem2.sv" (CMD-015)
+design_vision> source compile_Problem2.sv
+Error: could not open script file "compile_Problem2.sv" (CMD-015)
+design_vision> source Problem2.sv
+Error: unknown command '//////////////////////////////////////////////////////////////' (CMD-005)
+Error: unknown command '//' (CMD-005)
+Error: unknown command '//' (CMD-005)
+Error: unknown command '//' (CMD-005)
+Error: unknown command '//' (CMD-005)
+Error: unknown command '//' (CMD-005)
+Error: unknown command '//' (CMD-005)
+Error: unknown command '//' (CMD-005)
+Error: unknown command '//' (CMD-005)
+Error: unknown command '//' (CMD-005)
+Error: unknown command '////////////////////////////////////////////////////////////////' (CMD-005)
+Error: unknown command 'module' (CMD-005)
+Error: unknown command 'input' (CMD-005)
+Error: unknown command 'input' (CMD-005)
+Error: unknown command 'output' (CMD-005)
+Error: unknown command ')' (CMD-005)
+Error: unknown command 'logic' (CMD-005)
+Error: unknown command 'logic' (CMD-005)
+Error: unknown command 'logic' (CMD-005)
+Error: unknown command 'logic' (CMD-005)
+Error: unknown command 'logic' (CMD-005)
+Error: unknown command 'logic' (CMD-005)
+Error: unknown command 'always_comb' (CMD-005)
+Error: unknown command '//Convert' (CMD-005)
+Error: unknown command 'bin1[0]' (CMD-005)
+Error: unknown command 'bin1[1]' (CMD-005)
+Error: unknown command 'bin1[2]' (CMD-005)
+Error: unknown command 'bin1[3]' (CMD-005)
+Error: unknown command 'bin2[0]' (CMD-005)
+Error: unknown command 'bin2[1]' (CMD-005)
+Error: unknown command 'bin2[2]' (CMD-005)
+Error: unknown command 'bin2[3]' (CMD-005)
+Error: unknown command '//4' (CMD-005)
+Error: unknown command 'Carryout[0]' (CMD-005)
+Error: unknown command 'Carryout[1]' (CMD-005)
+Error: unknown command 'Carryout[2]' (CMD-005)
+Error: unknown command 'Carryout[3]' (CMD-005)
+Error: unknown command 'sumout[0]' (CMD-005)
+Error: unknown command 'sumout[1]' (CMD-005)
+Error: unknown command 'sumout[2]' (CMD-005)
+Error: unknown command 'sumout[3]' (CMD-005)
+Error: unknown command '//Set' (CMD-005)
+Error: unknown command 'bin5bit[0]' (CMD-005)
+Error: unknown command 'bin5bit[1]' (CMD-005)
+Error: unknown command 'bin5bit[2]' (CMD-005)
+Error: unknown command 'bin5bit[3]' (CMD-005)
+Error: unknown command 'bin5bit[4]' (CMD-005)
+Error: unknown command '//5' (CMD-005)
+Error: unknown command 'Greyout' (CMD-005)
+Error: unknown command 'Greyout' (CMD-005)
+Error: unknown command 'Greyout' (CMD-005)
+Error: unknown command 'Greyout' (CMD-005)
+Error: unknown command 'Greyout' (CMD-005)
+Error: unknown command 'end' (CMD-005)
+Error: unknown command 'endmodule' (CMD-005)
+design_vision> source compile_Problem2.tcl
+Error: Current design is not defined. (UID-4)
+Loading db file '/u/beaulier/smb_files/ECE581/Project3/Problem2/osu05_stdcells.db'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/gtech.db'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/standard.sldb'
+  Loading link library 'osu05_stdcells'
+  Loading link library 'gtech'
+Loading sverilog file '/u/beaulier/smb_files/ECE581/Project3/Problem2/Problem2.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /u/beaulier/smb_files/ECE581/Project3/Problem2/Problem2.sv
+Error:  /u/beaulier/smb_files/ECE581/Project3/Problem2/Problem2.sv:20: Syntax error at or near token 'logic'. (VER-294)
+*** Presto compilation terminated with 1 errors. ***
+Error: Can't read 'sverilog' file '/u/beaulier/smb_files/ECE581/Project3/Problem2/Problem2.sv'. (UID-59)
+No designs were read
+Error: Can't find design 'Problem2'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: No files or designs were specified. (UID-22)
+Error: Current design is not defined. (UID-4)
+0
+design_vision> source compile_Problem2.tcl
+Error: Current design is not defined. (UID-4)
+Loading sverilog file '/u/beaulier/smb_files/ECE581/Project3/Problem2/Problem2.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Warning: Can't read link_library file '+'. (UID-3)
+Compiling source file /u/beaulier/smb_files/ECE581/Project3/Problem2/Problem2.sv
+Error:  /u/beaulier/smb_files/ECE581/Project3/Problem2/Problem2.sv:20: Syntax error at or near token 'logic'. (VER-294)
+*** Presto compilation terminated with 1 errors. ***
+Error: Can't read 'sverilog' file '/u/beaulier/smb_files/ECE581/Project3/Problem2/Problem2.sv'. (UID-59)
+No designs were read
+Error: Can't find design 'Problem2'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: No files or designs were specified. (UID-22)
+Error: Current design is not defined. (UID-4)
+0
+design_vision> source compile_Problem2.tcl
+Error: could not open script file "compile_Problem2.tcl" (CMD-015)
+design_vision> source compile_Problem2.tcl
+Error: Current design is not defined. (UID-4)
+Loading sverilog file '/u/beaulier/smb_files/ECE581/Project3/Problem2/Problem2.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /u/beaulier/smb_files/ECE581/Project3/Problem2/Problem2.sv
+Error:  /u/beaulier/smb_files/ECE581/Project3/Problem2/Problem2.sv:20: Syntax error at or near token 'logic'. (VER-294)
+*** Presto compilation terminated with 1 errors. ***
+Error: Can't read 'sverilog' file '/u/beaulier/smb_files/ECE581/Project3/Problem2/Problem2.sv'. (UID-59)
+No designs were read
+Error: Can't find design 'Problem2'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: No files or designs were specified. (UID-22)
+Error: Current design is not defined. (UID-4)
+0
+design_vision> source compile_Problem2.tcl
+Error: Current design is not defined. (UID-4)
+Loading sverilog file '/u/beaulier/smb_files/ECE581/Project3/Problem2/Problem2.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /u/beaulier/smb_files/ECE581/Project3/Problem2/Problem2.sv
+Presto compilation completed successfully.
+Current design is now '/u/beaulier/smb_files/ECE581/Project3/Problem2/Problem2.db:Problem2'
+Loaded 1 design.
+Current design is 'Problem2'.
+Current design is 'Problem2'.
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | Q-2019.12-DWBB_201912.3 |     *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'Problem2'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Design 'Problem2' has no optimization constraints set. (OPT-108)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+  Structuring 'Problem2'
+  Mapping 'Problem2'
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+    0:22:28    6480.0      0.00       0.0       0.0                          
+Loading db file '/u/beaulier/smb_files/ECE581/Project3/Problem2/osu05_stdcells.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+ 
+****************************************
+Report : area
+Design : Problem2
+Version: Q-2019.12-SP3
+Date   : Fri Aug  6 17:03:53 2021
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    osu05_stdcells (File: /u/beaulier/smb_files/ECE581/Project3/Problem2/osu05_stdcells.db)
+
+Number of ports:                           13
+Number of nets:                            24
+Number of cells:                           16
+Number of combinational cells:             16
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          2
+Number of references:                       5
+
+Combinational area:               6480.000000
+Buf/Inv area:                      288.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  6480.000000
+Total area:                 undefined
+ 
+****************************************
+Report : cell
+Design : Problem2
+Version: Q-2019.12-SP3
+Date   : Fri Aug  6 17:03:53 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U18                       NOR2X1          osu05_stdcells  216.000000
+U19                       NAND2X1         osu05_stdcells  216.000000
+U20                       INVX1           osu05_stdcells  144.000000
+U21                       INVX1           osu05_stdcells  144.000000
+U22                       XOR2X1          osu05_stdcells  504.000000
+U23                       XOR2X1          osu05_stdcells  504.000000
+U24                       XNOR2X1         osu05_stdcells  504.000000
+U25                       XOR2X1          osu05_stdcells  504.000000
+U26                       XNOR2X1         osu05_stdcells  504.000000
+U27                       NAND2X1         osu05_stdcells  216.000000
+U28                       XOR2X1          osu05_stdcells  504.000000
+U29                       XOR2X1          osu05_stdcells  504.000000
+U30                       XOR2X1          osu05_stdcells  504.000000
+U31                       XOR2X1          osu05_stdcells  504.000000
+U32                       XOR2X1          osu05_stdcells  504.000000
+U33                       XOR2X1          osu05_stdcells  504.000000
+--------------------------------------------------------------------------------
+Total 16 cells                                            6480.000000
+Loading db file '/u/beaulier/smb_files/ECE581/Project3/Problem2/osu05_stdcells.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : Problem2
+Version: Q-2019.12-SP3
+Date   : Fri Aug  6 17:03:54 2021
+****************************************
+
+
+Library(s) Used:
+
+    osu05_stdcells (File: /u/beaulier/smb_files/ECE581/Project3/Problem2/osu05_stdcells.db)
+
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 5    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =   3.3515 mW   (68%)
+  Net Switching Power  =   1.5946 mW   (32%)
+                         ---------
+Total Dynamic Power    =   4.9461 mW  (100%)
+
+Cell Leakage Power     =   2.2051 nW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      3.3515            1.5946            2.2051            4.9461  ( 100.00%)
+--------------------------------------------------------------------------------------------------
+Total              3.3515 mW         1.5946 mW         2.2051 nW         4.9461 mW
+Writing verilog file '/u/beaulier/Problem2.netlist'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+
+  Linking design 'Problem2'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  Problem2                    /u/beaulier/smb_files/ECE581/Project3/Problem2/Problem2.db
+  osu05_stdcells (library)    /u/beaulier/smb_files/ECE581/Project3/Problem2/osu05_stdcells.db
+
+1
+Current design is 'Problem2'.
+design_vision> 

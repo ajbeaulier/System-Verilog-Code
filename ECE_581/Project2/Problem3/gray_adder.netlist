@@ -1,0 +1,47 @@
+/////////////////////////////////////////////////////////////
+// Created by: Synopsys Design Compiler(R)
+// Version   : Q-2019.12-SP3
+// Date      : Sat Jul 24 13:47:32 2021
+/////////////////////////////////////////////////////////////
+
+
+module gray_to_bin ( b, g );
+  output [3:0] b;
+  input [3:0] g;
+
+  assign b[3] = g[3];
+
+  GTECH_XOR2 C9 ( .A(b[3]), .B(g[2]), .Z(b[2]) );
+  GTECH_XOR2 C10 ( .A(b[2]), .B(g[1]), .Z(b[1]) );
+  GTECH_XOR2 C11 ( .A(b[1]), .B(g[0]), .Z(b[0]) );
+endmodule
+
+
+module bin_to_gray ( g, b );
+  output [4:0] g;
+  input [4:0] b;
+
+  assign g[4] = b[4];
+
+  GTECH_XOR2 C10 ( .A(g[4]), .B(b[3]), .Z(g[3]) );
+  GTECH_XOR2 C11 ( .A(b[3]), .B(b[2]), .Z(g[2]) );
+  GTECH_XOR2 C12 ( .A(b[2]), .B(b[1]), .Z(g[1]) );
+  GTECH_XOR2 C13 ( .A(b[1]), .B(b[0]), .Z(g[0]) );
+endmodule
+
+
+module gray_adder ( x, a, b );
+  output [4:0] x;
+  input [3:0] a;
+  input [3:0] b;
+
+  wire   [3:0] a_bin;
+  wire   [3:0] b_bin;
+  wire   [4:0] sum;
+
+  gray_to_bin convert_a ( .b(a_bin), .g(a) );
+  gray_to_bin convert_b ( .b(b_bin), .g(b) );
+  bin_to_gray convert_x ( .g(x), .b(sum) );
+  ADD_UNS_OP add_48 ( .A(a_bin), .B(b_bin), .Z(sum) );
+endmodule
+

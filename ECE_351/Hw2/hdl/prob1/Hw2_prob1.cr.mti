@@ -1,0 +1,8 @@
+U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob1/hw2_prob1.sv {1 {vlog -work work -vopt -sv -stats=none U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob1/hw2_prob1.sv
+QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
+-- Compiling module hw2_prob1
+
+Top level modules:
+	hw2_prob1
+
+} {} {}}

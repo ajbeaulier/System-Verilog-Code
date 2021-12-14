@@ -1,0 +1,73 @@
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : cell
+Design : gray_adder
+Version: Q-2019.12-SP3
+Date   : Sat Jul 24 13:48:31 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+add_48                    *ADD_UNS_OP_4_4_5               0.000000  s, u
+convert_a                 gray_to_bin                     0.000000  h, u
+convert_b                 gray_to_bin                     0.000000  h, u
+convert_x                 bin_to_gray                     0.000000  h, u
+--------------------------------------------------------------------------------
+Total 4 cells                                             0.000000
+ 
+****************************************
+Report : cell
+Design : gray_adder
+Version: Q-2019.12-SP3
+Date   : Sat Jul 24 13:48:34 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+add_48                    *ADD_UNS_OP_4_4_5               0.000000  s, u
+convert_a                 gray_to_bin                     0.000000  h, u
+convert_b                 gray_to_bin                     0.000000  h, u
+convert_x                 bin_to_gray                     0.000000  h, u
+--------------------------------------------------------------------------------
+Total 4 cells                                             0.000000
+ 
+****************************************
+Report : cell
+Design : gray_adder
+Version: Q-2019.12-SP3
+Date   : Sat Jul 24 13:48:49 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+add_48                    *ADD_UNS_OP_4_4_5               0.000000  s, u
+convert_a                 gray_to_bin                     0.000000  h, u
+convert_b                 gray_to_bin                     0.000000  h, u
+convert_x                 bin_to_gray                     0.000000  h, u
+--------------------------------------------------------------------------------
+Total 4 cells                                             0.000000

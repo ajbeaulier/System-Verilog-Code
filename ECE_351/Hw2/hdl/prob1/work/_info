@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 12 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dS:/smb_files/ECE351/Exercise2/ece351sp21_exercise2
+T_opt
+!s110 1620754985
+V<J@Uj;VQ?ee<Ka4BobbLY1
+Z1 04 12 4 work tb_hw2_prob1 fast 0
+=1-989096a4bc97-609ac228-2d9-2ee0
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.3;71
+R0
+T_opt1
+!s110 1620759282
+VEgnXA=:g>l;4eg9Al3HD32
+R1
+=1-989096a4bc97-609ad2f1-2eb-1524
+R2
+R3
+n@_opt1
+R4
+vhw2_prob1
+Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z6 !s110 1620759261
+!i10b 1
+!s100 FjjCBIQzI05V@WUVgK?oF2
+Z7 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Io@kJWcJ`ik`zIC@R@K:2H0
+S1
+Z8 dU:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob1
+w1620758962
+8U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob1/hw2_prob1.sv
+FU:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob1/hw2_prob1.sv
+!i122 43
+L0 11 25
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1620759260.000000
+!s107 U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob1/hw2_prob1.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob1/hw2_prob1.sv|
+!i113 0
+Z11 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vtb_hw2_prob1
+R5
+R6
+!i10b 1
+!s100 ^10RMgIgAQW;a9VmZZl=e0
+R7
+I?lc02mFIN;Ne?ZmE]S=AS3
+S1
+R8
+w1620759238
+8U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob1/tb_hw2_prob1.sv
+FU:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob1/tb_hw2_prob1.sv
+!i122 44
+L0 13 40
+R9
+R10
+r1
+!s85 0
+31
+!s108 1620759261.000000
+!s107 U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob1/tb_hw2_prob1.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|U:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob1/tb_hw2_prob1.sv|
+!i113 0
+R11
+R3

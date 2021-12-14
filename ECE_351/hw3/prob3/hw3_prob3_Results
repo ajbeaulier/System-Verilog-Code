@@ -1,0 +1,487 @@
+couldn't open "transcript": permission denied
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 2020.3 win64 Jul 12 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project Hw2_prob3
+# reading C:/QuestaSim64_2020.3/win64/../modelsim.ini
+# Loading project Problem3
+# Compile of clk_divider.sv was successful.
+# Compile of pmodSSD_emu.sv was successful.
+# Compile of pmodSSD_Interface.sv failed with 2 errors.
+# Compile of tb_hw3_prob3.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of clk_divider.sv was successful.
+# Compile of pmodSSD_emu.sv was successful.
+# Compile of pmodSSD_Interface.sv failed with 2 errors.
+# Compile of tb_hw3_prob3.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of clk_divider.sv was successful.
+# Compile of pmodSSD_emu.sv was successful.
+# Compile of pmodSSD_Interface.sv failed with 2 errors.
+# Compile of tb_hw3_prob3.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of clk_divider.sv was successful.
+# Compile of pmodSSD_emu.sv was successful.
+# Compile of pmodSSD_Interface.sv failed with 1 errors.
+# Compile of tb_hw3_prob3.sv was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of clk_divider.sv was successful.
+# Compile of pmodSSD_emu.sv was successful.
+# Compile of pmodSSD_Interface.sv failed with 1 errors.
+# Compile of tb_hw3_prob3.sv was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of clk_divider.sv was successful.
+# Compile of pmodSSD_emu.sv was successful.
+# Compile of pmodSSD_Interface.sv failed with 1 errors.
+# Compile of tb_hw3_prob3.sv was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of clk_divider.sv was successful.
+# Compile of pmodSSD_emu.sv was successful.
+# Compile of pmodSSD_Interface.sv was successful.
+# Compile of tb_hw3_prob3.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of clk_divider.sv was successful.
+# Compile of pmodSSD_emu.sv was successful.
+# Compile of pmodSSD_Interface.sv was successful.
+# Compile of tb_hw3_prob3.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_hw3_prob3
+# vsim -gui work.tb_hw3_prob3 
+# Start time: 12:06:57 on May 28,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: U:/ECE351/hw3/prob3/tb_hw3_prob3.sv(44): Module 'pmodSSD_Interfaces' is not defined.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 12:06:58 on May 28,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 11
+# Compile of clk_divider.sv was successful.
+# Compile of pmodSSD_emu.sv was successful.
+# Compile of pmodSSD_Interface.sv was successful.
+# Compile of tb_hw3_prob3.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_hw3_prob3
+# vsim -gui work.tb_hw3_prob3 
+# Start time: 12:07:56 on May 28,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb_hw3_prob3(fast)
+run -all
+# synchronous counter problem - <Alex Beaulier> (beaulier@pdx.edu)
+# Sources: U:/ECE351/hw3/prob3
+# 
+# Reset the system 
+#                    0	dig1 cc=xx	dig0 cc=xx	dig enable=x	display=xx		dig1 segs=xxxxxxx	dig0 segs=xxxxxxx		[xx]
+#                   15	dig1 cc=xx	dig0 cc=xx	dig enable=0	display=xx		dig1 segs=xxxxxxx	dig0 segs=xxxxxxx		[xx]
+# Test digits by walking digit0 up and digit 1 down
+# Digit 1 (leftmost) should only change when dig_enable is asserted high (not the edge, the level)
+# Digit 0 (rightmost) should only change when dig_enable is asserted low (not the edge, the level
+# This is because the display is multiplexed.  On live hardware you would
+# not notice this because the display would be updating @ 60Hz and your
+# brain would average the results
+#                   85	dig1 cc=xx	dig0 cc=xx	dig enable=1	display=xx		dig1 segs=xxxxxxx	dig0 segs=xxxxxxx		[xx]
+#                  120	dig1 cc=1f	dig0 cc=00	dig enable=1	display=^x		dig1 segs=0000000	dig0 segs=xxxxxxx		[^x]
+#                  145	dig1 cc=1f	dig0 cc=00	dig enable=0	display=^0		dig1 segs=0000000	dig0 segs=1111110		[^0]
+#                  205	dig1 cc=1f	dig0 cc=00	dig enable=1	display=^0		dig1 segs=0000000	dig0 segs=1111110		[^0]
+#                  220	dig1 cc=1e	dig0 cc=01	dig enable=1	display=^0		dig1 segs=0000000	dig0 segs=1111110		[^0]
+#                  265	dig1 cc=1e	dig0 cc=01	dig enable=0	display=^1		dig1 segs=0000000	dig0 segs=0000110		[^1]
+#                  320	dig1 cc=1d	dig0 cc=02	dig enable=0	display=^2		dig1 segs=0000000	dig0 segs=1101101		[^2]
+#                  325	dig1 cc=1d	dig0 cc=02	dig enable=1	display=^2		dig1 segs=0000000	dig0 segs=1101101		[^2]
+#                  385	dig1 cc=1d	dig0 cc=02	dig enable=0	display=^2		dig1 segs=0000000	dig0 segs=1101101		[^2]
+#                  420	dig1 cc=1c	dig0 cc=03	dig enable=0	display=^3		dig1 segs=0000000	dig0 segs=1111001		[^3]
+#                  445	dig1 cc=1c	dig0 cc=03	dig enable=1	display=r3		dig1 segs=0000101	dig0 segs=1111001		[r3]
+#                  505	dig1 cc=1c	dig0 cc=03	dig enable=0	display=r3		dig1 segs=0000101	dig0 segs=1111001		[r3]
+#                  520	dig1 cc=1b	dig0 cc=04	dig enable=0	display=r4		dig1 segs=0000101	dig0 segs=0110011		[r4]
+#                  565	dig1 cc=1b	dig0 cc=04	dig enable=1	display=14		dig1 segs=0000110	dig0 segs=0110011		[14]
+#                  620	dig1 cc=1a	dig0 cc=05	dig enable=1	display=A4		dig1 segs=1110111	dig0 segs=0110011		[A4]
+#                  625	dig1 cc=1a	dig0 cc=05	dig enable=0	display=A5		dig1 segs=1110111	dig0 segs=1011011		[A5]
+#                  685	dig1 cc=1a	dig0 cc=05	dig enable=1	display=A5		dig1 segs=1110111	dig0 segs=1011011		[A5]
+#                  720	dig1 cc=19	dig0 cc=06	dig enable=1	display=L5		dig1 segs=0001110	dig0 segs=1011011		[L5]
+#                  745	dig1 cc=19	dig0 cc=06	dig enable=0	display=L6		dig1 segs=0001110	dig0 segs=1011111		[L6]
+#                  805	dig1 cc=19	dig0 cc=06	dig enable=1	display=L6		dig1 segs=0001110	dig0 segs=1011111		[L6]
+#                  820	dig1 cc=18	dig0 cc=07	dig enable=1	display=H6		dig1 segs=0110111	dig0 segs=1011111		[H6]
+#                  865	dig1 cc=18	dig0 cc=07	dig enable=0	display=H7		dig1 segs=0110111	dig0 segs=1110000		[H7]
+#                  920	dig1 cc=17	dig0 cc=08	dig enable=0	display=H8		dig1 segs=0110111	dig0 segs=1111111		[H8]
+#                  925	dig1 cc=17	dig0 cc=08	dig enable=1	display=^8		dig1 segs=0000000	dig0 segs=1111111		[^8]
+#                  985	dig1 cc=17	dig0 cc=08	dig enable=0	display=^8		dig1 segs=0000000	dig0 segs=1111111		[^8]
+#                 1020	dig1 cc=16	dig0 cc=09	dig enable=0	display=^9		dig1 segs=0000000	dig0 segs=1111011		[^9]
+#                 1045	dig1 cc=16	dig0 cc=09	dig enable=1	display=g9		dig1 segs=0000001	dig0 segs=1111011		[g9]
+#                 1105	dig1 cc=16	dig0 cc=09	dig enable=0	display=g9		dig1 segs=0000001	dig0 segs=1111011		[g9]
+#                 1120	dig1 cc=15	dig0 cc=0a	dig enable=0	display=gA		dig1 segs=0000001	dig0 segs=1110111		[gA]
+#                 1165	dig1 cc=15	dig0 cc=0a	dig enable=1	display=fA		dig1 segs=0000010	dig0 segs=1110111		[fA]
+#                 1220	dig1 cc=14	dig0 cc=0b	dig enable=1	display=eA		dig1 segs=0000100	dig0 segs=1110111		[eA]
+#                 1225	dig1 cc=14	dig0 cc=0b	dig enable=0	display=eB		dig1 segs=0000100	dig0 segs=0011111		[eB]
+#                 1285	dig1 cc=14	dig0 cc=0b	dig enable=1	display=eB		dig1 segs=0000100	dig0 segs=0011111		[eB]
+#                 1320	dig1 cc=13	dig0 cc=0c	dig enable=1	display=dB		dig1 segs=0001000	dig0 segs=0011111		[dB]
+#                 1345	dig1 cc=13	dig0 cc=0c	dig enable=0	display=dC		dig1 segs=0001000	dig0 segs=1001110		[dC]
+#                 1405	dig1 cc=13	dig0 cc=0c	dig enable=1	display=dC		dig1 segs=0001000	dig0 segs=1001110		[dC]
+#                 1420	dig1 cc=12	dig0 cc=0d	dig enable=1	display=cC		dig1 segs=0010000	dig0 segs=1001110		[cC]
+#                 1465	dig1 cc=12	dig0 cc=0d	dig enable=0	display=cD		dig1 segs=0010000	dig0 segs=0111101		[cD]
+#                 1520	dig1 cc=11	dig0 cc=0e	dig enable=0	display=cE		dig1 segs=0010000	dig0 segs=1001111		[cE]
+#                 1525	dig1 cc=11	dig0 cc=0e	dig enable=1	display=xE		dig1 segs=xxxxxxx	dig0 segs=1001111		[xE]
+#                 1585	dig1 cc=11	dig0 cc=0e	dig enable=0	display=xE		dig1 segs=xxxxxxx	dig0 segs=1001111		[xE]
+#                 1620	dig1 cc=10	dig0 cc=0f	dig enable=0	display=xF		dig1 segs=xxxxxxx	dig0 segs=1000111		[xF]
+#                 1645	dig1 cc=10	dig0 cc=0f	dig enable=1	display=aF		dig1 segs=1000000	dig0 segs=1000111		[aF]
+#                 1705	dig1 cc=10	dig0 cc=0f	dig enable=0	display=aF		dig1 segs=1000000	dig0 segs=1000111		[aF]
+#                 1720	dig1 cc=0f	dig0 cc=10	dig enable=0	display=aa		dig1 segs=1000000	dig0 segs=1000000		[aa]
+#                 1765	dig1 cc=0f	dig0 cc=10	dig enable=1	display=Fa		dig1 segs=1000111	dig0 segs=1000000		[Fa]
+#                 1820	dig1 cc=0e	dig0 cc=11	dig enable=1	display=Ea		dig1 segs=1001111	dig0 segs=1000000		[Ea]
+#                 1825	dig1 cc=0e	dig0 cc=11	dig enable=0	display=Ex		dig1 segs=1001111	dig0 segs=xxxxxxx		[Ex]
+#                 1885	dig1 cc=0e	dig0 cc=11	dig enable=1	display=Ex		dig1 segs=1001111	dig0 segs=xxxxxxx		[Ex]
+#                 1920	dig1 cc=0d	dig0 cc=12	dig enable=1	display=Dx		dig1 segs=0111101	dig0 segs=xxxxxxx		[Dx]
+#                 1945	dig1 cc=0d	dig0 cc=12	dig enable=0	display=Dc		dig1 segs=0111101	dig0 segs=0010000		[Dc]
+#                 2005	dig1 cc=0d	dig0 cc=12	dig enable=1	display=Dc		dig1 segs=0111101	dig0 segs=0010000		[Dc]
+#                 2020	dig1 cc=0c	dig0 cc=13	dig enable=1	display=Cc		dig1 segs=1001110	dig0 segs=0010000		[Cc]
+#                 2065	dig1 cc=0c	dig0 cc=13	dig enable=0	display=Cd		dig1 segs=1001110	dig0 segs=0001000		[Cd]
+#                 2120	dig1 cc=0b	dig0 cc=14	dig enable=0	display=Ce		dig1 segs=1001110	dig0 segs=0000100		[Ce]
+#                 2125	dig1 cc=0b	dig0 cc=14	dig enable=1	display=Be		dig1 segs=0011111	dig0 segs=0000100		[Be]
+#                 2185	dig1 cc=0b	dig0 cc=14	dig enable=0	display=Be		dig1 segs=0011111	dig0 segs=0000100		[Be]
+#                 2220	dig1 cc=0a	dig0 cc=15	dig enable=0	display=Bf		dig1 segs=0011111	dig0 segs=0000010		[Bf]
+#                 2245	dig1 cc=0a	dig0 cc=15	dig enable=1	display=Af		dig1 segs=1110111	dig0 segs=0000010		[Af]
+#                 2305	dig1 cc=0a	dig0 cc=15	dig enable=0	display=Af		dig1 segs=1110111	dig0 segs=0000010		[Af]
+#                 2320	dig1 cc=09	dig0 cc=16	dig enable=0	display=Ag		dig1 segs=1110111	dig0 segs=0000001		[Ag]
+#                 2365	dig1 cc=09	dig0 cc=16	dig enable=1	display=9g		dig1 segs=1111011	dig0 segs=0000001		[9g]
+#                 2420	dig1 cc=08	dig0 cc=17	dig enable=1	display=8g		dig1 segs=1111111	dig0 segs=0000001		[8g]
+#                 2425	dig1 cc=08	dig0 cc=17	dig enable=0	display=8^		dig1 segs=1111111	dig0 segs=0000000		[8^]
+#                 2485	dig1 cc=08	dig0 cc=17	dig enable=1	display=8^		dig1 segs=1111111	dig0 segs=0000000		[8^]
+#                 2520	dig1 cc=07	dig0 cc=18	dig enable=1	display=7^		dig1 segs=1110000	dig0 segs=0000000		[7^]
+#                 2545	dig1 cc=07	dig0 cc=18	dig enable=0	display=7H		dig1 segs=1110000	dig0 segs=0110111		[7H]
+#                 2605	dig1 cc=07	dig0 cc=18	dig enable=1	display=7H		dig1 segs=1110000	dig0 segs=0110111		[7H]
+#                 2620	dig1 cc=06	dig0 cc=19	dig enable=1	display=6H		dig1 segs=1011111	dig0 segs=0110111		[6H]
+#                 2665	dig1 cc=06	dig0 cc=19	dig enable=0	display=6L		dig1 segs=1011111	dig0 segs=0001110		[6L]
+#                 2720	dig1 cc=05	dig0 cc=1a	dig enable=0	display=6A		dig1 segs=1011111	dig0 segs=1110111		[6A]
+#                 2725	dig1 cc=05	dig0 cc=1a	dig enable=1	display=5A		dig1 segs=1011011	dig0 segs=1110111		[5A]
+#                 2785	dig1 cc=05	dig0 cc=1a	dig enable=0	display=5A		dig1 segs=1011011	dig0 segs=1110111		[5A]
+#                 2820	dig1 cc=04	dig0 cc=1b	dig enable=0	display=51		dig1 segs=1011011	dig0 segs=0000110		[51]
+#                 2845	dig1 cc=04	dig0 cc=1b	dig enable=1	display=41		dig1 segs=0110011	dig0 segs=0000110		[41]
+#                 2905	dig1 cc=04	dig0 cc=1b	dig enable=0	display=41		dig1 segs=0110011	dig0 segs=0000110		[41]
+#                 2920	dig1 cc=03	dig0 cc=1c	dig enable=0	display=4r		dig1 segs=0110011	dig0 segs=0000101		[4r]
+#                 2965	dig1 cc=03	dig0 cc=1c	dig enable=1	display=3r		dig1 segs=1111001	dig0 segs=0000101		[3r]
+#                 3020	dig1 cc=02	dig0 cc=1d	dig enable=1	display=2r		dig1 segs=1101101	dig0 segs=0000101		[2r]
+#                 3025	dig1 cc=02	dig0 cc=1d	dig enable=0	display=2^		dig1 segs=1101101	dig0 segs=0000000		[2^]
+#                 3085	dig1 cc=02	dig0 cc=1d	dig enable=1	display=2^		dig1 segs=1101101	dig0 segs=0000000		[2^]
+#                 3120	dig1 cc=01	dig0 cc=1e	dig enable=1	display=1^		dig1 segs=0000110	dig0 segs=0000000		[1^]
+#                 3145	dig1 cc=01	dig0 cc=1e	dig enable=0	display=1^		dig1 segs=0000110	dig0 segs=0000000		[1^]
+#                 3205	dig1 cc=01	dig0 cc=1e	dig enable=1	display=1^		dig1 segs=0000110	dig0 segs=0000000		[1^]
+#                 3220	dig1 cc=00	dig0 cc=1f	dig enable=1	display=0^		dig1 segs=1111110	dig0 segs=0000000		[0^]
+#                 3265	dig1 cc=00	dig0 cc=1f	dig enable=0	display=0^		dig1 segs=1111110	dig0 segs=0000000		[0^]
+# End simulation of synchronous counter problem - <Alex Beaulier> (beaulier@pdx.edu)
+# 
+# ** Note: $stop    : U:/ECE351/hw3/prob3/tb_hw3_prob3.sv(114)
+#    Time: 3320 ns  Iteration: 0  Instance: /tb_hw3_prob3
+# Break at U:/ECE351/hw3/prob3/tb_hw3_prob3.sv line 114
+wave.do
+# invalid command name "wave.do"
+do wave
+# Cannot open macro file: wave
+do wave.do
+# Cannot open macro file: wave.do
+do wave.do
+# ** Error: evaluating expression "&{/tb_hw3_prob3/disply, /tb_hw3_prob3/disply[15], /tb_hw3_prob3/disply[14], /tb_hw3_prob3/disply[13], /tb_hw3_prob3/disply[12], /tb_hw3_prob3/disply[11], /tb_hw3_prob3/disply[10], /tb_hw3_prob3/disply[9], /tb_hw3_prob3/disply[8] }"
+# No object found matching "disply" in context "/tb_hw3_prob3".
+# Executing ONERROR command at macro ./wave.do line 2
+# ** Error: evaluating expression "&{/tb_hw3_prob3/disply[7], /tb_hw3_prob3/disply[6], /tb_hw3_prob3/disply[5], /tb_hw3_prob3/disply[4], /tb_hw3_prob3/disply[3], /tb_hw3_prob3/disply[2], /tb_hw3_prob3/disply[1], /tb_hw3_prob3/disply[0] }"
+# No object found matching "disply" in context "/tb_hw3_prob3".
+# Executing ONERROR command at macro ./wave.do line 3
+# ** Error: evaluating expression "&{/tb_hw3_prob3/disply[15], /tb_hw3_prob3/disply[14], /tb_hw3_prob3/disply[13], /tb_hw3_prob3/disply[12], /tb_hw3_prob3/disply[11], /tb_hw3_prob3/disply[10], /tb_hw3_prob3/disply[9], /tb_hw3_prob3/disply[8] }"
+# No object found matching "disply" in context "/tb_hw3_prob3".
+# Executing ONERROR command at macro ./wave.do line 4
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/sysclk'.
+# Executing ONERROR command at macro ./wave.do line 6
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/sysreset'.
+# Executing ONERROR command at macro ./wave.do line 7
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/disply'.
+# Executing ONERROR command at macro ./wave.do line 8
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/Displ_Left'.
+# Executing ONERROR command at macro ./wave.do line 10
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/dig_enable'.
+# Executing ONERROR command at macro ./wave.do line 11
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/ccd1'.
+# Executing ONERROR command at macro ./wave.do line 12
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/dig_enable_n'.
+# Executing ONERROR command at macro ./wave.do line 14
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/ccd0'.
+# Executing ONERROR command at macro ./wave.do line 15
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/Displ_Right'.
+# Executing ONERROR command at macro ./wave.do line 16
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/dig1_segs'.
+# Executing ONERROR command at macro ./wave.do line 18
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/dig0_segs'.
+# Executing ONERROR command at macro ./wave.do line 19
+# Compile of clk_divider.sv was successful.
+# Compile of pmodSSD_emu.sv was successful.
+# Compile of pmodSSD_Interface.sv was successful.
+# Compile of tb_hw3_prob3.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_hw3_prob3
+# End time: 12:16:05 on May 28,2021, Elapsed time: 0:08:09
+# Errors: 3, Warnings: 4
+# vsim -gui work.tb_hw3_prob3 
+# Start time: 12:16:05 on May 28,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.tb_hw3_prob3(fast)
+run -all
+# synchronous counter problem - <Alex Beaulier> (beaulier@pdx.edu)
+# Sources: U:/ECE351/hw3/prob3
+# 
+# Reset the system 
+#                    0	dig1 cc=xx	dig0 cc=xx	dig enable=x	display=xx		dig1 segs=xxxxxxx	dig0 segs=xxxxxxx		[xx]
+#                   15	dig1 cc=xx	dig0 cc=xx	dig enable=0	display=xx		dig1 segs=xxxxxxx	dig0 segs=xxxxxxx		[xx]
+# Test digits by walking digit0 up and digit 1 down
+# Digit 1 (leftmost) should only change when dig_enable is asserted high (not the edge, the level)
+# Digit 0 (rightmost) should only change when dig_enable is asserted low (not the edge, the level
+# This is because the display is multiplexed.  On live hardware you would
+# not notice this because the display would be updating @ 60Hz and your
+# brain would average the results
+#                   85	dig1 cc=xx	dig0 cc=xx	dig enable=1	display=xx		dig1 segs=xxxxxxx	dig0 segs=xxxxxxx		[xx]
+#                  120	dig1 cc=1f	dig0 cc=00	dig enable=1	display=^x		dig1 segs=0000000	dig0 segs=xxxxxxx		[^x]
+#                  145	dig1 cc=1f	dig0 cc=00	dig enable=0	display=^0		dig1 segs=0000000	dig0 segs=1111110		[^0]
+#                  205	dig1 cc=1f	dig0 cc=00	dig enable=1	display=^0		dig1 segs=0000000	dig0 segs=1111110		[^0]
+#                  220	dig1 cc=1e	dig0 cc=01	dig enable=1	display=^0		dig1 segs=0000000	dig0 segs=1111110		[^0]
+#                  265	dig1 cc=1e	dig0 cc=01	dig enable=0	display=^1		dig1 segs=0000000	dig0 segs=0000110		[^1]
+#                  320	dig1 cc=1d	dig0 cc=02	dig enable=0	display=^2		dig1 segs=0000000	dig0 segs=1101101		[^2]
+#                  325	dig1 cc=1d	dig0 cc=02	dig enable=1	display=^2		dig1 segs=0000000	dig0 segs=1101101		[^2]
+#                  385	dig1 cc=1d	dig0 cc=02	dig enable=0	display=^2		dig1 segs=0000000	dig0 segs=1101101		[^2]
+#                  420	dig1 cc=1c	dig0 cc=03	dig enable=0	display=^3		dig1 segs=0000000	dig0 segs=1111001		[^3]
+#                  445	dig1 cc=1c	dig0 cc=03	dig enable=1	display=r3		dig1 segs=0000101	dig0 segs=1111001		[r3]
+#                  505	dig1 cc=1c	dig0 cc=03	dig enable=0	display=r3		dig1 segs=0000101	dig0 segs=1111001		[r3]
+#                  520	dig1 cc=1b	dig0 cc=04	dig enable=0	display=r4		dig1 segs=0000101	dig0 segs=0110011		[r4]
+#                  565	dig1 cc=1b	dig0 cc=04	dig enable=1	display=14		dig1 segs=0000110	dig0 segs=0110011		[14]
+#                  620	dig1 cc=1a	dig0 cc=05	dig enable=1	display=A4		dig1 segs=1110111	dig0 segs=0110011		[A4]
+#                  625	dig1 cc=1a	dig0 cc=05	dig enable=0	display=A5		dig1 segs=1110111	dig0 segs=1011011		[A5]
+#                  685	dig1 cc=1a	dig0 cc=05	dig enable=1	display=A5		dig1 segs=1110111	dig0 segs=1011011		[A5]
+#                  720	dig1 cc=19	dig0 cc=06	dig enable=1	display=L5		dig1 segs=0001110	dig0 segs=1011011		[L5]
+#                  745	dig1 cc=19	dig0 cc=06	dig enable=0	display=L6		dig1 segs=0001110	dig0 segs=1011111		[L6]
+#                  805	dig1 cc=19	dig0 cc=06	dig enable=1	display=L6		dig1 segs=0001110	dig0 segs=1011111		[L6]
+#                  820	dig1 cc=18	dig0 cc=07	dig enable=1	display=H6		dig1 segs=0110111	dig0 segs=1011111		[H6]
+#                  865	dig1 cc=18	dig0 cc=07	dig enable=0	display=H7		dig1 segs=0110111	dig0 segs=1110000		[H7]
+#                  920	dig1 cc=17	dig0 cc=08	dig enable=0	display=H8		dig1 segs=0110111	dig0 segs=1111111		[H8]
+#                  925	dig1 cc=17	dig0 cc=08	dig enable=1	display=^8		dig1 segs=0000000	dig0 segs=1111111		[^8]
+#                  985	dig1 cc=17	dig0 cc=08	dig enable=0	display=^8		dig1 segs=0000000	dig0 segs=1111111		[^8]
+#                 1020	dig1 cc=16	dig0 cc=09	dig enable=0	display=^9		dig1 segs=0000000	dig0 segs=1111011		[^9]
+#                 1045	dig1 cc=16	dig0 cc=09	dig enable=1	display=g9		dig1 segs=0000001	dig0 segs=1111011		[g9]
+#                 1105	dig1 cc=16	dig0 cc=09	dig enable=0	display=g9		dig1 segs=0000001	dig0 segs=1111011		[g9]
+#                 1120	dig1 cc=15	dig0 cc=0a	dig enable=0	display=gA		dig1 segs=0000001	dig0 segs=1110111		[gA]
+#                 1165	dig1 cc=15	dig0 cc=0a	dig enable=1	display=fA		dig1 segs=0000010	dig0 segs=1110111		[fA]
+#                 1220	dig1 cc=14	dig0 cc=0b	dig enable=1	display=eA		dig1 segs=0000100	dig0 segs=1110111		[eA]
+#                 1225	dig1 cc=14	dig0 cc=0b	dig enable=0	display=eB		dig1 segs=0000100	dig0 segs=0011111		[eB]
+#                 1285	dig1 cc=14	dig0 cc=0b	dig enable=1	display=eB		dig1 segs=0000100	dig0 segs=0011111		[eB]
+#                 1320	dig1 cc=13	dig0 cc=0c	dig enable=1	display=dB		dig1 segs=0001000	dig0 segs=0011111		[dB]
+#                 1345	dig1 cc=13	dig0 cc=0c	dig enable=0	display=dC		dig1 segs=0001000	dig0 segs=1001110		[dC]
+#                 1405	dig1 cc=13	dig0 cc=0c	dig enable=1	display=dC		dig1 segs=0001000	dig0 segs=1001110		[dC]
+#                 1420	dig1 cc=12	dig0 cc=0d	dig enable=1	display=cC		dig1 segs=0010000	dig0 segs=1001110		[cC]
+#                 1465	dig1 cc=12	dig0 cc=0d	dig enable=0	display=cD		dig1 segs=0010000	dig0 segs=0111101		[cD]
+#                 1520	dig1 cc=11	dig0 cc=0e	dig enable=0	display=cE		dig1 segs=0010000	dig0 segs=1001111		[cE]
+#                 1525	dig1 cc=11	dig0 cc=0e	dig enable=1	display=xE		dig1 segs=xxxxxxx	dig0 segs=1001111		[xE]
+#                 1585	dig1 cc=11	dig0 cc=0e	dig enable=0	display=xE		dig1 segs=xxxxxxx	dig0 segs=1001111		[xE]
+#                 1620	dig1 cc=10	dig0 cc=0f	dig enable=0	display=xF		dig1 segs=xxxxxxx	dig0 segs=1000111		[xF]
+#                 1645	dig1 cc=10	dig0 cc=0f	dig enable=1	display=aF		dig1 segs=1000000	dig0 segs=1000111		[aF]
+#                 1705	dig1 cc=10	dig0 cc=0f	dig enable=0	display=aF		dig1 segs=1000000	dig0 segs=1000111		[aF]
+#                 1720	dig1 cc=0f	dig0 cc=10	dig enable=0	display=aa		dig1 segs=1000000	dig0 segs=1000000		[aa]
+#                 1765	dig1 cc=0f	dig0 cc=10	dig enable=1	display=Fa		dig1 segs=1000111	dig0 segs=1000000		[Fa]
+#                 1820	dig1 cc=0e	dig0 cc=11	dig enable=1	display=Ea		dig1 segs=1001111	dig0 segs=1000000		[Ea]
+#                 1825	dig1 cc=0e	dig0 cc=11	dig enable=0	display=Ex		dig1 segs=1001111	dig0 segs=xxxxxxx		[Ex]
+#                 1885	dig1 cc=0e	dig0 cc=11	dig enable=1	display=Ex		dig1 segs=1001111	dig0 segs=xxxxxxx		[Ex]
+#                 1920	dig1 cc=0d	dig0 cc=12	dig enable=1	display=Dx		dig1 segs=0111101	dig0 segs=xxxxxxx		[Dx]
+#                 1945	dig1 cc=0d	dig0 cc=12	dig enable=0	display=Dc		dig1 segs=0111101	dig0 segs=0010000		[Dc]
+#                 2005	dig1 cc=0d	dig0 cc=12	dig enable=1	display=Dc		dig1 segs=0111101	dig0 segs=0010000		[Dc]
+#                 2020	dig1 cc=0c	dig0 cc=13	dig enable=1	display=Cc		dig1 segs=1001110	dig0 segs=0010000		[Cc]
+#                 2065	dig1 cc=0c	dig0 cc=13	dig enable=0	display=Cd		dig1 segs=1001110	dig0 segs=0001000		[Cd]
+#                 2120	dig1 cc=0b	dig0 cc=14	dig enable=0	display=Ce		dig1 segs=1001110	dig0 segs=0000100		[Ce]
+#                 2125	dig1 cc=0b	dig0 cc=14	dig enable=1	display=Be		dig1 segs=0011111	dig0 segs=0000100		[Be]
+#                 2185	dig1 cc=0b	dig0 cc=14	dig enable=0	display=Be		dig1 segs=0011111	dig0 segs=0000100		[Be]
+#                 2220	dig1 cc=0a	dig0 cc=15	dig enable=0	display=Bf		dig1 segs=0011111	dig0 segs=0000010		[Bf]
+#                 2245	dig1 cc=0a	dig0 cc=15	dig enable=1	display=Af		dig1 segs=1110111	dig0 segs=0000010		[Af]
+#                 2305	dig1 cc=0a	dig0 cc=15	dig enable=0	display=Af		dig1 segs=1110111	dig0 segs=0000010		[Af]
+#                 2320	dig1 cc=09	dig0 cc=16	dig enable=0	display=Ag		dig1 segs=1110111	dig0 segs=0000001		[Ag]
+#                 2365	dig1 cc=09	dig0 cc=16	dig enable=1	display=9g		dig1 segs=1111011	dig0 segs=0000001		[9g]
+#                 2420	dig1 cc=08	dig0 cc=17	dig enable=1	display=8g		dig1 segs=1111111	dig0 segs=0000001		[8g]
+#                 2425	dig1 cc=08	dig0 cc=17	dig enable=0	display=8^		dig1 segs=1111111	dig0 segs=0000000		[8^]
+#                 2485	dig1 cc=08	dig0 cc=17	dig enable=1	display=8^		dig1 segs=1111111	dig0 segs=0000000		[8^]
+#                 2520	dig1 cc=07	dig0 cc=18	dig enable=1	display=7^		dig1 segs=1110000	dig0 segs=0000000		[7^]
+#                 2545	dig1 cc=07	dig0 cc=18	dig enable=0	display=7H		dig1 segs=1110000	dig0 segs=0110111		[7H]
+#                 2605	dig1 cc=07	dig0 cc=18	dig enable=1	display=7H		dig1 segs=1110000	dig0 segs=0110111		[7H]
+#                 2620	dig1 cc=06	dig0 cc=19	dig enable=1	display=6H		dig1 segs=1011111	dig0 segs=0110111		[6H]
+#                 2665	dig1 cc=06	dig0 cc=19	dig enable=0	display=6L		dig1 segs=1011111	dig0 segs=0001110		[6L]
+#                 2720	dig1 cc=05	dig0 cc=1a	dig enable=0	display=6A		dig1 segs=1011111	dig0 segs=1110111		[6A]
+#                 2725	dig1 cc=05	dig0 cc=1a	dig enable=1	display=5A		dig1 segs=1011011	dig0 segs=1110111		[5A]
+#                 2785	dig1 cc=05	dig0 cc=1a	dig enable=0	display=5A		dig1 segs=1011011	dig0 segs=1110111		[5A]
+#                 2820	dig1 cc=04	dig0 cc=1b	dig enable=0	display=51		dig1 segs=1011011	dig0 segs=0000110		[51]
+#                 2845	dig1 cc=04	dig0 cc=1b	dig enable=1	display=41		dig1 segs=0110011	dig0 segs=0000110		[41]
+#                 2905	dig1 cc=04	dig0 cc=1b	dig enable=0	display=41		dig1 segs=0110011	dig0 segs=0000110		[41]
+#                 2920	dig1 cc=03	dig0 cc=1c	dig enable=0	display=4r		dig1 segs=0110011	dig0 segs=0000101		[4r]
+#                 2965	dig1 cc=03	dig0 cc=1c	dig enable=1	display=3r		dig1 segs=1111001	dig0 segs=0000101		[3r]
+#                 3020	dig1 cc=02	dig0 cc=1d	dig enable=1	display=2r		dig1 segs=1101101	dig0 segs=0000101		[2r]
+#                 3025	dig1 cc=02	dig0 cc=1d	dig enable=0	display=2^		dig1 segs=1101101	dig0 segs=0000000		[2^]
+#                 3085	dig1 cc=02	dig0 cc=1d	dig enable=1	display=2^		dig1 segs=1101101	dig0 segs=0000000		[2^]
+#                 3120	dig1 cc=01	dig0 cc=1e	dig enable=1	display=1^		dig1 segs=0000110	dig0 segs=0000000		[1^]
+#                 3145	dig1 cc=01	dig0 cc=1e	dig enable=0	display=1^		dig1 segs=0000110	dig0 segs=0000000		[1^]
+#                 3205	dig1 cc=01	dig0 cc=1e	dig enable=1	display=1^		dig1 segs=0000110	dig0 segs=0000000		[1^]
+#                 3220	dig1 cc=00	dig0 cc=1f	dig enable=1	display=0^		dig1 segs=1111110	dig0 segs=0000000		[0^]
+#                 3265	dig1 cc=00	dig0 cc=1f	dig enable=0	display=0^		dig1 segs=1111110	dig0 segs=0000000		[0^]
+# End simulation of synchronous counter problem - <Alex Beaulier> (beaulier@pdx.edu)
+# 
+# ** Note: $stop    : U:/ECE351/hw3/prob3/tb_hw3_prob3.sv(114)
+#    Time: 3320 ns  Iteration: 0  Instance: /tb_hw3_prob3
+# Break at U:/ECE351/hw3/prob3/tb_hw3_prob3.sv line 114
+do wave.do
+# ** Error: evaluating expression "&{/tb_hw3_prob3/disply, /tb_hw3_prob3/disply[15], /tb_hw3_prob3/disply[14], /tb_hw3_prob3/disply[13], /tb_hw3_prob3/disply[12], /tb_hw3_prob3/disply[11], /tb_hw3_prob3/disply[10], /tb_hw3_prob3/disply[9], /tb_hw3_prob3/disply[8] }"
+# No object found matching "disply" in context "/tb_hw3_prob3".
+# Executing ONERROR command at macro ./wave.do line 2
+# ** Error: evaluating expression "&{/tb_hw3_prob3/disply[7], /tb_hw3_prob3/disply[6], /tb_hw3_prob3/disply[5], /tb_hw3_prob3/disply[4], /tb_hw3_prob3/disply[3], /tb_hw3_prob3/disply[2], /tb_hw3_prob3/disply[1], /tb_hw3_prob3/disply[0] }"
+# No object found matching "disply" in context "/tb_hw3_prob3".
+# Executing ONERROR command at macro ./wave.do line 3
+# ** Error: evaluating expression "&{/tb_hw3_prob3/disply[15], /tb_hw3_prob3/disply[14], /tb_hw3_prob3/disply[13], /tb_hw3_prob3/disply[12], /tb_hw3_prob3/disply[11], /tb_hw3_prob3/disply[10], /tb_hw3_prob3/disply[9], /tb_hw3_prob3/disply[8] }"
+# No object found matching "disply" in context "/tb_hw3_prob3".
+# Executing ONERROR command at macro ./wave.do line 4
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/sysclk'.
+# Executing ONERROR command at macro ./wave.do line 6
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/sysreset'.
+# Executing ONERROR command at macro ./wave.do line 7
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/disply'.
+# Executing ONERROR command at macro ./wave.do line 8
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/Displ_Left'.
+# Executing ONERROR command at macro ./wave.do line 10
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/dig_enable'.
+# Executing ONERROR command at macro ./wave.do line 11
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/ccd1'.
+# Executing ONERROR command at macro ./wave.do line 12
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/dig_enable_n'.
+# Executing ONERROR command at macro ./wave.do line 14
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/ccd0'.
+# Executing ONERROR command at macro ./wave.do line 15
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/Displ_Right'.
+# Executing ONERROR command at macro ./wave.do line 16
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/dig1_segs'.
+# Executing ONERROR command at macro ./wave.do line 18
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_hw3_prob3/dig0_segs'.
+# Executing ONERROR command at macro ./wave.do line 19
+vsim -voptargs=+acc work.tb_hw3_prob3
+# End time: 12:27:50 on May 28,2021, Elapsed time: 0:11:45
+# Errors: 3, Warnings: 1
+# vsim -voptargs="+acc" work.tb_hw3_prob3 
+# Start time: 12:27:50 on May 28,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb_hw3_prob3(fast)
+# Loading work.pmodSSD_Interfaces(fast)
+# Loading work.clk_divider(fast)
+# Loading work.pmodSSD_emu(fast)
+do wave.do
+run -all
+# synchronous counter problem - <Alex Beaulier> (beaulier@pdx.edu)
+# Sources: U:/ECE351/hw3/prob3
+# 
+# Reset the system 
+#                    0	dig1 cc=xx	dig0 cc=xx	dig enable=x	display=xx		dig1 segs=xxxxxxx	dig0 segs=xxxxxxx		[xx]
+#                   15	dig1 cc=xx	dig0 cc=xx	dig enable=0	display=xx		dig1 segs=xxxxxxx	dig0 segs=xxxxxxx		[xx]
+# Test digits by walking digit0 up and digit 1 down
+# Digit 1 (leftmost) should only change when dig_enable is asserted high (not the edge, the level)
+# Digit 0 (rightmost) should only change when dig_enable is asserted low (not the edge, the level
+# This is because the display is multiplexed.  On live hardware you would
+# not notice this because the display would be updating @ 60Hz and your
+# brain would average the results
+#                   85	dig1 cc=xx	dig0 cc=xx	dig enable=1	display=xx		dig1 segs=xxxxxxx	dig0 segs=xxxxxxx		[xx]
+#                  120	dig1 cc=1f	dig0 cc=00	dig enable=1	display=^x		dig1 segs=0000000	dig0 segs=xxxxxxx		[^x]
+#                  145	dig1 cc=1f	dig0 cc=00	dig enable=0	display=^0		dig1 segs=0000000	dig0 segs=1111110		[^0]
+#                  205	dig1 cc=1f	dig0 cc=00	dig enable=1	display=^0		dig1 segs=0000000	dig0 segs=1111110		[^0]
+#                  220	dig1 cc=1e	dig0 cc=01	dig enable=1	display=^0		dig1 segs=0000000	dig0 segs=1111110		[^0]
+#                  265	dig1 cc=1e	dig0 cc=01	dig enable=0	display=^1		dig1 segs=0000000	dig0 segs=0000110		[^1]
+#                  320	dig1 cc=1d	dig0 cc=02	dig enable=0	display=^2		dig1 segs=0000000	dig0 segs=1101101		[^2]
+#                  325	dig1 cc=1d	dig0 cc=02	dig enable=1	display=^2		dig1 segs=0000000	dig0 segs=1101101		[^2]
+#                  385	dig1 cc=1d	dig0 cc=02	dig enable=0	display=^2		dig1 segs=0000000	dig0 segs=1101101		[^2]
+#                  420	dig1 cc=1c	dig0 cc=03	dig enable=0	display=^3		dig1 segs=0000000	dig0 segs=1111001		[^3]
+#                  445	dig1 cc=1c	dig0 cc=03	dig enable=1	display=r3		dig1 segs=0000101	dig0 segs=1111001		[r3]
+#                  505	dig1 cc=1c	dig0 cc=03	dig enable=0	display=r3		dig1 segs=0000101	dig0 segs=1111001		[r3]
+#                  520	dig1 cc=1b	dig0 cc=04	dig enable=0	display=r4		dig1 segs=0000101	dig0 segs=0110011		[r4]
+#                  565	dig1 cc=1b	dig0 cc=04	dig enable=1	display=14		dig1 segs=0000110	dig0 segs=0110011		[14]
+#                  620	dig1 cc=1a	dig0 cc=05	dig enable=1	display=A4		dig1 segs=1110111	dig0 segs=0110011		[A4]
+#                  625	dig1 cc=1a	dig0 cc=05	dig enable=0	display=A5		dig1 segs=1110111	dig0 segs=1011011		[A5]
+#                  685	dig1 cc=1a	dig0 cc=05	dig enable=1	display=A5		dig1 segs=1110111	dig0 segs=1011011		[A5]
+#                  720	dig1 cc=19	dig0 cc=06	dig enable=1	display=L5		dig1 segs=0001110	dig0 segs=1011011		[L5]
+#                  745	dig1 cc=19	dig0 cc=06	dig enable=0	display=L6		dig1 segs=0001110	dig0 segs=1011111		[L6]
+#                  805	dig1 cc=19	dig0 cc=06	dig enable=1	display=L6		dig1 segs=0001110	dig0 segs=1011111		[L6]
+#                  820	dig1 cc=18	dig0 cc=07	dig enable=1	display=H6		dig1 segs=0110111	dig0 segs=1011111		[H6]
+#                  865	dig1 cc=18	dig0 cc=07	dig enable=0	display=H7		dig1 segs=0110111	dig0 segs=1110000		[H7]
+#                  920	dig1 cc=17	dig0 cc=08	dig enable=0	display=H8		dig1 segs=0110111	dig0 segs=1111111		[H8]
+#                  925	dig1 cc=17	dig0 cc=08	dig enable=1	display=^8		dig1 segs=0000000	dig0 segs=1111111		[^8]
+#                  985	dig1 cc=17	dig0 cc=08	dig enable=0	display=^8		dig1 segs=0000000	dig0 segs=1111111		[^8]
+#                 1020	dig1 cc=16	dig0 cc=09	dig enable=0	display=^9		dig1 segs=0000000	dig0 segs=1111011		[^9]
+#                 1045	dig1 cc=16	dig0 cc=09	dig enable=1	display=g9		dig1 segs=0000001	dig0 segs=1111011		[g9]
+#                 1105	dig1 cc=16	dig0 cc=09	dig enable=0	display=g9		dig1 segs=0000001	dig0 segs=1111011		[g9]
+#                 1120	dig1 cc=15	dig0 cc=0a	dig enable=0	display=gA		dig1 segs=0000001	dig0 segs=1110111		[gA]
+#                 1165	dig1 cc=15	dig0 cc=0a	dig enable=1	display=fA		dig1 segs=0000010	dig0 segs=1110111		[fA]
+#                 1220	dig1 cc=14	dig0 cc=0b	dig enable=1	display=eA		dig1 segs=0000100	dig0 segs=1110111		[eA]
+#                 1225	dig1 cc=14	dig0 cc=0b	dig enable=0	display=eB		dig1 segs=0000100	dig0 segs=0011111		[eB]
+#                 1285	dig1 cc=14	dig0 cc=0b	dig enable=1	display=eB		dig1 segs=0000100	dig0 segs=0011111		[eB]
+#                 1320	dig1 cc=13	dig0 cc=0c	dig enable=1	display=dB		dig1 segs=0001000	dig0 segs=0011111		[dB]
+#                 1345	dig1 cc=13	dig0 cc=0c	dig enable=0	display=dC		dig1 segs=0001000	dig0 segs=1001110		[dC]
+#                 1405	dig1 cc=13	dig0 cc=0c	dig enable=1	display=dC		dig1 segs=0001000	dig0 segs=1001110		[dC]
+#                 1420	dig1 cc=12	dig0 cc=0d	dig enable=1	display=cC		dig1 segs=0010000	dig0 segs=1001110		[cC]
+#                 1465	dig1 cc=12	dig0 cc=0d	dig enable=0	display=cD		dig1 segs=0010000	dig0 segs=0111101		[cD]
+#                 1520	dig1 cc=11	dig0 cc=0e	dig enable=0	display=cE		dig1 segs=0010000	dig0 segs=1001111		[cE]
+#                 1525	dig1 cc=11	dig0 cc=0e	dig enable=1	display=EE		dig1 segs=1001111	dig0 segs=1001111		[EE]
+#                 1585	dig1 cc=11	dig0 cc=0e	dig enable=0	display=EE		dig1 segs=1001111	dig0 segs=1001111		[EE]
+#                 1620	dig1 cc=10	dig0 cc=0f	dig enable=0	display=EF		dig1 segs=1001111	dig0 segs=1000111		[EF]
+#                 1645	dig1 cc=10	dig0 cc=0f	dig enable=1	display=aF		dig1 segs=1000000	dig0 segs=1000111		[aF]
+#                 1705	dig1 cc=10	dig0 cc=0f	dig enable=0	display=aF		dig1 segs=1000000	dig0 segs=1000111		[aF]
+#                 1720	dig1 cc=0f	dig0 cc=10	dig enable=0	display=aa		dig1 segs=1000000	dig0 segs=1000000		[aa]
+#                 1765	dig1 cc=0f	dig0 cc=10	dig enable=1	display=Fa		dig1 segs=1000111	dig0 segs=1000000		[Fa]
+#                 1820	dig1 cc=0e	dig0 cc=11	dig enable=1	display=Ea		dig1 segs=1001111	dig0 segs=1000000		[Ea]
+#                 1825	dig1 cc=0e	dig0 cc=11	dig enable=0	display=EE		dig1 segs=1001111	dig0 segs=1001111		[EE]
+#                 1885	dig1 cc=0e	dig0 cc=11	dig enable=1	display=EE		dig1 segs=1001111	dig0 segs=1001111		[EE]
+#                 1920	dig1 cc=0d	dig0 cc=12	dig enable=1	display=DE		dig1 segs=0111101	dig0 segs=1001111		[DE]
+#                 1945	dig1 cc=0d	dig0 cc=12	dig enable=0	display=Dc		dig1 segs=0111101	dig0 segs=0010000		[Dc]
+#                 2005	dig1 cc=0d	dig0 cc=12	dig enable=1	display=Dc		dig1 segs=0111101	dig0 segs=0010000		[Dc]
+#                 2020	dig1 cc=0c	dig0 cc=13	dig enable=1	display=Cc		dig1 segs=1001110	dig0 segs=0010000		[Cc]
+#                 2065	dig1 cc=0c	dig0 cc=13	dig enable=0	display=Cd		dig1 segs=1001110	dig0 segs=0001000		[Cd]
+#                 2120	dig1 cc=0b	dig0 cc=14	dig enable=0	display=Ce		dig1 segs=1001110	dig0 segs=0000100		[Ce]
+#                 2125	dig1 cc=0b	dig0 cc=14	dig enable=1	display=Be		dig1 segs=0011111	dig0 segs=0000100		[Be]
+#                 2185	dig1 cc=0b	dig0 cc=14	dig enable=0	display=Be		dig1 segs=0011111	dig0 segs=0000100		[Be]
+#                 2220	dig1 cc=0a	dig0 cc=15	dig enable=0	display=Bf		dig1 segs=0011111	dig0 segs=0000010		[Bf]
+#                 2245	dig1 cc=0a	dig0 cc=15	dig enable=1	display=Af		dig1 segs=1110111	dig0 segs=0000010		[Af]
+#                 2305	dig1 cc=0a	dig0 cc=15	dig enable=0	display=Af		dig1 segs=1110111	dig0 segs=0000010		[Af]
+#                 2320	dig1 cc=09	dig0 cc=16	dig enable=0	display=Ag		dig1 segs=1110111	dig0 segs=0000001		[Ag]
+#                 2365	dig1 cc=09	dig0 cc=16	dig enable=1	display=9g		dig1 segs=1111011	dig0 segs=0000001		[9g]
+#                 2420	dig1 cc=08	dig0 cc=17	dig enable=1	display=8g		dig1 segs=1111111	dig0 segs=0000001		[8g]
+#                 2425	dig1 cc=08	dig0 cc=17	dig enable=0	display=8^		dig1 segs=1111111	dig0 segs=0000000		[8^]
+#                 2485	dig1 cc=08	dig0 cc=17	dig enable=1	display=8^		dig1 segs=1111111	dig0 segs=0000000		[8^]
+#                 2520	dig1 cc=07	dig0 cc=18	dig enable=1	display=7^		dig1 segs=1110000	dig0 segs=0000000		[7^]
+#                 2545	dig1 cc=07	dig0 cc=18	dig enable=0	display=7H		dig1 segs=1110000	dig0 segs=0110111		[7H]
+#                 2605	dig1 cc=07	dig0 cc=18	dig enable=1	display=7H		dig1 segs=1110000	dig0 segs=0110111		[7H]
+#                 2620	dig1 cc=06	dig0 cc=19	dig enable=1	display=6H		dig1 segs=1011111	dig0 segs=0110111		[6H]
+#                 2665	dig1 cc=06	dig0 cc=19	dig enable=0	display=6L		dig1 segs=1011111	dig0 segs=0001110		[6L]
+#                 2720	dig1 cc=05	dig0 cc=1a	dig enable=0	display=6A		dig1 segs=1011111	dig0 segs=1110111		[6A]
+#                 2725	dig1 cc=05	dig0 cc=1a	dig enable=1	display=5A		dig1 segs=1011011	dig0 segs=1110111		[5A]
+#                 2785	dig1 cc=05	dig0 cc=1a	dig enable=0	display=5A		dig1 segs=1011011	dig0 segs=1110111		[5A]
+#                 2820	dig1 cc=04	dig0 cc=1b	dig enable=0	display=51		dig1 segs=1011011	dig0 segs=0000110		[51]
+#                 2845	dig1 cc=04	dig0 cc=1b	dig enable=1	display=41		dig1 segs=0110011	dig0 segs=0000110		[41]
+#                 2905	dig1 cc=04	dig0 cc=1b	dig enable=0	display=41		dig1 segs=0110011	dig0 segs=0000110		[41]
+#                 2920	dig1 cc=03	dig0 cc=1c	dig enable=0	display=4r		dig1 segs=0110011	dig0 segs=0000101		[4r]
+#                 2965	dig1 cc=03	dig0 cc=1c	dig enable=1	display=3r		dig1 segs=1111001	dig0 segs=0000101		[3r]
+#                 3020	dig1 cc=02	dig0 cc=1d	dig enable=1	display=2r		dig1 segs=1101101	dig0 segs=0000101		[2r]
+#                 3025	dig1 cc=02	dig0 cc=1d	dig enable=0	display=2^		dig1 segs=1101101	dig0 segs=0000000		[2^]
+#                 3085	dig1 cc=02	dig0 cc=1d	dig enable=1	display=2^		dig1 segs=1101101	dig0 segs=0000000		[2^]
+#                 3120	dig1 cc=01	dig0 cc=1e	dig enable=1	display=1^		dig1 segs=0000110	dig0 segs=0000000		[1^]
+#                 3145	dig1 cc=01	dig0 cc=1e	dig enable=0	display=1^		dig1 segs=0000110	dig0 segs=0000000		[1^]
+#                 3205	dig1 cc=01	dig0 cc=1e	dig enable=1	display=1^		dig1 segs=0000110	dig0 segs=0000000		[1^]
+#                 3220	dig1 cc=00	dig0 cc=1f	dig enable=1	display=0^		dig1 segs=1111110	dig0 segs=0000000		[0^]
+#                 3265	dig1 cc=00	dig0 cc=1f	dig enable=0	display=0^		dig1 segs=1111110	dig0 segs=0000000		[0^]
+# End simulation of synchronous counter problem - <Alex Beaulier> (beaulier@pdx.edu)
+# 
+# ** Note: $stop    : U:/ECE351/hw3/prob3/tb_hw3_prob3.sv(114)
+#    Time: 3320 ns  Iteration: 0  Instance: /tb_hw3_prob3
+# Break in NamedBeginStat stimulus at U:/ECE351/hw3/prob3/tb_hw3_prob3.sv line 114

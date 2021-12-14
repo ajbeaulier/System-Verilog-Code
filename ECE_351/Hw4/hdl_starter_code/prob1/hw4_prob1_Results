@@ -1,0 +1,33 @@
+# Compile of baud_gen.sv was successful.
+# Compile of tb_uart_loopback.sv was successful.
+# Compile of uart_rx.sv was successful.
+# Compile of uart_tx.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_uart_loopback
+# End time: 09:23:16 on Jun 03,2021, Elapsed time: 0:06:13
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_uart_loopback 
+# Start time: 09:23:16 on Jun 03,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb_uart_loopback(fast)
+run -all
+# 
+# UART Loopback Test - <Alex Beaulier> (<Beaulier@pdx.edu>)
+# Sources: U:/ECE351/Hw4/hdl_starter_code/prob1
+# 
+# System Reset
+# baud rate divisor set to   20
+# MATCH: received data: 01110010, expected data: 01110010
+# MATCH: received data: 10110010, expected data: 10110010
+# MATCH: received data: 00010000, expected data: 00010000
+# MATCH: received data: 01010101, expected data: 01010101
+# MATCH: received data: 00000000, expected data: 00000000
+# MATCH: received data: 10101010, expected data: 10101010
+# MATCH: received data: 11111111, expected data: 11111111
+# All tests passed
+# End UART Loopback test - <Alex Beaulier> (<Beaulier@pdx.edu>)
+# 
+# ** Note: $stop    : U:/ECE351/Hw4/hdl_starter_code/prob1/tb_uart_loopback.sv(204)
+#    Time: 470930 ns  Iteration: 1  Instance: /tb_uart_loopback
+# Break at U:/ECE351/Hw4/hdl_starter_code/prob1/tb_uart_loopback.sv line 204

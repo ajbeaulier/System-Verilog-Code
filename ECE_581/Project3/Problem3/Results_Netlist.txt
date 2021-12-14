@@ -1,0 +1,253 @@
+Initializing gui preferences from file  /u/beaulier/.synopsys_dv_prefs.tcl
+dc_shell> gui_start
+4.1
+design_vision> source compile_Problem3.tcl
+Error: Current design is not defined. (UID-4)
+Loading db file '/u/beaulier/smb_files/ECE581/Project3/Problem3/osu05_stdcells.db'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/gtech.db'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/standard.sldb'
+  Loading link library 'osu05_stdcells'
+  Loading link library 'gtech'
+Loading sverilog file '/u/beaulier/smb_files/ECE581/Project3/Problem3/Problem3.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /u/beaulier/smb_files/ECE581/Project3/Problem3/Problem3.sv
+
+Statistics for case statements in always block at line 57 in file
+        '/u/beaulier/smb_files/ECE581/Project3/Problem3/Problem3.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            59            |    user/user     |
+===============================================
+
+Inferred memory devices in process
+        in routine Problem3 line 48 in file
+                '/u/beaulier/smb_files/ECE581/Project3/Problem3/Problem3.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  current_state_reg  | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/u/beaulier/smb_files/ECE581/Project3/Problem3/Problem3.db:Problem3'
+Loaded 1 design.
+Current design is 'Problem3'.
+Current design is 'Problem3'.
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | Q-2019.12-DWBB_201912.3 |     *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'Problem3'
+Information: The register 'current_state_reg[4]' is a constant and will be removed. (OPT-1206)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Design 'Problem3' has no optimization constraints set. (OPT-108)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+  Structuring 'Problem3'
+  Mapping 'Problem3'
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+    0:01:50    7740.0      0.00       0.0       0.0                          
+Loading db file '/u/beaulier/smb_files/ECE581/Project3/Problem3/osu05_stdcells.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+ 
+****************************************
+Report : area
+Design : Problem3
+Version: Q-2019.12-SP3
+Date   : Fri Aug  6 18:40:25 2021
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    osu05_stdcells (File: /u/beaulier/smb_files/ECE581/Project3/Problem3/osu05_stdcells.db)
+
+Number of ports:                           12
+Number of nets:                            27
+Number of cells:                           16
+Number of combinational cells:             12
+Number of sequential cells:                 4
+Number of macros/black boxes:               0
+Number of buf/inv:                          1
+Number of references:                       8
+
+Combinational area:               4284.000000
+Buf/Inv area:                      144.000000
+Noncombinational area:            3456.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  7740.000000
+Total area:                 undefined
+ 
+****************************************
+Report : cell
+Design : Problem3
+Version: Q-2019.12-SP3
+Date   : Fri Aug  6 18:40:25 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U16                       NOR2X1          osu05_stdcells  216.000000
+U17                       NAND2X1         osu05_stdcells  216.000000
+U18                       XOR2X1          osu05_stdcells  504.000000
+U19                       XOR2X1          osu05_stdcells  504.000000
+U20                       XOR2X1          osu05_stdcells  504.000000
+U21                       XOR2X1          osu05_stdcells  504.000000
+U22                       XNOR2X1         osu05_stdcells  504.000000
+U23                       NAND3X1         osu05_stdcells  324.000000
+U24                       AND2X1          osu05_stdcells  288.000000
+U25                       AND2X1          osu05_stdcells  288.000000
+U26                       AND2X1          osu05_stdcells  288.000000
+U27                       INVX1           osu05_stdcells  144.000000
+current_state_reg[0]      DFFPOSX1        osu05_stdcells  864.000000
+                                                                    n
+current_state_reg[1]      DFFPOSX1        osu05_stdcells  864.000000
+                                                                    n
+current_state_reg[2]      DFFPOSX1        osu05_stdcells  864.000000
+                                                                    n
+current_state_reg[3]      DFFPOSX1        osu05_stdcells  864.000000
+                                                                    n
+--------------------------------------------------------------------------------
+Total 16 cells                                            7740.000000
+Loading db file '/u/beaulier/smb_files/ECE581/Project3/Problem3/osu05_stdcells.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : Problem3
+Version: Q-2019.12-SP3
+Date   : Fri Aug  6 18:40:25 2021
+****************************************
+
+
+Library(s) Used:
+
+    osu05_stdcells (File: /u/beaulier/smb_files/ECE581/Project3/Problem3/osu05_stdcells.db)
+
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 5    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =   2.1459 mW   (67%)
+  Net Switching Power  =   1.0422 mW   (33%)
+                         ---------
+Total Dynamic Power    =   3.1881 mW  (100%)
+
+Cell Leakage Power     =   2.4427 nW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.3741        1.2628e-03            0.9731            0.3754  (  11.77%)
+combinational      1.7718            1.0409            1.4696            2.8127  (  88.23%)
+--------------------------------------------------------------------------------------------------
+Total              2.1459 mW         1.0422 mW         2.4427 nW         3.1881 mW
+Writing verilog file '/u/beaulier/Problem3.netlist'.
+
+  Linking design 'Problem3'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  Problem3                    /u/beaulier/smb_files/ECE581/Project3/Problem3/Problem3.db
+  osu05_stdcells (library)    /u/beaulier/smb_files/ECE581/Project3/Problem3/osu05_stdcells.db
+
+1
+Current design is 'Problem3'.
+design_vision> 

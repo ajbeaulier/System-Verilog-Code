@@ -1,0 +1,36 @@
+# Compile of hw3_prob2.sv was successful.
+# Compile of Prob2.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.top
+# End time: 00:41:48 on Jun 03,2021, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 4
+# vsim -gui work.top 
+# Start time: 00:41:49 on Jun 03,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.tBench(fast)
+run -all
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 1  Process: /top/dut/#implicit#unique__55 File: U:/ECE351/Hw4/hdl_starter_code/prob2/hw3_prob2.sv Line: 55
+#                    0 Current State = , Next_State = 
+#                    5 Current State = S0, Next_State = S0
+#                   15 Current State = S0, Next_State = S1
+#                   25 Current State = S1, Next_State = S1
+#                   35 Current State = S1, Next_State = S2
+#                   45 Current State = S2, Next_State = S2
+#                   55 Current State = S2, Next_State = S3
+#                   65 Current State = S3, Next_State = S3
+#                   75 Current State = S3, Next_State = S4
+#                   85 Current State = S4, Next_State = S4
+#                   95 Current State = S4, Next_State = S0
+#                  105 Current State = S0, Next_State = S1
+#                  115 Current State = S1, Next_State = S4
+# 
+# UART Loopback Test - <Alex Beaulier> (<Beaulier@pdx.edu>)
+# Sources: U:/ECE351/Hw4/hdl_starter_code/prob2
+# 
+#                  125 Current State = S4, Next_State = S4
+# ** Note: $stop    : U:/ECE351/Hw4/hdl_starter_code/prob2/Prob2.sv(115)
+#    Time: 1125 ns  Iteration: 1  Instance: /top/tb
+# Break at U:/ECE351/Hw4/hdl_starter_code/prob2/Prob2.sv line 115

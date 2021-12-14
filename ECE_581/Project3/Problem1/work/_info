@@ -1,0 +1,149 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dU:/ECE581/Project2/Problem1
+T_opt
+!s110 1628282808
+VJO85Ybo5GdY[DbfcikJVj1
+04 3 4 work top fast 0
+=1-989096a4bc97-610d9fb7-222-10fc
+o-quiet -auto_acc_if_foreign -work work
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.3;71
+vProblem1_A
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1628282802
+!i10b 1
+!s100 RBOz85:@DTNA<S]cA=]>Z2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ijk;YV[4jQMof^C:>3XSo]3
+S1
+Z4 dU:/ECE581/Project3/Problem1
+Z5 w1628282476
+Z6 8U:/ECE581/Project3/Problem1/Problem1.sv
+Z7 FU:/ECE581/Project3/Problem1/Problem1.sv
+!i122 43
+L0 14 45
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.3;71
+r1
+!s85 0
+31
+Z10 !s108 1628282802.000000
+Z11 !s107 U:/ECE581/Project3/Problem1/Problem1.sv|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|U:/ECE581/Project3/Problem1/Problem1.sv|
+!i113 0
+Z13 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+n@problem1_@a
+vProblem1_B
+R1
+R2
+!i10b 1
+!s100 :8iAE3=fX6Hb=RAbdNRQE2
+R3
+IM;g??:>5^40JFIHcdD9R;3
+S1
+R4
+R5
+R6
+R7
+!i122 43
+L0 64 45
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R0
+n@problem1_@b
+vProblem1_C
+R1
+R2
+!i10b 1
+!s100 QBij:HV`^=GSiRJ7Hb_kk3
+R3
+I[b]`E^BU41?AHBGB90Y1g3
+S1
+R4
+R5
+R6
+R7
+!i122 43
+L0 114 68
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R0
+n@problem1_@c
+vtBench
+R1
+R2
+!i10b 1
+!s100 eS9VIRY0iO]mO<J6>;G?M3
+R3
+I=FbSb@jj;NAE^b0KGB>Zl0
+S1
+R4
+Z14 w1628282799
+Z15 8U:/ECE581/Project3/Problem1/TB_Problem1.sv
+Z16 FU:/ECE581/Project3/Problem1/TB_Problem1.sv
+!i122 44
+L0 36 81
+R8
+R9
+r1
+!s85 0
+31
+R10
+Z17 !s107 U:/ECE581/Project3/Problem1/TB_Problem1.sv|
+Z18 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|U:/ECE581/Project3/Problem1/TB_Problem1.sv|
+!i113 0
+R13
+R0
+nt@bench
+vtop
+R1
+R2
+!i10b 1
+!s100 BMJRB=AijoL1YTUIU;5oG0
+R3
+IOOlQWeQK923nk1BVcM:[N3
+S1
+R4
+R14
+R15
+R16
+!i122 44
+L0 12 22
+R8
+R9
+r1
+!s85 0
+31
+R10
+R17
+R18
+!i113 0
+R13
+R0

@@ -1,0 +1,117 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 12 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/ECE351/Hw4/hdl_starter_code/prob1
+T_opt
+!s110 1622701457
+VXNYY?[PX>NGmTcER0BDFG1
+04 6 4 work tBench fast 0
+=1-989096a4bc97-60b87590-371-2fb4
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.3;71
+R0
+T_opt1
+!s110 1622706067
+VUYDOmYel_nIjI1Q=oiDY`2
+04 3 4 work top fast 0
+=1-989096a4bc97-60b88792-3b1-32a4
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1622702165
+VUh`0=S3=8JOYb@^YX41Fc2
+04 11 4 work carwash_fsm fast 0
+=1-989096a4bc97-60b87855-1cc-3b4
+R1
+R2
+n@_opt2
+R3
+R0
+vcarwash_fsm
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1622706102
+!i10b 1
+!s100 Q8@;<PiE<Q3ib4NILUOoI3
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IT1bFI<cF^E@j`T]OUa]^70
+S1
+Z6 dU:/ECE351/Hw4/hdl_starter_code/prob2
+w1622706001
+8U:\ECE351\Hw4\hdl_starter_code\prob2\hw3_prob2.sv
+FU:\ECE351\Hw4\hdl_starter_code\prob2\hw3_prob2.sv
+!i122 75
+L0 16 88
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.3;71
+r1
+!s85 0
+31
+Z9 !s108 1622706102.000000
+!s107 U:\ECE351\Hw4\hdl_starter_code\prob2\hw3_prob2.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|U:\ECE351\Hw4\hdl_starter_code\prob2\hw3_prob2.sv|
+!i113 0
+Z10 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+4tBench
+R4
+Z11 !s110 1622706103
+!i10b 1
+!s100 Hf[fkBdoV`RVB73B432YB0
+R5
+IjZGLIm8UoYU^5YMOHAfdc1
+S1
+R6
+Z12 w1622705959
+Z13 8U:\ECE351\Hw4\hdl_starter_code\prob2\Prob2.sv
+Z14 FU:\ECE351\Hw4\hdl_starter_code\prob2\Prob2.sv
+!i122 76
+L0 42 0
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 U:\ECE351\Hw4\hdl_starter_code\prob2\Prob2.sv|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|U:\ECE351\Hw4\hdl_starter_code\prob2\Prob2.sv|
+!i113 0
+R10
+R2
+nt@bench
+vtop
+R4
+R11
+!i10b 1
+!s100 Ua;zbTUV4zb=00]`2_l2h0
+R5
+IP1@]>SR=DogBaYZ[07@Z^2
+S1
+R6
+R12
+R13
+R14
+!i122 76
+L0 12 28
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z16 !s107 U:\ECE351\Hw4\hdl_starter_code\prob2\Prob2.sv|
+R15
+!i113 0
+R10
+R2

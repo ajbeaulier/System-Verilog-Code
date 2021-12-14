@@ -1,0 +1,199 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 12 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/ECE581/Hw2
+T_opt
+!s110 1627196687
+V560m[Cjj6G@`QHH2:KTei2
+Z1 04 13 4 work TB_Problem1sv fast 0
+=1-989096a4bc97-60fd0d0e-253-924
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.3;71
+R0
+T_opt1
+!s110 1627198085
+Vk@@bd76]9Pk^G8h]l2bGn0
+R1
+=1-989096a4bc97-60fd1284-210-229c
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1627198497
+V`TMB@dSH0f[<k>?GiKN322
+R1
+=1-989096a4bc97-60fd1421-69-2af4
+R2
+R3
+n@_opt2
+R4
+R0
+T_opt3
+!s110 1627198623
+V5L06hERfXeEc@b1fLB9lB2
+R1
+=1-989096a4bc97-60fd149f-14e-dd4
+R2
+R3
+n@_opt3
+R4
+R0
+T_opt4
+!s110 1627198822
+V_JB<5>aH]o@lPkZ`E>j:h1
+R1
+=1-989096a4bc97-60fd1566-25-678
+R2
+R3
+n@_opt4
+R4
+R0
+T_opt5
+!s110 1627253158
+VQ<FVcB`S6f?V_G>Tmm:9?3
+04 7 4 work TB_FSMS fast 0
+=1-989096a4bc97-60fde9a6-179-2390
+R2
+R3
+n@_opt5
+R4
+vProblem1
+Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z6 !s110 1627253139
+!i10b 1
+!s100 PBOQjlOm@^K3eX1::z<iB1
+Z7 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>>N8D6Q]?X87?nha@^6VO1
+S1
+Z8 dU:/ECE581/Project2/Problem1
+w1627252856
+Z9 8U:/ECE581/Project2/Problem1/Problem1.sv
+Z10 FU:/ECE581/Project2/Problem1/Problem1.sv
+!i122 76
+L0 11 72
+Z11 VDg1SIo80bB@j0V0VzS_@n1
+Z12 OL;L;2020.3;71
+r1
+!s85 0
+31
+Z13 !s108 1627253139.000000
+Z14 !s107 U:/ECE581/Project2/Problem1/Problem1.sv|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|U:/ECE581/Project2/Problem1/Problem1.sv|
+!i113 0
+Z16 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@problem1
+vProblem1sv
+R5
+!s110 1627196615
+!i10b 1
+!s100 fTm3GR2[OoJEB@B1A2>G43
+R7
+IIBJ>`9fY:fZebUBzV?ZeG0
+S1
+R8
+w1627196436
+R9
+R10
+!i122 15
+L0 11 31
+R11
+R12
+r1
+!s85 0
+31
+!s108 1627196615.000000
+R14
+R15
+!i113 0
+R16
+R3
+n@problem1sv
+4stimulus
+R5
+R6
+!i10b 1
+!s100 n8`Jc2aYJ_H_N1A6fDXll1
+R7
+I7:K791mGcLCjI;Zc>^Q]:3
+S1
+R8
+Z17 w1627253134
+Z18 8U:/ECE581/Project2/Problem1/TB_P1.sv
+Z19 FU:/ECE581/Project2/Problem1/TB_P1.sv
+!i122 77
+L0 34 0
+R11
+R12
+r1
+!s85 0
+31
+R13
+Z20 !s107 U:/ECE581/Project2/Problem1/TB_P1.sv|
+Z21 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|U:/ECE581/Project2/Problem1/TB_P1.sv|
+!i113 0
+R16
+R3
+vTB_FSMS
+R5
+R6
+!i10b 1
+!s100 P9m^Z5FYge0XI^Xc<@>I<3
+R7
+IZ[PV0=3_JB2`a[hEYO]P92
+S1
+R8
+R17
+R18
+R19
+!i122 77
+L0 10 21
+R11
+R12
+r1
+!s85 0
+31
+R13
+R20
+R21
+!i113 0
+R16
+R3
+n@t@b_@f@s@m@s
+vTB_Problem1sv
+R5
+!s110 1627198764
+!i10b 1
+!s100 `i@05FOo@<Oi>:Z7TcUAP3
+R7
+IY9@m6Q5=T5?5:n@KQjS?33
+S1
+R8
+w1627198615
+R18
+R19
+!i122 58
+L0 10 16
+R11
+R12
+r1
+!s85 0
+31
+!s108 1627198764.000000
+R20
+R21
+!i113 0
+R16
+R3
+n@t@b_@problem1sv

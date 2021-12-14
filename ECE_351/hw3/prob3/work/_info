@@ -1,0 +1,261 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 12 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/ECE351/HW2/ece351sp21_hw2_release/hdl/prob3
+T_opt
+!s110 1622228877
+VV<W^R>O?]9LB7[0CDU^J81
+Z1 04 12 4 work tb_hw3_prob3 fast 0
+=1-989096a4bc97-60b13f8c-2bc-2908
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.3;71
+R0
+T_opt1
+!s110 1622230071
+VZbOk6OjP4hLJScZBNmIBZ0
+R1
+=1-989096a4bc97-60b14437-102-25d4
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+R0
+vcarwash_fsm
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1622235324
+!i10b 1
+!s100 Sd;F;0ZHC?LM4Wh91emI[0
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IRE_g80H1zNYTWHeLdd@`83
+S1
+Z6 dU:/ECE351/hw3/prob3
+w1622235309
+8U:/ECE351/hw3/prob3/hw3_prob2.sv
+FU:/ECE351/hw3/prob3/hw3_prob2.sv
+!i122 43
+L0 16 86
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1622235324.000000
+!s107 U:/ECE351/hw3/prob3/hw3_prob2.sv|
+!s90 -reportprogress|300|-work|work|U:/ECE351/hw3/prob3/hw3_prob2.sv|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vclk_divider
+R4
+!s110 1622229355
+!i10b 1
+!s100 D`]MMgASX:S^f]_oeFf6E2
+R5
+ISiCo?6FTl?P2Fn?<8D7231
+S1
+R6
+Z10 w1622227437
+8U:/ECE351/hw3/prob3/clk_divider.sv
+FU:/ECE351/hw3/prob3/clk_divider.sv
+!i122 30
+L0 15 37
+R7
+R8
+r1
+!s85 0
+31
+!s108 1622229355.000000
+!s107 U:/ECE351/hw3/prob3/clk_divider.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|U:/ECE351/hw3/prob3/clk_divider.sv|
+!i113 0
+Z11 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vhw3_prob1
+R4
+Z12 !s110 1622234850
+!i10b 1
+!s100 a;P0MkTl?LG<@kAEPjXma2
+R5
+Ijf39MO9d9LTlFOKWWXgM:1
+S1
+R6
+Z13 w1622234842
+Z14 8U:/ECE351/hw3/prob3/hw3_prob1.sv
+Z15 FU:/ECE351/hw3/prob3/hw3_prob1.sv
+!i122 41
+L0 15 39
+R7
+R8
+r1
+!s85 0
+31
+Z16 !s108 1622234850.000000
+Z17 !s107 U:/ECE351/hw3/prob3/hw3_prob1.sv|
+Z18 !s90 -reportprogress|300|-work|work|U:/ECE351/hw3/prob3/hw3_prob1.sv|
+!i113 0
+R9
+R2
+vhw3_prob1_FlipFlop
+R4
+R12
+!i10b 1
+!s100 =5Xe`GnJS3OU4in_:6Jc73
+R5
+I9=C[3=CPJ59GKFiQaJC_00
+S1
+R6
+R13
+R14
+R15
+!i122 41
+L0 73 14
+R7
+R8
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R9
+R2
+nhw3_prob1_@flip@flop
+vhw3_prob1_MUX
+R4
+R12
+!i10b 1
+!s100 1`XHcc]XEjedKz;oCOANC3
+R5
+Ih]7B5G@IcO;a9Q60M=P0^0
+S1
+R6
+R13
+R14
+R15
+!i122 41
+L0 58 12
+R7
+R8
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R9
+R2
+nhw3_prob1_@m@u@x
+vpmodSSD_emu
+R4
+Z19 !s110 1622229356
+!i10b 1
+!s100 ]:Wibd9E8G[iD>Y=B_VZ?3
+R5
+ID:8]TONiF@7_P=KVQ63gS1
+S1
+R6
+R10
+8U:/ECE351/hw3/prob3/pmodSSD_emu.sv
+FU:/ECE351/hw3/prob3/pmodSSD_emu.sv
+!i122 31
+L0 28 92
+R7
+R8
+r1
+!s85 0
+31
+Z20 !s108 1622229356.000000
+!s107 U:/ECE351/hw3/prob3/pmodSSD_emu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|U:/ECE351/hw3/prob3/pmodSSD_emu.sv|
+!i113 0
+R11
+R2
+npmod@s@s@d_emu
+vpmodSSD_Interface
+R4
+!s110 1622228809
+!i10b 1
+!s100 Ke@jlRP^af^dXbV_APIO53
+R5
+IMdhT>h<W:Qh<239PizQg]2
+S1
+R6
+w1622228086
+Z21 8U:/ECE351/hw3/prob3/pmodSSD_Interface.sv
+Z22 FU:/ECE351/hw3/prob3/pmodSSD_Interface.sv
+!i122 24
+Z23 L0 21 118
+R7
+R8
+r1
+!s85 0
+31
+!s108 1622228809.000000
+Z24 !s107 U:/ECE351/hw3/prob3/pmodSSD_Interface.sv|
+Z25 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|U:/ECE351/hw3/prob3/pmodSSD_Interface.sv|
+!i113 0
+R11
+R2
+npmod@s@s@d_@interface
+vpmodSSD_Interfaces
+R4
+R19
+!i10b 1
+!s100 OiZl0hm3;bW[AdCmK^CaN2
+R5
+IGXn8:oa;A:QJ7F58ffjYi0
+S1
+R6
+w1622228865
+R21
+R22
+!i122 32
+R23
+R7
+R8
+r1
+!s85 0
+31
+R20
+R24
+R25
+!i113 0
+R11
+R2
+npmod@s@s@d_@interfaces
+vtb_hw3_prob3
+R4
+R19
+!i10b 1
+!s100 U3I9TjNF=gSlCR::3YV>i2
+R5
+IBJ?FbZ==bWCA?V3;h`0m80
+S1
+R6
+w1622227436
+8U:/ECE351/hw3/prob3/tb_hw3_prob3.sv
+FU:/ECE351/hw3/prob3/tb_hw3_prob3.sv
+!i122 33
+L0 20 98
+R7
+R8
+r1
+!s85 0
+31
+R20
+!s107 U:/ECE351/hw3/prob3/tb_hw3_prob3.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|U:/ECE351/hw3/prob3/tb_hw3_prob3.sv|
+!i113 0
+R11
+R2
